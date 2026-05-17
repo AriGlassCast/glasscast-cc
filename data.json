@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-17T22:00:00-04:00",
+  "updated": "2026-05-17T19:35:27-04:00",
   "calendar": [
     {"start":"2026-05-17T19:30","end":"2026-05-17T20:30","title":"GlassCast conference with MGL","meta":"Teams · Doug, Amy, Ben","dur":"1h","cal":"glasscast"},
     {"start":"2026-05-18T09:00","end":"2026-05-18T09:30","title":"GlassCast + MFour Intros + Case Study Discussion","meta":"Doug, K. Caiella","dur":"30m","cal":"glasscast"},
@@ -8,8 +8,8 @@
     {"start":"2026-05-19T09:00","end":"2026-05-19T09:30","title":"Daily Stand up","meta":"Meet · Doug","dur":"30m","cal":"glasscast"},
     {"start":"2026-05-20T09:00","end":"2026-05-20T09:30","title":"Daily Stand up","meta":"Meet · Doug","dur":"30m","cal":"glasscast"},
     {"start":"2026-05-21T09:00","end":"2026-05-21T09:30","title":"Daily Stand up","meta":"Meet · Doug","dur":"30m","cal":"glasscast"},
-    {"start":"2026-05-21T12:30","end":"2026-05-21T13:00","title":"Primesight <> Screenverse bi-weekly","meta":"Meet · Jessica, Sean, Doug","dur":"30m","cal":"personal"},
-    {"start":"2026-05-21T15:00","end":"2026-05-21T15:45","title":"Ai Office Hours PM","meta":"Meet · Doug, Adam, Don, Michael","dur":"45m","cal":"glasscast"},
+    {"start":"2026-05-21T12:30","end":"2026-05-21T13:00","title":"Primesight <> Screenverse bi-weekly","meta":"Meet · Jessica, Sean, Doug","dur":"30m","cal":"glasscast"},
+    {"start":"2026-05-21T15:00","end":"2026-05-21T15:45","title":"Ai Office Hours PM","meta":"Meet · Doug, Michael, Don, Adam","dur":"45m","cal":"glasscast"},
     {"start":"2026-05-22T09:00","end":"2026-05-22T09:30","title":"Daily Stand up","meta":"Meet · Doug","dur":"30m","cal":"glasscast"}
   ],
   "mail": [],
