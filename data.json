@@ -1,23 +1,86 @@
 {
-  "updated": "2026-05-18T09:44:31-04:00",
+  "updated": "2026-05-18T09:45:41-04:00",
   "calendar": [
-    {"start":"2026-05-18T11:30","end":"2026-05-18T12:00","title":"Zoom Meeting with PrimeSight x GlassCast","meta":"Zoom · Bogdan, Kanel, Philip","dur":"30m","cal":"personal"},
-    {"start":"2026-05-19T09:00","end":"2026-05-19T09:30","title":"Daily Stand up","meta":"Meet · Doug","dur":"30m","cal":"glasscast"},
-    {"start":"2026-05-20T09:00","end":"2026-05-20T09:30","title":"Daily Stand up","meta":"Meet · Doug","dur":"30m","cal":"glasscast"},
-    {"start":"2026-05-21T09:00","end":"2026-05-21T09:30","title":"Daily Stand up","meta":"Meet · Doug","dur":"30m","cal":"glasscast"},
-    {"start":"2026-05-21T12:30","end":"2026-05-21T13:00","title":"Primesight <> Screenverse bi-weekly","meta":"Meet · Jessica, Sean, Doug","dur":"30m","cal":"personal"},
-    {"start":"2026-05-21T15:00","end":"2026-05-21T15:45","title":"Ai Office Hours PM","meta":"Meet · Doug, Michael, Don, Adam","dur":"45m","cal":"glasscast"},
-    {"start":"2026-05-22T09:00","end":"2026-05-22T09:30","title":"Daily Stand up","meta":"Meet · Doug","dur":"30m","cal":"glasscast"},
-    {"start":"2026-05-22T15:00","end":"2026-05-22T15:45","title":"Primesight Weekly check-in","meta":"Meet · Doug, Don, Adam, Michael","dur":"45m","cal":"glasscast"},
-    {"start":"2026-05-25T09:00","end":"2026-05-25T09:30","title":"Daily Stand up","meta":"Meet · Doug","dur":"30m","cal":"glasscast"}
+    {
+      "start": "2026-05-18T11:30",
+      "end": "2026-05-18T12:00",
+      "title": "Zoom Meeting with PrimeSight x GlassCast",
+      "meta": "Zoom · Bogdan, Kanel, Philip",
+      "dur": "30m",
+      "cal": "personal"
+    },
+    {
+      "start": "2026-05-19T09:00",
+      "end": "2026-05-19T09:30",
+      "title": "Daily Stand up",
+      "meta": "Meet · Doug",
+      "dur": "30m",
+      "cal": "glasscast"
+    },
+    {
+      "start": "2026-05-20T09:00",
+      "end": "2026-05-20T09:30",
+      "title": "Daily Stand up",
+      "meta": "Meet · Doug",
+      "dur": "30m",
+      "cal": "glasscast"
+    },
+    {
+      "start": "2026-05-21T09:00",
+      "end": "2026-05-21T09:30",
+      "title": "Daily Stand up",
+      "meta": "Meet · Doug",
+      "dur": "30m",
+      "cal": "glasscast"
+    },
+    {
+      "start": "2026-05-21T12:30",
+      "end": "2026-05-21T13:00",
+      "title": "Primesight <> Screenverse bi-weekly",
+      "meta": "Meet · Jessica, Sean, Doug",
+      "dur": "30m",
+      "cal": "personal"
+    },
+    {
+      "start": "2026-05-21T15:00",
+      "end": "2026-05-21T15:45",
+      "title": "Ai Office Hours PM",
+      "meta": "Meet · Doug, Doug, Michael, Don, Adam",
+      "dur": "45m",
+      "cal": "glasscast"
+    },
+    {
+      "start": "2026-05-22T09:00",
+      "end": "2026-05-22T09:30",
+      "title": "Daily Stand up",
+      "meta": "Meet · Doug",
+      "dur": "30m",
+      "cal": "glasscast"
+    },
+    {
+      "start": "2026-05-22T15:00",
+      "end": "2026-05-22T15:45",
+      "title": "Primesight Weekly check-in",
+      "meta": "Meet · Doug, Don, Adam, Michael",
+      "dur": "45m",
+      "cal": "glasscast"
+    },
+    {
+      "start": "2026-05-25T09:00",
+      "end": "2026-05-25T09:30",
+      "title": "Daily Stand up",
+      "meta": "Meet · Doug",
+      "dur": "30m",
+      "cal": "glasscast"
+    }
   ],
   "mail": [],
   "kpi": {
-    "events": 11,
+    "events": 10,
     "eventsLabel": "this week",
     "tasksComplete": 5,
     "tasksTotal": 8,
     "unread": 0,
-    "focusScore": 96
+    "focusScore": 88
   }
 }
