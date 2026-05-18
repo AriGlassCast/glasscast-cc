@@ -1,7 +1,7 @@
 {
-  "updated": "2026-05-18T03:04:30-04:00",
+  "updated": "2026-05-18T08:19:02-04:00",
   "calendar": [
-    {"start":"2026-05-18T09:00","end":"2026-05-18T09:30","title":"GlassCast + MFour Intros + Case Study Discussion","meta":"Doug, Kcaiella","dur":"30m","cal":"glasscast"},
+    {"start":"2026-05-18T09:00","end":"2026-05-18T09:30","title":"GlassCast + MFour Intros + Case Study Discussion","meta":"Doug, K. Caiella","dur":"30m","cal":"glasscast"},
     {"start":"2026-05-18T09:00","end":"2026-05-18T09:30","title":"Daily Stand up","meta":"Meet · Doug","dur":"30m","cal":"glasscast"},
     {"start":"2026-05-18T11:30","end":"2026-05-18T12:00","title":"Zoom Meeting with PrimeSight x GlassCast","meta":"Zoom · Bogdan, Kanel, Philip","dur":"30m","cal":"glasscast"},
     {"start":"2026-05-19T09:00","end":"2026-05-19T09:30","title":"Daily Stand up","meta":"Meet · Doug","dur":"30m","cal":"glasscast"},
@@ -10,15 +10,18 @@
     {"start":"2026-05-21T12:30","end":"2026-05-21T13:00","title":"Primesight <> Screenverse bi-weekly","meta":"Meet · Jessica, Sean, Doug","dur":"30m","cal":"glasscast"},
     {"start":"2026-05-21T15:00","end":"2026-05-21T15:45","title":"Ai Office Hours PM","meta":"Meet · Doug, Adam, Michael, Don","dur":"45m","cal":"glasscast"},
     {"start":"2026-05-22T09:00","end":"2026-05-22T09:30","title":"Daily Stand up","meta":"Meet · Doug","dur":"30m","cal":"glasscast"},
-    {"start":"2026-05-22T15:00","end":"2026-05-22T15:45","title":"Primesight Weekly check-in","meta":"Meet · Doug, Adam, Michael, Don","dur":"45m","cal":"glasscast"}
+    {"start":"2026-05-22T15:00","end":"2026-05-22T15:45","title":"Primesight Weekly check-in","meta":"Meet · Doug, Adam, Don, Michael","dur":"45m","cal":"glasscast"}
   ],
-  "mail": [],
+  "mail": [
+    {"from":"Vistar Media","subject":"Vistar Scheduled Report: \"PS Daily\"","snippet":"Your scheduled report was successfully generated. Please see the attached...","time":"8:06 AM","priority":"med"},
+    {"from":"Plexus (GlassCast)","subject":"PrimeSight Brief — May 18","snippet":"PrimeSight Morning Brief Monday, May 18, 2026 Good morning team...","time":"5:31 AM","priority":"high"}
+  ],
   "kpi": {
     "events": 11,
     "eventsLabel": "this week",
     "tasksComplete": 5,
     "tasksTotal": 8,
-    "unread": 0,
-    "focusScore": 88
+    "unread": 2,
+    "focusScore": 84
   }
 }
