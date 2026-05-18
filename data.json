@@ -1,115 +1,26 @@
 {
-  "updated": "2026-05-18T13:32:01-04:00",
+  "updated": "2026-05-18T14:05:00-04:00",
   "calendar": [
-    {
-      "start": "2026-05-19T09:00",
-      "end": "2026-05-19T09:30",
-      "title": "Daily Stand up",
-      "meta": "Meet \u00b7 Doug",
-      "dur": "30m",
-      "cal": "glasscast"
-    },
-    {
-      "start": "2026-05-19T11:30",
-      "end": "2026-05-19T12:00",
-      "title": "Zoom Meeting with PrimeSight x GlassCast",
-      "meta": "Zoom \u00b7 Kanel, Philip, Bogdan",
-      "dur": "30m",
-      "cal": "personal"
-    },
-    {
-      "start": "2026-05-20T09:00",
-      "end": "2026-05-20T09:30",
-      "title": "Daily Stand up",
-      "meta": "Meet \u00b7 Doug",
-      "dur": "30m",
-      "cal": "glasscast"
-    },
-    {
-      "start": "2026-05-21T09:00",
-      "end": "2026-05-21T09:30",
-      "title": "Daily Stand up",
-      "meta": "Meet \u00b7 Doug",
-      "dur": "30m",
-      "cal": "glasscast"
-    },
-    {
-      "start": "2026-05-21T12:30",
-      "end": "2026-05-21T13:00",
-      "title": "Primesight <> Screenverse bi-weekly",
-      "meta": "Meet \u00b7 Jessica, Sean, Doug, Nasra",
-      "dur": "30m",
-      "cal": "personal"
-    },
-    {
-      "start": "2026-05-21T15:00",
-      "end": "2026-05-21T15:45",
-      "title": "Ai Office Hours PM",
-      "meta": "Meet \u00b7 Doug, Michael, Don, Adam",
-      "dur": "45m",
-      "cal": "glasscast"
-    },
-    {
-      "start": "2026-05-22T09:00",
-      "end": "2026-05-22T09:30",
-      "title": "Daily Stand up",
-      "meta": "Meet \u00b7 Doug",
-      "dur": "30m",
-      "cal": "glasscast"
-    },
-    {
-      "start": "2026-05-22T15:00",
-      "end": "2026-05-22T15:45",
-      "title": "Primesight Weekly check-in",
-      "meta": "Meet \u00b7 Doug, Don, Adam, Michael",
-      "dur": "45m",
-      "cal": "glasscast"
-    },
-    {
-      "start": "2026-05-25T09:00",
-      "end": "2026-05-25T09:30",
-      "title": "Daily Stand up",
-      "meta": "Meet \u00b7 Doug",
-      "dur": "30m",
-      "cal": "glasscast"
-    }
+    {"start":"2026-05-19T09:00","end":"2026-05-19T09:30","title":"Daily Stand up","meta":"Meet · Doug","dur":"30m","cal":"glasscast"},
+    {"start":"2026-05-19T11:30","end":"2026-05-19T12:00","title":"Zoom Meeting with PrimeSight x GlassCast","meta":"Zoom · Bogdan, Kanel, Philip","dur":"30m","cal":"personal"},
+    {"start":"2026-05-20T09:00","end":"2026-05-20T09:30","title":"Daily Stand up","meta":"Meet · Doug","dur":"30m","cal":"glasscast"},
+    {"start":"2026-05-21T09:00","end":"2026-05-21T09:30","title":"Daily Stand up","meta":"Meet · Doug","dur":"30m","cal":"glasscast"},
+    {"start":"2026-05-21T12:30","end":"2026-05-21T13:00","title":"Primesight <> Screenverse bi-weekly","meta":"Meet · Jessica, Sean, Doug, Nasra","dur":"30m","cal":"personal"},
+    {"start":"2026-05-21T15:00","end":"2026-05-21T15:45","title":"Ai Office Hours PM","meta":"Meet · Doug, Michael, Don, Adam","dur":"45m","cal":"glasscast"},
+    {"start":"2026-05-22T09:00","end":"2026-05-22T09:30","title":"Daily Stand up","meta":"Meet · Doug","dur":"30m","cal":"glasscast"},
+    {"start":"2026-05-22T15:00","end":"2026-05-22T15:45","title":"Primesight Weekly check-in","meta":"Meet · Doug, Don, Adam, Michael","dur":"45m","cal":"glasscast"},
+    {"start":"2026-05-25T09:00","end":"2026-05-25T09:30","title":"Daily Stand up","meta":"Meet · Doug","dur":"30m","cal":"glasscast"}
   ],
   "mail": [
-    {
-      "from": "OAAA Marketing",
-      "subject": "Thanks for Joining Us in Dallas, Tell Us What You Think",
-      "snippet": "Share Your Feedback on OOH 2026",
-      "time": "11:54 AM",
-      "priority": "low"
-    },
-    {
-      "from": "Doug Chen",
-      "subject": "Primesight Q3 Campaign Deck \u2014 Review Needed",
-      "snippet": "Hey Ari, attached is the updated deck for the Primesight Q3 rollout",
-      "time": "10:22 AM",
-      "priority": "high"
-    },
-    {
-      "from": "Screenverse Ops",
-      "subject": "Network Health Alert \u2014 2 Screens Offline",
-      "snippet": "Screens CHI-042 and NYC-118 went offline at 9:45 AM EST",
-      "time": "9:48 AM",
-      "priority": "high"
-    },
-    {
-      "from": "Jessica Park",
-      "subject": "Re: Bi-Weekly Sync Agenda Items",
-      "snippet": "Added the SSP integration update to Wednesday's agenda",
-      "time": "8:15 AM",
-      "priority": "low"
-    }
+    {"from":"Doug Render","subject":"Re: Moving the screens from Corey's warehouse","snippet":"Let me know what else you guys need from me. Early next week works","time":"2:03 PM","priority":"med"},
+    {"from":"F. Yao","subject":"PrimeSight Subscription","snippet":"FYI, the Stripe link to add/verify ACH payment info for PrimeSight","time":"1:51 PM","priority":"med"}
   ],
   "kpi": {
     "events": 11,
     "eventsLabel": "this week",
     "tasksComplete": 5,
     "tasksTotal": 8,
-    "unread": 5,
-    "focusScore": 90
+    "unread": 2,
+    "focusScore": 88
   }
 }
