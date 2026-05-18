@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-18T18:45:00-04:00",
+  "updated": "2026-05-18T18:50:00-04:00",
   "calendar": [
     {"start":"2026-05-19T09:00","end":"2026-05-19T09:30","title":"Daily Stand Up","meta":"Meet · Doug","dur":"30m","cal":"glasscast"},
     {"start":"2026-05-19T11:30","end":"2026-05-19T12:00","title":"PrimeSight x GlassCast","meta":"Zoom · Bogdan, Kanel, Philip","dur":"30m","cal":"glasscast"},
@@ -13,8 +13,8 @@
   "mail": [
     {"from":"Doug Bideaux","subject":"Moving screens from Corey's warehouse","snippet":"Connecting everyone to coordinate moving pallets from warehouse...","time":"1:55 PM","priority":"high"},
     {"from":"F. Yao","subject":"PrimeSight Subscription","snippet":"Stripe link sent to Andrew for ACH payment info for June 1...","time":"1:51 PM","priority":"high"},
-    {"from":"Adam Pierce","subject":"RE: More Markets….","snippet":"Keep in mind we can always make changes as we move forward...","time":"10:39 AM","priority":"high"},
-    {"from":"Sean","subject":"Re: The Arlington Effect","snippet":"Arlington is more of an outlier than a trend we should target...","time":"10:16 AM","priority":"med"}
+    {"from":"Amy Forsdyke","subject":"GlassCast Media - display unit dispute","snippet":"Long form advice prepared, framed to serve multiple purposes...","time":"9:31 PM","priority":"high"},
+    {"from":"Mejia's M&M Corp","subject":"New Invoice INV0122","snippet":"Invoice total $544.38 — click to download PDF invoice...","time":"10:17 AM","priority":"med"}
   ],
   "kpi": {
     "events": 8,
