@@ -252,12 +252,20 @@ html,body{margin:0!important;padding:0!important;overflow:hidden!important;backg
       <span style="font-size:14px;font-weight:700;color:#b06818">SENTINEL</span><span style="font-size:12px;color:var(--acc);margin-left:8px">— Network Operations</span>
     </div>
     <div style="padding:16px 24px;height:130px;display:flex;align-items:center;justify-content:center">
-      <svg viewBox="0 0 400 80" width="100%" height="70" preserveAspectRatio="none">
+      <svg id="sentPulse" viewBox="0 0 400 80" width="100%" height="70" preserveAspectRatio="none">
         <line x1="0" y1="20" x2="400" y2="20" stroke="rgba(232,146,42,.06)" stroke-width=".5"/>
         <line x1="0" y1="40" x2="400" y2="40" stroke="rgba(232,146,42,.08)" stroke-width=".5"/>
         <line x1="0" y1="60" x2="400" y2="60" stroke="rgba(232,146,42,.06)" stroke-width=".5"/>
-        <path d="M0,40 L30,40 L40,40 L50,15 L55,65 L60,25 L65,50 L70,38 L80,40 L120,40 L130,40 L140,12 L145,68 L150,20 L155,52 L160,36 L170,40 L210,40 L220,40 L230,18 L235,62 L240,28 L245,48 L250,38 L260,40 L300,40 L310,40 L320,14 L325,66 L330,22 L335,50 L340,37 L350,40 L400,40" fill="none" stroke="#c87014" stroke-width="2" stroke-dasharray="20 20" style="animation:dashMove 1.5s linear infinite"/>
-        <path d="M0,40 L30,40 L40,40 L50,15 L55,65 L60,25 L65,50 L70,38 L80,40 L120,40 L130,40 L140,12 L145,68 L150,20 L155,52 L160,36 L170,40 L210,40 L220,40 L230,18 L235,62 L240,28 L245,48 L250,38 L260,40 L300,40 L310,40 L320,14 L325,66 L330,22 L335,50 L340,37 L350,40 L400,40" fill="none" stroke="#c87014" stroke-width="6" stroke-opacity=".08" stroke-dasharray="20 20" style="animation:dashMove 1.5s linear infinite"/>
+        <defs>
+          <clipPath id="sp0"><rect x="0" y="0" width="100" height="80"/></clipPath>
+          <clipPath id="sp1"><rect x="100" y="0" width="100" height="80"/></clipPath>
+          <clipPath id="sp2"><rect x="200" y="0" width="100" height="80"/></clipPath>
+          <clipPath id="sp3"><rect x="300" y="0" width="100" height="80"/></clipPath>
+        </defs>
+        <g id="sg0" clip-path="url(#sp0)"><path d="M0,40 L30,40 L40,40 L50,15 L55,65 L60,25 L65,50 L70,38 L80,40 L120,40 L130,40 L140,12 L145,68 L150,20 L155,52 L160,36 L170,40 L210,40 L220,40 L230,18 L235,62 L240,28 L245,48 L250,38 L260,40 L300,40 L310,40 L320,14 L325,66 L330,22 L335,50 L340,37 L350,40 L400,40" fill="none" stroke="#c87014" stroke-width="2" stroke-dasharray="20 20" style="animation:dashMove 1.5s linear infinite"/><path d="M0,40 L30,40 L40,40 L50,15 L55,65 L60,25 L65,50 L70,38 L80,40 L120,40 L130,40 L140,12 L145,68 L150,20 L155,52 L160,36 L170,40 L210,40 L220,40 L230,18 L235,62 L240,28 L245,48 L250,38 L260,40 L300,40 L310,40 L320,14 L325,66 L330,22 L335,50 L340,37 L350,40 L400,40" fill="none" stroke="#c87014" stroke-width="6" stroke-opacity=".08" stroke-dasharray="20 20" style="animation:dashMove 1.5s linear infinite"/></g>
+        <g id="sg1" clip-path="url(#sp1)"><path d="M0,40 L30,40 L40,40 L50,15 L55,65 L60,25 L65,50 L70,38 L80,40 L120,40 L130,40 L140,12 L145,68 L150,20 L155,52 L160,36 L170,40 L210,40 L220,40 L230,18 L235,62 L240,28 L245,48 L250,38 L260,40 L300,40 L310,40 L320,14 L325,66 L330,22 L335,50 L340,37 L350,40 L400,40" fill="none" stroke="#c87014" stroke-width="2" stroke-dasharray="20 20" style="animation:dashMove 1.5s linear infinite"/><path d="M0,40 L30,40 L40,40 L50,15 L55,65 L60,25 L65,50 L70,38 L80,40 L120,40 L130,40 L140,12 L145,68 L150,20 L155,52 L160,36 L170,40 L210,40 L220,40 L230,18 L235,62 L240,28 L245,48 L250,38 L260,40 L300,40 L310,40 L320,14 L325,66 L330,22 L335,50 L340,37 L350,40 L400,40" fill="none" stroke="#c87014" stroke-width="6" stroke-opacity=".08" stroke-dasharray="20 20" style="animation:dashMove 1.5s linear infinite"/></g>
+        <g id="sg2" clip-path="url(#sp2)"><path d="M0,40 L30,40 L40,40 L50,15 L55,65 L60,25 L65,50 L70,38 L80,40 L120,40 L130,40 L140,12 L145,68 L150,20 L155,52 L160,36 L170,40 L210,40 L220,40 L230,18 L235,62 L240,28 L245,48 L250,38 L260,40 L300,40 L310,40 L320,14 L325,66 L330,22 L335,50 L340,37 L350,40 L400,40" fill="none" stroke="#c87014" stroke-width="2" stroke-dasharray="20 20" style="animation:dashMove 1.5s linear infinite"/><path d="M0,40 L30,40 L40,40 L50,15 L55,65 L60,25 L65,50 L70,38 L80,40 L120,40 L130,40 L140,12 L145,68 L150,20 L155,52 L160,36 L170,40 L210,40 L220,40 L230,18 L235,62 L240,28 L245,48 L250,38 L260,40 L300,40 L310,40 L320,14 L325,66 L330,22 L335,50 L340,37 L350,40 L400,40" fill="none" stroke="#c87014" stroke-width="6" stroke-opacity=".08" stroke-dasharray="20 20" style="animation:dashMove 1.5s linear infinite"/></g>
+        <g id="sg3" clip-path="url(#sp3)"><path d="M0,40 L30,40 L40,40 L50,15 L55,65 L60,25 L65,50 L70,38 L80,40 L120,40 L130,40 L140,12 L145,68 L150,20 L155,52 L160,36 L170,40 L210,40 L220,40 L230,18 L235,62 L240,28 L245,48 L250,38 L260,40 L300,40 L310,40 L320,14 L325,66 L330,22 L335,50 L340,37 L350,40 L400,40" fill="none" stroke="#c87014" stroke-width="2" stroke-dasharray="20 20" style="animation:dashMove 1.5s linear infinite"/><path d="M0,40 L30,40 L40,40 L50,15 L55,65 L60,25 L65,50 L70,38 L80,40 L120,40 L130,40 L140,12 L145,68 L150,20 L155,52 L160,36 L170,40 L210,40 L220,40 L230,18 L235,62 L240,28 L245,48 L250,38 L260,40 L300,40 L310,40 L320,14 L325,66 L330,22 L335,50 L340,37 L350,40 L400,40" fill="none" stroke="#c87014" stroke-width="6" stroke-opacity=".08" stroke-dasharray="20 20" style="animation:dashMove 1.5s linear infinite"/></g>
       </svg>
     </div>
     <div style="padding:8px 24px;border-top:1px solid var(--bdr);border-left:3px solid var(--red);display:flex;justify-content:space-between">
@@ -420,6 +428,34 @@ html,body{margin:0!important;padding:0!important;overflow:hidden!important;backg
     if(now-lastWipe>1800000){lastWipe=now;wipe.style.transition='left 4s linear';wipe.style.left='110%';setTimeout(function(){wipe.style.transition='none';wipe.style.left='-110%';},4500);}
   },10000);
 })();
+
+  /* Sentinel pulse 3-color rotation */
+  (function(){
+    var colors=['#c87014','#0a355e','#d49040'];
+    var ci=0;
+    var segs=[document.getElementById('sg0'),document.getElementById('sg1'),document.getElementById('sg2'),document.getElementById('sg3')];
+    function setSegColor(seg,col){
+      if(!seg)return;
+      var paths=seg.querySelectorAll('path');
+      for(var p=0;p<paths.length;p++){
+        if(paths[p].getAttribute('stroke-opacity')){
+          paths[p].setAttribute('stroke',col);
+        }else{
+          paths[p].setAttribute('stroke',col);
+        }
+      }
+    }
+    function rotateSentinel(){
+      ci=(ci+1)%colors.length;
+      var c=colors[ci];
+      for(var i=0;i<segs.length;i++){
+        (function(idx){
+          setTimeout(function(){setSegColor(segs[idx],c);},idx*400);
+        })(i);
+      }
+    }
+    setInterval(rotateSentinel,90000);
+  })();
 </script>
 <script>
 (function(){
@@ -446,6 +482,34 @@ html,body{margin:0!important;padding:0!important;overflow:hidden!important;backg
   setInterval(checkForUpdate,10000);
   setTimeout(function(){location.reload();},1800000);
 })();
+
+  /* Sentinel pulse 3-color rotation */
+  (function(){
+    var colors=['#c87014','#0a355e','#d49040'];
+    var ci=0;
+    var segs=[document.getElementById('sg0'),document.getElementById('sg1'),document.getElementById('sg2'),document.getElementById('sg3')];
+    function setSegColor(seg,col){
+      if(!seg)return;
+      var paths=seg.querySelectorAll('path');
+      for(var p=0;p<paths.length;p++){
+        if(paths[p].getAttribute('stroke-opacity')){
+          paths[p].setAttribute('stroke',col);
+        }else{
+          paths[p].setAttribute('stroke',col);
+        }
+      }
+    }
+    function rotateSentinel(){
+      ci=(ci+1)%colors.length;
+      var c=colors[ci];
+      for(var i=0;i<segs.length;i++){
+        (function(idx){
+          setTimeout(function(){setSegColor(segs[idx],c);},idx*400);
+        })(i);
+      }
+    }
+    setInterval(rotateSentinel,90000);
+  })();
 </script>
 <script>
 (function(){
@@ -506,6 +570,34 @@ html,body{margin:0!important;padding:0!important;overflow:hidden!important;backg
   setInterval(buildCrawl,1800000);
   setInterval(function(){var h=new Date().getHours();if(h>=12||h<1)buildCrawl();},300000);
 })();
+
+  /* Sentinel pulse 3-color rotation */
+  (function(){
+    var colors=['#c87014','#0a355e','#d49040'];
+    var ci=0;
+    var segs=[document.getElementById('sg0'),document.getElementById('sg1'),document.getElementById('sg2'),document.getElementById('sg3')];
+    function setSegColor(seg,col){
+      if(!seg)return;
+      var paths=seg.querySelectorAll('path');
+      for(var p=0;p<paths.length;p++){
+        if(paths[p].getAttribute('stroke-opacity')){
+          paths[p].setAttribute('stroke',col);
+        }else{
+          paths[p].setAttribute('stroke',col);
+        }
+      }
+    }
+    function rotateSentinel(){
+      ci=(ci+1)%colors.length;
+      var c=colors[ci];
+      for(var i=0;i<segs.length;i++){
+        (function(idx){
+          setTimeout(function(){setSegColor(segs[idx],c);},idx*400);
+        })(i);
+      }
+    }
+    setInterval(rotateSentinel,90000);
+  })();
 </script>
 </body>
 </html>
