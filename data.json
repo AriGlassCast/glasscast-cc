@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-19T14:10:00-04:00",
+  "updated": "2026-05-19T15:45:00-04:00",
   "calendar": [
     {"start":"2026-05-20T09:00","end":"2026-05-20T09:30","title":"Daily Stand up","meta":"Meet · Doug","dur":"30m","cal":"glasscast"},
     {"start":"2026-05-21T09:00","end":"2026-05-21T09:30","title":"Daily Stand up","meta":"Meet · Doug","dur":"30m","cal":"glasscast"},
@@ -11,17 +11,17 @@
     {"start":"2026-05-26T09:00","end":"2026-05-26T09:30","title":"Daily Stand up","meta":"Meet · Doug","dur":"30m","cal":"glasscast"}
   ],
   "mail": [
-    {"from":"Doug Bideaux","subject":"Intro from Chris Zizza — PrimeSight","snippet":"Hi Matt, Chris Zizza pointed me your way, he thought a vendor call...","time":"2:02 PM","priority":"high"},
-    {"from":"Brian Dowling","subject":"RE: Moving the screens from Corey's warehouse","snippet":"Doug, this will need 2 straight trucks since we need the lift gate...","time":"1:15 PM","priority":"high"},
-    {"from":"Rosie Nguyen","subject":"AV labor for upcoming events?","snippet":"Hello Ari, Rosie Nguyen here from Prestige Labor Solutions...","time":"10:39 AM","priority":"med"},
-    {"from":"Vistar Media","subject":"Vistar Scheduled Report: PS Daily","snippet":"Your scheduled report was successfully generated. Please see...","time":"8:04 AM","priority":"med"}
+    {"from":"Doug Bideaux","subject":"Intro from Chris Zizza — PrimeSight","snippet":"Hi Matt, Chris Zizza pointed me your way, he thought a vendor call with the Wilkins BD/AS team...","time":"2:02 PM","priority":"high"},
+    {"from":"Corey Muhlgeier","subject":"RE: Moving the screens from Corey's warehouse","snippet":"Good afternoon, Please see pallet info below — 13 pallets total (1000lbs per pallet)","time":"1:14 PM","priority":"high"},
+    {"from":"Bogdan Geometria","subject":"Zoom Meeting with PrimeSight x GlassCast","snippet":"Just a quick check-in to confirm — will you be available for the call today at 11:30 AM?","time":"10:08 AM","priority":"med"},
+    {"from":"Rosie Nguyen","subject":"AV labor for upcoming events?","snippet":"Hello Ari, Rosie Nguyen here from Prestige Labor Solutions. I wanted to reconnect regarding...","time":"10:39 AM","priority":"med"}
   ],
   "kpi": {
     "events": 10,
     "eventsLabel": "this week",
     "tasksComplete": 5,
     "tasksTotal": 8,
-    "unread": 6,
-    "focusScore": 80
+    "unread": 5,
+    "focusScore": 82
   }
 }
