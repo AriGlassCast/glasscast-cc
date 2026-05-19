@@ -1,27 +1,107 @@
 {
-  "updated": "2026-05-19T15:45:00-04:00",
+  "updated": "2026-05-19T14:30:00-04:00",
   "calendar": [
-    {"start":"2026-05-20T09:00","end":"2026-05-20T09:30","title":"Daily Stand up","meta":"Meet · Doug","dur":"30m","cal":"glasscast"},
-    {"start":"2026-05-21T09:00","end":"2026-05-21T09:30","title":"Daily Stand up","meta":"Meet · Doug","dur":"30m","cal":"glasscast"},
-    {"start":"2026-05-21T12:30","end":"2026-05-21T13:00","title":"Primesight <> Screenverse bi-weekly","meta":"Meet · Jessica, Sean, Doug, Nasra","dur":"30m","cal":"personal"},
-    {"start":"2026-05-21T15:00","end":"2026-05-21T15:45","title":"Ai Office Hours PM","meta":"Meet · Doug, Michael, Don, Adam","dur":"45m","cal":"glasscast"},
-    {"start":"2026-05-22T09:00","end":"2026-05-22T09:30","title":"Daily Stand up","meta":"Meet · Doug","dur":"30m","cal":"glasscast"},
-    {"start":"2026-05-22T15:00","end":"2026-05-22T15:45","title":"Primesight Weekly check-in","meta":"Meet · Doug, Don, Adam, Michael","dur":"45m","cal":"glasscast"},
-    {"start":"2026-05-25T09:00","end":"2026-05-25T09:30","title":"Daily Stand up","meta":"Meet · Doug","dur":"30m","cal":"glasscast"},
-    {"start":"2026-05-26T09:00","end":"2026-05-26T09:30","title":"Daily Stand up","meta":"Meet · Doug","dur":"30m","cal":"glasscast"}
+    {
+      "start": "2026-05-20T09:00",
+      "end": "2026-05-20T09:30",
+      "title": "Daily Stand Up",
+      "meta": "Meet · Doug",
+      "dur": "30m",
+      "cal": "glasscast"
+    },
+    {
+      "start": "2026-05-21T09:00",
+      "end": "2026-05-21T09:30",
+      "title": "Daily Stand Up",
+      "meta": "Meet · Doug",
+      "dur": "30m",
+      "cal": "glasscast"
+    },
+    {
+      "start": "2026-05-21T12:30",
+      "end": "2026-05-21T13:00",
+      "title": "Primesight <> Screenverse Bi-Weekly",
+      "meta": "Meet · Jessica, Sean, Doug, Nasra",
+      "dur": "30m",
+      "cal": "glasscast"
+    },
+    {
+      "start": "2026-05-21T15:00",
+      "end": "2026-05-21T15:45",
+      "title": "AI Office Hours PM",
+      "meta": "Meet · Doug, Michael, Don, Adam",
+      "dur": "45m",
+      "cal": "glasscast"
+    },
+    {
+      "start": "2026-05-22T09:00",
+      "end": "2026-05-22T09:30",
+      "title": "Daily Stand Up",
+      "meta": "Meet · Doug",
+      "dur": "30m",
+      "cal": "glasscast"
+    },
+    {
+      "start": "2026-05-22T15:00",
+      "end": "2026-05-22T15:45",
+      "title": "Primesight Weekly Check-In",
+      "meta": "Meet · Doug, Don, Adam, Michael",
+      "dur": "45m",
+      "cal": "glasscast"
+    },
+    {
+      "start": "2026-05-25T09:00",
+      "end": "2026-05-25T09:30",
+      "title": "Daily Stand Up",
+      "meta": "Meet · Doug",
+      "dur": "30m",
+      "cal": "glasscast"
+    },
+    {
+      "start": "2026-05-26T09:00",
+      "end": "2026-05-26T09:30",
+      "title": "Daily Stand Up",
+      "meta": "Meet · Doug",
+      "dur": "30m",
+      "cal": "glasscast"
+    }
   ],
   "mail": [
-    {"from":"Doug Bideaux","subject":"Intro from Chris Zizza — PrimeSight","snippet":"Hi Matt, Chris Zizza pointed me your way, he thought a vendor call with the Wilkins BD/AS team...","time":"2:02 PM","priority":"high"},
-    {"from":"Corey Muhlgeier","subject":"RE: Moving the screens from Corey's warehouse","snippet":"Good afternoon, Please see pallet info below — 13 pallets total (1000lbs per pallet)","time":"1:14 PM","priority":"high"},
-    {"from":"Bogdan Geometria","subject":"Zoom Meeting with PrimeSight x GlassCast","snippet":"Just a quick check-in to confirm — will you be available for the call today at 11:30 AM?","time":"10:08 AM","priority":"med"},
-    {"from":"Rosie Nguyen","subject":"AV labor for upcoming events?","snippet":"Hello Ari, Rosie Nguyen here from Prestige Labor Solutions. I wanted to reconnect regarding...","time":"10:39 AM","priority":"med"}
+    {
+      "from": "Doug Bideaux",
+      "subject": "Intro from Chris Zizza — PrimeSight",
+      "snippet": "Hi Matt, Chris Zizza pointed me your way, he thought a vendor call...",
+      "time": "2:02 PM",
+      "priority": "high"
+    },
+    {
+      "from": "Brian Dowling",
+      "subject": "Re: Moving the screens from Corey's warehouse",
+      "snippet": "Doug, this will need 2 straight trucks since we need the lift gate...",
+      "time": "1:15 PM",
+      "priority": "high"
+    },
+    {
+      "from": "Bogdan Geometria",
+      "subject": "Zoom Meeting with PrimeSight x GlassCast",
+      "snippet": "Just a quick check-in to confirm — will you be available for the call...",
+      "time": "10:08 AM",
+      "priority": "high"
+    },
+    {
+      "from": "Plexus",
+      "subject": "PrimeSight Brief — May 19",
+      "snippet": "Good morning team — happy Tuesday. 76 displays across 70 venues...",
+      "time": "5:31 AM",
+      "priority": "high"
+    }
   ],
   "kpi": {
     "events": 10,
     "eventsLabel": "this week",
     "tasksComplete": 5,
     "tasksTotal": 8,
-    "unread": 5,
-    "focusScore": 82
+    "unread": 4,
+    "focusScore": 84
   }
 }
