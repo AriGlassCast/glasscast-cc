@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-20T12:00:00-04:00",
+  "updated": "2026-05-20T13:05:12-04:00",
   "calendar": [
     {"start":"2026-05-21T09:00","end":"2026-05-21T09:30","title":"Daily Stand up","meta":"Meet · Doug","dur":"30m","cal":"glasscast"},
     {"start":"2026-05-21T12:30","end":"2026-05-21T13:00","title":"Primesight <> Screenverse bi-weekly","meta":"Meet · Jessica, Sean, Doug, Nasra","dur":"30m","cal":"personal"},
@@ -12,9 +12,9 @@
   ],
   "mail": [
     {"from":"Michael Rudich","subject":"EMG Contract T&Cs","snippet":"Hi Doug, Sorry for the delay. You can use this as a baseline for the PrimeSight discussion on terms.","time":"11:47 AM","priority":"high"},
-    {"from":"Plexus","subject":"PrimeSight Brief — May 20","snippet":"PrimeSight Morning Brief Wednesday, May 20, 2026. 76 displays across 70 venues.","time":"5:31 AM","priority":"high"},
-    {"from":"Seph","subject":"Seph restaurant photos","snippet":"Seph photos - Google Drive","time":"11:54 PM","priority":"low"},
-    {"from":"Doug Chasin","subject":"Intro from Chris Zizza — PrimeSight","snippet":"Hi Matt, Chris Zizza pointed me your way, he thought a vendor call with Wilkins BD/AS team made sense.","time":"2:02 PM","priority":"high"}
+    {"from":"DocuSign Events","subject":"Watch Momentum keynote [LIVE] tomorrow at 10 am ET","snippet":"Don't miss out! Watch the Momentum keynote live tomorrow.","time":"10:07 AM","priority":"low"},
+    {"from":"Vistar Media","subject":"Vistar Scheduled Report: PS Daily","snippet":"Your scheduled report was successfully generated. See attached file to download.","time":"8:04 AM","priority":"med"},
+    {"from":"PrimeSight Plexus","subject":"PrimeSight Brief — May 20","snippet":"Good morning team — happy Wednesday. 76 displays across 70 venues.","time":"5:31 AM","priority":"high"}
   ],
   "kpi": {
     "events": 10,
