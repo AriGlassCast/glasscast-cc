@@ -1,107 +1,27 @@
 {
   "updated": "2026-05-20T14:30:00-04:00",
   "calendar": [
-    {
-      "start": "2026-05-21T09:00",
-      "end": "2026-05-21T09:30",
-      "title": "Daily Stand up",
-      "meta": "Meet \u00b7 Doug",
-      "dur": "30m",
-      "cal": "glasscast"
-    },
-    {
-      "start": "2026-05-21T12:30",
-      "end": "2026-05-21T13:00",
-      "title": "Primesight <> Screenverse bi-weekly",
-      "meta": "Meet \u00b7 Jessica, Sean, Doug, Nasra",
-      "dur": "30m",
-      "cal": "personal"
-    },
-    {
-      "start": "2026-05-21T15:00",
-      "end": "2026-05-21T15:45",
-      "title": "Ai Office Hours PM",
-      "meta": "Meet \u00b7 Doug, Michael, Don, Adam",
-      "dur": "45m",
-      "cal": "glasscast"
-    },
-    {
-      "start": "2026-05-22T09:00",
-      "end": "2026-05-22T09:30",
-      "title": "Daily Stand up",
-      "meta": "Meet \u00b7 Doug",
-      "dur": "30m",
-      "cal": "glasscast"
-    },
-    {
-      "start": "2026-05-22T15:00",
-      "end": "2026-05-22T15:45",
-      "title": "Primesight Weekly check-in",
-      "meta": "Meet \u00b7 Doug, Don, Adam, Michael",
-      "dur": "45m",
-      "cal": "glasscast"
-    },
-    {
-      "start": "2026-05-25T09:00",
-      "end": "2026-05-25T09:30",
-      "title": "Daily Stand up",
-      "meta": "Meet \u00b7 Doug",
-      "dur": "30m",
-      "cal": "glasscast"
-    },
-    {
-      "start": "2026-05-26T09:00",
-      "end": "2026-05-26T09:30",
-      "title": "Daily Stand up",
-      "meta": "Meet \u00b7 Doug",
-      "dur": "30m",
-      "cal": "glasscast"
-    },
-    {
-      "start": "2026-05-27T09:00",
-      "end": "2026-05-27T09:30",
-      "title": "Daily Stand up",
-      "meta": "Meet \u00b7 Doug",
-      "dur": "30m",
-      "cal": "glasscast"
-    }
+    {"start":"2026-05-21T09:00","end":"2026-05-21T09:30","title":"Daily Stand up","meta":"Meet · Doug","dur":"30m","cal":"glasscast"},
+    {"start":"2026-05-21T12:30","end":"2026-05-21T13:00","title":"Primesight <> Screenverse bi-weekly","meta":"Meet · Jessica, Sean, Doug, Nasra","dur":"30m","cal":"glasscast"},
+    {"start":"2026-05-21T15:00","end":"2026-05-21T15:45","title":"Ai Office Hours PM","meta":"Meet · Doug, Michael, Don, Adam","dur":"45m","cal":"glasscast"},
+    {"start":"2026-05-22T09:00","end":"2026-05-22T09:30","title":"Daily Stand up","meta":"Meet · Doug","dur":"30m","cal":"glasscast"},
+    {"start":"2026-05-22T15:00","end":"2026-05-22T15:45","title":"Primesight Weekly check-in","meta":"Meet · Doug, Don, Adam, Michael","dur":"45m","cal":"glasscast"},
+    {"start":"2026-05-25T09:00","end":"2026-05-25T09:30","title":"Daily Stand up","meta":"Meet · Doug","dur":"30m","cal":"glasscast"},
+    {"start":"2026-05-26T09:00","end":"2026-05-26T09:30","title":"Daily Stand up","meta":"Meet · Doug","dur":"30m","cal":"glasscast"},
+    {"start":"2026-05-27T09:00","end":"2026-05-27T09:30","title":"Daily Stand up","meta":"Meet · Doug","dur":"30m","cal":"glasscast"}
   ],
   "mail": [
-    {
-      "from": "Vistar Media",
-      "subject": "Vistar Scheduled Report: PS Daily",
-      "snippet": "Your scheduled report was successfully generated. Please see the attached file below...",
-      "time": "12:04 PM",
-      "priority": "med"
-    },
-    {
-      "from": "Plexus (GlassCast)",
-      "subject": "PrimeSight Brief \u2014 May 20",
-      "snippet": "PrimeSight Morning Brief Wednesday, May 20, 2026. 76 displays across 70 venues.",
-      "time": "9:31 AM",
-      "priority": "high"
-    },
-    {
-      "from": "Seph Eats",
-      "subject": "Seph restaurant photos",
-      "snippet": "Seph photos - Google Drive",
-      "time": "3:54 AM",
-      "priority": "low"
-    },
-    {
-      "from": "Doug Bideaux",
-      "subject": "Intro from Chris Zizza \u2014 PrimeSight",
-      "snippet": "Hi Matt, Chris Zizza pointed me your way, he thought a vendor call with Wilkins...",
-      "time": "6:02 PM",
-      "priority": "high"
-    }
+    {"from":"Vistar Media","subject":"Vistar Scheduled Report: PS Daily","snippet":"Your scheduled report was successfully generated. Please see the attached...","time":"8:04 AM","priority":"med"},
+    {"from":"Plexus","subject":"PrimeSight Brief — May 20","snippet":"PrimeSight Morning Brief Wednesday, May 20, 2026. 76 displays across 70 venues.","time":"5:31 AM","priority":"high"},
+    {"from":"Seph","subject":"Seph restaurant photos","snippet":"Seph photos - Google Drive","time":"11:54 PM","priority":"low"},
+    {"from":"Doug Chasin","subject":"Intro from Chris Zizza — PrimeSight","snippet":"Hi Matt, Chris Zizza pointed me your way, he thought a vendor call...","time":"2:02 PM","priority":"high"}
   ],
   "kpi": {
     "events": 10,
     "eventsLabel": "this week",
     "tasksComplete": 5,
     "tasksTotal": 8,
-    "unread": 3,
-    "focusScore": 86
+    "unread": 4,
+    "focusScore": 84
   }
 }
