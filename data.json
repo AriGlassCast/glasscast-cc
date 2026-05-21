@@ -10,10 +10,10 @@
     {"start":"2026-05-28T15:00","end":"2026-05-28T15:45","title":"Ai Office Hours PM","meta":"Meet · Doug, Michael, Don, Adam","dur":"45m","cal":"glasscast"}
   ],
   "mail": [
-    {"from":"Doug Bideaux","subject":"Updated: Primesight Weekly check-in @ Fri May 22","snippet":"Primesight Weekly check-in Join with Google Meet – You have been...","time":"6:29 PM","priority":"high"},
-    {"from":"Michael Rudich","subject":"RE: Primesight Weekly check-in","snippet":"Don and Adam are free for 30 minutes at 11:30 until noon.","time":"5:45 PM","priority":"med"},
-    {"from":"Joel Trillboards","subject":"Meet Bo","snippet":"Hi EMG / Glasscast, I wanted to introduce you to Bo Sijuade and Chris...","time":"5:12 PM","priority":"med"},
-    {"from":"Don Winter","subject":"digital update this week","snippet":"Hearing more lawsuits filed against Smartify. Also heard 9 month back...","time":"4:43 PM","priority":"med"}
+    {"from":"Doug Bideaux","subject":"Updated invitation: Primesight Weekly check-in","snippet":"Primesight Weekly check-in Join with Google Meet – Fri May 22...","time":"6:29 PM","priority":"high"},
+    {"from":"Michael Rudich","subject":"RE: Primesight Weekly check-in","snippet":"Gentlemen, Any chance we can do the call at 11 AM tomorrow?...","time":"5:39 PM","priority":"med"},
+    {"from":"Joel (Trillboards)","subject":"Meet Bo","snippet":"Hi EMG / Glasscast, I wanted to introduce you to Bo Sijuade...","time":"5:12 PM","priority":"med"},
+    {"from":"Don Winter","subject":"digital update this week.","snippet":"Hearing more lawsuits filed against Smartify. Also heard...","time":"4:43 PM","priority":"med"}
   ],
   "kpi": {
     "events": 10,
