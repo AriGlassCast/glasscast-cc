@@ -1,14 +1,6 @@
 {
-  "updated": "2026-05-22T15:10:00-04:00",
+  "updated": "2026-05-22T18:39:44.768-04:00",
   "calendar": [
-    {
-      "start": "2026-05-22T11:30",
-      "end": "2026-05-22T12:00",
-      "title": "Primesight Weekly check-in",
-      "meta": "Meet · Doug, Don, Adam, Michael",
-      "dur": "30m",
-      "cal": "glasscast"
-    },
     {
       "start": "2026-05-25T09:00",
       "end": "2026-05-25T09:30",
@@ -44,7 +36,7 @@
     {
       "start": "2026-05-28T15:00",
       "end": "2026-05-28T15:45",
-      "title": "Ai Office Hours PM",
+      "title": "AI Office Hours PM",
       "meta": "Meet · Doug, Michael, Don, Adam",
       "dur": "45m",
       "cal": "glasscast"
@@ -68,7 +60,7 @@
   ],
   "mail": [
     {
-      "from": "Christine Grant",
+      "from": "Carla Grant",
       "subject": "Re: Follow-Up PrimeSight Invoice",
       "snippet": "Hi Andrew, I hope all is well. I am following up before the long weekend...",
       "time": "11:04 AM",
@@ -82,18 +74,18 @@
       "priority": "high"
     },
     {
-      "from": "Vistar Media",
-      "subject": "Vistar Scheduled Report: PS Daily",
-      "snippet": "Your scheduled report was successfully generated. Please see the attached...",
-      "time": "8:04 AM",
+      "from": "PrimeSight Plexus",
+      "subject": "PrimeSight Brief — May 22",
+      "snippet": "PrimeSight Morning Brief Friday, May 22, 2026. 76 displays across 70...",
+      "time": "5:31 AM",
       "priority": "med"
     },
     {
-      "from": "Plexus",
-      "subject": "PrimeSight Brief — May 22",
-      "snippet": "PrimeSight Morning Brief Friday, May 22, 2026. Good morning team — happy...",
-      "time": "5:31 AM",
-      "priority": "high"
+      "from": "Don Winter",
+      "subject": "digital update this week.",
+      "snippet": "Hearing more lawsuits filed against Smartify. Also heard that they are...",
+      "time": "4:43 PM",
+      "priority": "med"
     }
   ],
   "kpi": {
