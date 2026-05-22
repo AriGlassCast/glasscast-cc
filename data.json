@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-22T11:30:00-04:00",
+  "updated": "2026-05-22T15:10:00-04:00",
   "calendar": [
     {
       "start": "2026-05-22T11:30",
@@ -45,7 +45,7 @@
       "start": "2026-05-28T15:00",
       "end": "2026-05-28T15:45",
       "title": "Ai Office Hours PM",
-      "meta": "Meet · Doug, Don, Adam, Michael",
+      "meta": "Meet · Doug, Michael, Don, Adam",
       "dur": "45m",
       "cal": "glasscast"
     },
@@ -68,16 +68,16 @@
   ],
   "mail": [
     {
-      "from": "C. Grant",
+      "from": "Christine Grant",
       "subject": "Re: Follow-Up PrimeSight Invoice",
       "snippet": "Hi Andrew, I hope all is well. I am following up before the long weekend...",
       "time": "11:04 AM",
       "priority": "high"
     },
     {
-      "from": "Doug Bideaux",
-      "subject": "Re: Multiplier Change from 1x to x?",
-      "snippet": "Vistar is more like 99% at the moment. Vistar has a healthy open exchange...",
+      "from": "Michael Rudich",
+      "subject": "Multiplier Change from 1x to x?",
+      "snippet": "Is Vistar 50% of SSP revenue at this point? I have just been in the...",
       "time": "8:18 AM",
       "priority": "high"
     },
@@ -91,7 +91,7 @@
     {
       "from": "Plexus",
       "subject": "PrimeSight Brief — May 22",
-      "snippet": "PrimeSight Morning Brief Friday, May 22. Good morning team — happy Friday.",
+      "snippet": "PrimeSight Morning Brief Friday, May 22, 2026. Good morning team — happy...",
       "time": "5:31 AM",
       "priority": "high"
     }
@@ -101,7 +101,7 @@
     "eventsLabel": "this week",
     "tasksComplete": 5,
     "tasksTotal": 8,
-    "unread": 2,
-    "focusScore": 88
+    "unread": 1,
+    "focusScore": 90
   }
 }
