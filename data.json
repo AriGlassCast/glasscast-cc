@@ -2,10 +2,18 @@
   "updated": "2026-05-22T09:45:00-04:00",
   "calendar": [
     {
+      "start": "2026-05-22T09:00",
+      "end": "2026-05-22T09:30",
+      "title": "Daily Stand up",
+      "meta": "Meet · Doug",
+      "dur": "30m",
+      "cal": "glasscast"
+    },
+    {
       "start": "2026-05-22T11:30",
       "end": "2026-05-22T12:00",
       "title": "Primesight Weekly check-in",
-      "meta": "Meet · Doug, Michael, Don, Adam",
+      "meta": "Meet · Doug, Don, Adam, Michael",
       "dur": "30m",
       "cal": "glasscast"
     },
@@ -70,30 +78,30 @@
     {
       "from": "Plexus System",
       "subject": "PrimeSight Brief — May 22",
-      "snippet": "PrimeSight Morning Brief Friday, May 22, 2026 Good morning team — happy Friday...",
+      "snippet": "PrimeSight Morning Brief Friday, May 22, 2026 Good morning team...",
       "time": "5:31 AM",
       "priority": "high"
     },
     {
-      "from": "Michael Rudich",
-      "subject": "RE: Primesight Weekly check-in",
-      "snippet": "Its looks like Don and Adam are free for 30 minutes at 11:30 until noon.",
-      "time": "5:45 PM",
-      "priority": "med"
+      "from": "Doug Bideaux",
+      "subject": "Updated: Primesight Weekly check-in @ Fri May 22",
+      "snippet": "Primesight Weekly check-in Join with Google Meet – You have been invited...",
+      "time": "6:29 PM",
+      "priority": "high"
     },
     {
       "from": "Joel Trillboards",
       "subject": "Meet Bo",
-      "snippet": "Hi EMG / Glasscast, I wanted to introduce you to Bo Sijuade and Chris Asmussen...",
+      "snippet": "Hi EMG / Glasscast, I wanted to introduce you to Bo Sijuade and Chris...",
       "time": "5:12 PM",
       "priority": "med"
     },
     {
       "from": "Don Winter",
       "subject": "digital update this week.",
-      "snippet": "Hearing more lawsuits filed against Smartify. Also heard that they are 9 month back...",
+      "snippet": "Hearing more lawsuits filed against Smartify. Also heard that they are 9...",
       "time": "4:43 PM",
-      "priority": "high"
+      "priority": "med"
     }
   ],
   "kpi": {
