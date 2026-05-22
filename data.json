@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-22T08:30:00-04:00",
+  "updated": "2026-05-22T08:20:00-04:00",
   "calendar": [
     {
       "start": "2026-05-22T09:00",
@@ -76,30 +76,30 @@
   ],
   "mail": [
     {
-      "from": "Michael Rudich",
-      "subject": "Multiplier Change from 1x to x?",
-      "snippet": "vistar is more like 99% at the moment. Vistar has a healthy open exc",
+      "from": "Doug Bideaux",
+      "subject": "Re: Multiplier Change from 1x to x?",
+      "snippet": "Vistar is more like 99% at the moment. Vistar has a healthy open exc...",
       "time": "8:18 AM",
       "priority": "high"
     },
     {
       "from": "Vistar Media",
       "subject": "Vistar Scheduled Report: PS Daily",
-      "snippet": "Your scheduled report was successfully generated. Please see the att",
+      "snippet": "Your scheduled report was successfully generated. Please see the att...",
       "time": "8:04 AM",
       "priority": "med"
     },
     {
       "from": "Plexus",
       "subject": "PrimeSight Brief — May 22",
-      "snippet": "PrimeSight Morning Brief Friday, May 22, 2026 Good morning team — h",
+      "snippet": "PrimeSight Morning Brief Friday, May 22, 2026. 76 displays across 70 venues.",
       "time": "5:31 AM",
       "priority": "high"
     },
     {
       "from": "Joel Trillboards",
       "subject": "Meet Bo",
-      "snippet": "Hi EMG / Glasscast, I wanted to introduce you to Bo Sijuade and Chri",
+      "snippet": "Hi EMG / Glasscast, I wanted to introduce you to Bo Sijuade and Chri...",
       "time": "5:12 PM",
       "priority": "med"
     }
