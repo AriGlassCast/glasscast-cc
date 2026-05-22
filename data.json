@@ -1,20 +1,100 @@
 {
-  "updated": "2026-05-22T22:05:39-04:00",
+  "updated": "2026-05-22T18:51:49-04:00",
   "calendar": [
-    {"start":"2026-05-22T11:30","end":"2026-05-22T12:00","title":"Primesight Weekly check-in","meta":"Meet · Doug, Don, Adam, Michael","dur":"30m","cal":"glasscast"},
-    {"start":"2026-05-25T09:00","end":"2026-05-25T09:30","title":"Daily Stand up","meta":"Meet · Doug","dur":"30m","cal":"glasscast"},
-    {"start":"2026-05-26T09:00","end":"2026-05-26T09:30","title":"Daily Stand up","meta":"Meet · Doug","dur":"30m","cal":"glasscast"},
-    {"start":"2026-05-27T09:00","end":"2026-05-27T09:30","title":"Daily Stand up","meta":"Meet · Doug","dur":"30m","cal":"glasscast"},
-    {"start":"2026-05-28T09:00","end":"2026-05-28T09:30","title":"Daily Stand up","meta":"Meet · Doug","dur":"30m","cal":"glasscast"},
-    {"start":"2026-05-28T15:00","end":"2026-05-28T15:45","title":"Ai Office Hours PM","meta":"Meet · Doug, Don, Adam, Michael","dur":"45m","cal":"glasscast"},
-    {"start":"2026-05-29T09:00","end":"2026-05-29T09:30","title":"Daily Stand up","meta":"Meet · Doug","dur":"30m","cal":"glasscast"},
-    {"start":"2026-05-29T15:00","end":"2026-05-29T15:45","title":"Primesight Weekly check-in","meta":"Meet · Doug, Don, Adam, Michael","dur":"45m","cal":"glasscast"}
+    {
+      "start": "2026-05-22T11:30",
+      "end": "2026-05-22T12:00",
+      "title": "Primesight Weekly check-in",
+      "meta": "Meet \u00b7 Doug, Don, Adam, Michael",
+      "dur": "30m",
+      "cal": "glasscast"
+    },
+    {
+      "start": "2026-05-25T09:00",
+      "end": "2026-05-25T09:30",
+      "title": "Daily Stand up",
+      "meta": "Meet \u00b7 Doug",
+      "dur": "30m",
+      "cal": "glasscast"
+    },
+    {
+      "start": "2026-05-26T09:00",
+      "end": "2026-05-26T09:30",
+      "title": "Daily Stand up",
+      "meta": "Meet \u00b7 Doug",
+      "dur": "30m",
+      "cal": "glasscast"
+    },
+    {
+      "start": "2026-05-27T09:00",
+      "end": "2026-05-27T09:30",
+      "title": "Daily Stand up",
+      "meta": "Meet \u00b7 Doug",
+      "dur": "30m",
+      "cal": "glasscast"
+    },
+    {
+      "start": "2026-05-28T09:00",
+      "end": "2026-05-28T09:30",
+      "title": "Daily Stand up",
+      "meta": "Meet \u00b7 Doug",
+      "dur": "30m",
+      "cal": "glasscast"
+    },
+    {
+      "start": "2026-05-28T15:00",
+      "end": "2026-05-28T15:45",
+      "title": "Ai Office Hours PM",
+      "meta": "Meet \u00b7 Doug, Michael, Don, Adam",
+      "dur": "45m",
+      "cal": "glasscast"
+    },
+    {
+      "start": "2026-05-29T09:00",
+      "end": "2026-05-29T09:30",
+      "title": "Daily Stand up",
+      "meta": "Meet \u00b7 Doug",
+      "dur": "30m",
+      "cal": "glasscast"
+    },
+    {
+      "start": "2026-05-29T15:00",
+      "end": "2026-05-29T15:45",
+      "title": "Primesight Weekly check-in",
+      "meta": "Meet \u00b7 Doug, Don, Adam, Michael",
+      "dur": "45m",
+      "cal": "glasscast"
+    }
   ],
   "mail": [
-    {"from":"Chris Grant","subject":"Re: Follow-Up PrimeSight Invoice","snippet":"Hi Andrew, I hope all is well. I am following up before the long weekend...","time":"11:04 AM","priority":"high"},
-    {"from":"Michael Rudich","subject":"Multiplier Change from 1x to x?","snippet":"Is Vistar 50% of SSP revenue at this point? I have just been in the Vi...","time":"8:18 AM","priority":"high"},
-    {"from":"Vistar Media","subject":"Vistar Scheduled Report: PS Daily","snippet":"Your scheduled report was successfully generated. Please see the attac...","time":"8:04 AM","priority":"med"},
-    {"from":"Plexus","subject":"PrimeSight Brief — May 22","snippet":"PrimeSight Morning Brief Friday, May 22, 2026. 76 displays across 70...","time":"5:31 AM","priority":"high"}
+    {
+      "from": "Colton Grant",
+      "subject": "Re: Follow-Up PrimeSight Invoice",
+      "snippet": "Hi Andrew, I hope all is well. Following up before the long weekend...",
+      "time": "11:04 AM",
+      "priority": "high"
+    },
+    {
+      "from": "Michael Rudich",
+      "subject": "Multiplier Change from 1x to x?",
+      "snippet": "Is Vistar 50% of SSP revenue at this point? I have just been in...",
+      "time": "8:18 AM",
+      "priority": "high"
+    },
+    {
+      "from": "PrimeSight Plexus",
+      "subject": "PrimeSight Brief \u2014 May 22",
+      "snippet": "76 displays across 70 venues. Full DMA breakdown below.",
+      "time": "5:31 AM",
+      "priority": "high"
+    },
+    {
+      "from": "Joel Trillboards",
+      "subject": "Meet Bo",
+      "snippet": "Wanted to introduce you to Bo Sijuade and Chris Asmussen at HellOOH...",
+      "time": "5:12 PM",
+      "priority": "med"
+    }
   ],
   "kpi": {
     "events": 9,
