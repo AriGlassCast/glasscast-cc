@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-22T09:45:00-04:00",
+  "updated": "2026-05-22T09:35:00-04:00",
   "calendar": [
     {
       "start": "2026-05-22T09:00",
@@ -52,8 +52,8 @@
     {
       "start": "2026-05-28T15:00",
       "end": "2026-05-28T15:45",
-      "title": "AI Office Hours PM",
-      "meta": "Meet · Doug, Michael, Don, Adam",
+      "title": "Ai Office Hours PM",
+      "meta": "Meet · Doug, Doug DMR, Michael, Don, Adam",
       "dur": "45m",
       "cal": "glasscast"
     },
@@ -76,31 +76,31 @@
   ],
   "mail": [
     {
-      "from": "Plexus System",
+      "from": "Plexus",
       "subject": "PrimeSight Brief — May 22",
-      "snippet": "PrimeSight Morning Brief Friday, May 22, 2026 Good morning team — happy Friday...",
-      "time": "9:31 AM",
+      "snippet": "PrimeSight Morning Brief Friday, May 22, 2026 Good morning team...",
+      "time": "5:31 AM",
       "priority": "high"
     },
     {
-      "from": "Joel Trillboards",
+      "from": "Doug Bideaux",
+      "subject": "Primesight Weekly check-in @ Fri May 22",
+      "snippet": "Primesight Weekly check-in Join with Google Meet – You have been...",
+      "time": "6:29 PM",
+      "priority": "high"
+    },
+    {
+      "from": "Michael Rudich",
+      "subject": "RE: Primesight Weekly check-in",
+      "snippet": "Don and Adam are free for 30 minutes at 11:30 until noon.",
+      "time": "5:45 PM",
+      "priority": "med"
+    },
+    {
+      "from": "Joel (Trillboards)",
       "subject": "Meet Bo",
-      "snippet": "Hi EMG / Glasscast, I wanted to introduce you to Bo Sijuade and Chris Asmussen...",
+      "snippet": "Hi EMG / Glasscast, I wanted to introduce you to Bo Sijuade...",
       "time": "5:12 PM",
-      "priority": "med"
-    },
-    {
-      "from": "Don Winter",
-      "subject": "digital update this week.",
-      "snippet": "Hearing more lawsuits filed against Smartify. Also heard that they are 9 month...",
-      "time": "4:43 PM",
-      "priority": "med"
-    },
-    {
-      "from": "Vistar Media",
-      "subject": "Vistar Scheduled Report: PS Daily",
-      "snippet": "Your scheduled report was successfully generated. Please see the attached file...",
-      "time": "8:04 AM",
       "priority": "med"
     }
   ],
@@ -109,7 +109,7 @@
     "eventsLabel": "this week",
     "tasksComplete": 5,
     "tasksTotal": 8,
-    "unread": 3,
-    "focusScore": 86
+    "unread": 2,
+    "focusScore": 88
   }
 }
