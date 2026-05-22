@@ -1,19 +1,92 @@
 {
-  "updated": "2026-05-21T20:06:00-04:00",
+  "updated": "2026-05-21T18:35:00-04:00",
   "calendar": [
-    {"start":"2026-05-22T09:00","end":"2026-05-22T09:30","title":"Daily Stand up","meta":"Meet · Doug","dur":"30m","cal":"glasscast"},
-    {"start":"2026-05-22T11:30","end":"2026-05-22T12:00","title":"Primesight Weekly check-in","meta":"Meet · Doug, Michael, Don, Adam","dur":"30m","cal":"glasscast"},
-    {"start":"2026-05-25T09:00","end":"2026-05-25T09:30","title":"Daily Stand up","meta":"Meet · Doug","dur":"30m","cal":"glasscast"},
-    {"start":"2026-05-26T09:00","end":"2026-05-26T09:30","title":"Daily Stand up","meta":"Meet · Doug","dur":"30m","cal":"glasscast"},
-    {"start":"2026-05-27T09:00","end":"2026-05-27T09:30","title":"Daily Stand up","meta":"Meet · Doug","dur":"30m","cal":"glasscast"},
-    {"start":"2026-05-28T09:00","end":"2026-05-28T09:30","title":"Daily Stand up","meta":"Meet · Doug","dur":"30m","cal":"glasscast"},
-    {"start":"2026-05-28T15:00","end":"2026-05-28T15:45","title":"Ai Office Hours PM","meta":"Meet · Doug, Michael, Don, Adam","dur":"45m","cal":"glasscast"}
+    {
+      "start": "2026-05-22T09:00",
+      "end": "2026-05-22T09:30",
+      "title": "Daily Stand up",
+      "meta": "Meet \u00b7 Doug",
+      "dur": "30m",
+      "cal": "glasscast"
+    },
+    {
+      "start": "2026-05-22T11:30",
+      "end": "2026-05-22T12:00",
+      "title": "Primesight Weekly check-in",
+      "meta": "Meet \u00b7 Doug, Don, Adam, Michael",
+      "dur": "30m",
+      "cal": "glasscast"
+    },
+    {
+      "start": "2026-05-25T09:00",
+      "end": "2026-05-25T09:30",
+      "title": "Daily Stand up",
+      "meta": "Meet \u00b7 Doug",
+      "dur": "30m",
+      "cal": "glasscast"
+    },
+    {
+      "start": "2026-05-26T09:00",
+      "end": "2026-05-26T09:30",
+      "title": "Daily Stand up",
+      "meta": "Meet \u00b7 Doug",
+      "dur": "30m",
+      "cal": "glasscast"
+    },
+    {
+      "start": "2026-05-27T09:00",
+      "end": "2026-05-27T09:30",
+      "title": "Daily Stand up",
+      "meta": "Meet \u00b7 Doug",
+      "dur": "30m",
+      "cal": "glasscast"
+    },
+    {
+      "start": "2026-05-28T09:00",
+      "end": "2026-05-28T09:30",
+      "title": "Daily Stand up",
+      "meta": "Meet \u00b7 Doug",
+      "dur": "30m",
+      "cal": "glasscast"
+    },
+    {
+      "start": "2026-05-28T15:00",
+      "end": "2026-05-28T15:45",
+      "title": "Ai Office Hours PM",
+      "meta": "Meet \u00b7 Doug, Michael, Don, Adam",
+      "dur": "45m",
+      "cal": "glasscast"
+    }
   ],
   "mail": [
-    {"from":"Doug Bideaux","subject":"Updated invitation: Primesight Weekly check-in","snippet":"Primesight Weekly check-in Join with Google Meet – You have been invited...","time":"6:29 PM","priority":"high"},
-    {"from":"Michael Rudich","subject":"RE: Primesight Weekly check-in","snippet":"Gentlemen, Any chance we can do the call at 11 AM tomorrow?","time":"5:39 PM","priority":"med"},
-    {"from":"Joel Trillboards","subject":"Meet Bo","snippet":"Hi EMG / Glasscast, I wanted to introduce you to Bo Sijuade and Chris...","time":"5:12 PM","priority":"med"},
-    {"from":"Don Winter","subject":"digital update this week.","snippet":"Hearing more lawsuits filed against Smartify. Also heard that they...","time":"4:43 PM","priority":"med"}
+    {
+      "from": "Doug Bideaux",
+      "subject": "Updated invitation: Primesight Weekly check-in",
+      "snippet": "Primesight Weekly check-in Join with Google Meet \u2013 You have been invited...",
+      "time": "6:29 PM",
+      "priority": "high"
+    },
+    {
+      "from": "Michael Rudich",
+      "subject": "RE: Primesight Weekly check-in",
+      "snippet": "Its looks like Don and Adam are free for 30 minutes at 11:30 until noon.",
+      "time": "5:45 PM",
+      "priority": "med"
+    },
+    {
+      "from": "Joel Trillboards",
+      "subject": "Meet Bo",
+      "snippet": "Hi EMG / Glasscast, I wanted to introduce you to Bo Sijuade and Chris...",
+      "time": "5:12 PM",
+      "priority": "med"
+    },
+    {
+      "from": "Don Winter",
+      "subject": "digital update this week.",
+      "snippet": "Hearing more lawsuits filed against Smartify. Also heard that they are...",
+      "time": "4:43 PM",
+      "priority": "med"
+    }
   ],
   "kpi": {
     "events": 10,
