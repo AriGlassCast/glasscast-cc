@@ -1,10 +1,26 @@
 {
-  "updated": "2026-05-22T12:30:00-04:00",
+  "updated": "2026-05-22T09:07:58-04:00",
   "calendar": [
+    {
+      "start": "2026-05-22T09:00",
+      "end": "2026-05-22T09:30",
+      "title": "Daily Stand Up",
+      "meta": "Meet · Doug",
+      "dur": "30m",
+      "cal": "glasscast"
+    },
+    {
+      "start": "2026-05-22T11:30",
+      "end": "2026-05-22T12:00",
+      "title": "Primesight Weekly Check-in",
+      "meta": "Meet · Doug, Don, Adam, Michael",
+      "dur": "30m",
+      "cal": "glasscast"
+    },
     {
       "start": "2026-05-25T09:00",
       "end": "2026-05-25T09:30",
-      "title": "Daily Stand up",
+      "title": "Daily Stand Up",
       "meta": "Meet · Doug",
       "dur": "30m",
       "cal": "glasscast"
@@ -12,7 +28,7 @@
     {
       "start": "2026-05-26T09:00",
       "end": "2026-05-26T09:30",
-      "title": "Daily Stand up",
+      "title": "Daily Stand Up",
       "meta": "Meet · Doug",
       "dur": "30m",
       "cal": "glasscast"
@@ -20,7 +36,7 @@
     {
       "start": "2026-05-27T09:00",
       "end": "2026-05-27T09:30",
-      "title": "Daily Stand up",
+      "title": "Daily Stand Up",
       "meta": "Meet · Doug",
       "dur": "30m",
       "cal": "glasscast"
@@ -28,7 +44,7 @@
     {
       "start": "2026-05-28T09:00",
       "end": "2026-05-28T09:30",
-      "title": "Daily Stand up",
+      "title": "Daily Stand Up",
       "meta": "Meet · Doug",
       "dur": "30m",
       "cal": "glasscast"
@@ -36,15 +52,15 @@
     {
       "start": "2026-05-28T15:00",
       "end": "2026-05-28T15:45",
-      "title": "Ai Office Hours PM",
-      "meta": "Meet · Doug, Michael, Don, Adam",
+      "title": "AI Office Hours PM",
+      "meta": "Meet · Doug, Doug, Michael, Don, Adam",
       "dur": "45m",
       "cal": "glasscast"
     },
     {
       "start": "2026-05-29T09:00",
       "end": "2026-05-29T09:30",
-      "title": "Daily Stand up",
+      "title": "Daily Stand Up",
       "meta": "Meet · Doug",
       "dur": "30m",
       "cal": "glasscast"
@@ -52,7 +68,7 @@
     {
       "start": "2026-05-29T15:00",
       "end": "2026-05-29T15:45",
-      "title": "Primesight Weekly check-in",
+      "title": "Primesight Weekly Check-in",
       "meta": "Meet · Doug, Don, Adam, Michael",
       "dur": "45m",
       "cal": "glasscast"
@@ -62,38 +78,38 @@
     {
       "from": "Doug Bideaux",
       "subject": "Re: Multiplier Change from 1x to x?",
-      "snippet": "vistar is more like 99% at the moment. Vistar has a healthly open exchange bus...",
+      "snippet": "vistar is more like 99% at the moment. Vistar has a healthly open exc...",
       "time": "8:18 AM",
       "priority": "high"
     },
     {
       "from": "Vistar Media",
       "subject": "Vistar Scheduled Report: PS Daily",
-      "snippet": "Your scheduled report was successfully generated. Please see the attached...",
+      "snippet": "Your scheduled report was successfully generated. Please see the att...",
       "time": "8:04 AM",
       "priority": "med"
     },
     {
       "from": "Plexus",
       "subject": "PrimeSight Brief — May 22",
-      "snippet": "PrimeSight Morning Brief Friday, May 22, 2026. 76 displays across 70 venues...",
+      "snippet": "PrimeSight Morning Brief Friday, May 22, 2026 Good morning team — h...",
       "time": "5:31 AM",
       "priority": "high"
     },
     {
       "from": "Joel Trillboards",
       "subject": "Meet Bo",
-      "snippet": "I wanted to introduce you to Bo Sijuade and Chris Asmussen, the team behind...",
+      "snippet": "Hi EMG / Glasscast, I wanted to introduce you to Bo Sijuade and Chri...",
       "time": "5:12 PM",
       "priority": "med"
     }
   ],
   "kpi": {
-    "events": 7,
+    "events": 9,
     "eventsLabel": "this week",
     "tasksComplete": 5,
     "tasksTotal": 8,
     "unread": 1,
-    "focusScore": 98
+    "focusScore": 90
   }
 }
