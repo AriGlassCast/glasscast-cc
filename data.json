@@ -52,7 +52,7 @@
     {
       "start": "2026-05-28T15:00",
       "end": "2026-05-28T15:45",
-      "title": "Ai Office Hours PM",
+      "title": "AI Office Hours PM",
       "meta": "Meet · Doug, Michael, Don, Adam",
       "dur": "45m",
       "cal": "glasscast"
@@ -78,29 +78,29 @@
     {
       "from": "Plexus System",
       "subject": "PrimeSight Brief — May 22",
-      "snippet": "PrimeSight Morning Brief Friday, May 22, 2026 Good morning team...",
-      "time": "5:31 AM",
-      "priority": "high"
-    },
-    {
-      "from": "Doug Bideaux",
-      "subject": "Updated: Primesight Weekly check-in @ Fri May 22",
-      "snippet": "Primesight Weekly check-in Join with Google Meet – You have been invited...",
-      "time": "6:29 PM",
+      "snippet": "PrimeSight Morning Brief Friday, May 22, 2026 Good morning team — happy Friday...",
+      "time": "9:31 AM",
       "priority": "high"
     },
     {
       "from": "Joel Trillboards",
       "subject": "Meet Bo",
-      "snippet": "Hi EMG / Glasscast, I wanted to introduce you to Bo Sijuade and Chris...",
+      "snippet": "Hi EMG / Glasscast, I wanted to introduce you to Bo Sijuade and Chris Asmussen...",
       "time": "5:12 PM",
       "priority": "med"
     },
     {
       "from": "Don Winter",
       "subject": "digital update this week.",
-      "snippet": "Hearing more lawsuits filed against Smartify. Also heard that they are 9...",
+      "snippet": "Hearing more lawsuits filed against Smartify. Also heard that they are 9 month...",
       "time": "4:43 PM",
+      "priority": "med"
+    },
+    {
+      "from": "Vistar Media",
+      "subject": "Vistar Scheduled Report: PS Daily",
+      "snippet": "Your scheduled report was successfully generated. Please see the attached file...",
+      "time": "8:04 AM",
       "priority": "med"
     }
   ],
