@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-23T14:37:08-04:00",
+  "updated": "2026-05-23T14:30:00-04:00",
   "calendar": [
     {
       "start": "2026-05-25T09:00",
@@ -71,7 +71,7 @@
       "subject": "Run failed: pages build and deployment",
       "snippet": "pages build and deployment workflow run: Some jobs were not successful",
       "time": "11:08 AM",
-      "priority": "low"
+      "priority": "high"
     },
     {
       "from": "Vistar Media",
