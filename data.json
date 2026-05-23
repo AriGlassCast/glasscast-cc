@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-23T07:23:33.692-04:00",
+  "updated": "2026-05-23T08:15:58.436-04:00",
   "calendar": [
     {
       "start": "2026-05-25T09:00",
@@ -36,7 +36,7 @@
     {
       "start": "2026-05-28T15:00",
       "end": "2026-05-28T15:45",
-      "title": "Ai Office Hours PM",
+      "title": "AI Office Hours PM",
       "meta": "Meet · Doug, Michael, Don, Adam",
       "dur": "45m",
       "cal": "glasscast"
@@ -60,32 +60,32 @@
   ],
   "mail": [
     {
-      "from": "Plexus System",
+      "from": "Vistar Media",
+      "subject": "Vistar Scheduled Report: PS Daily",
+      "snippet": "Your scheduled report was successfully generated. Please see the attached...",
+      "time": "8:04 AM",
+      "priority": "med"
+    },
+    {
+      "from": "Plexus",
       "subject": "PrimeSight Brief — May 23",
-      "snippet": "PrimeSight Morning Brief Saturday, May 23, 2026. 86 displays across 79 venues.",
+      "snippet": "PrimeSight Morning Brief Saturday, May 23, 2026. 86 displays across 79...",
       "time": "5:31 AM",
       "priority": "high"
     },
     {
-      "from": "Chauncey Grant",
+      "from": "Chris Grant",
       "subject": "Re: Follow-Up PrimeSight Invoice",
-      "snippet": "Hi Andrew, following up before the long weekend. Did you receive the invoice...",
+      "snippet": "Hi Andrew, I hope all is well. Following up before the long weekend...",
       "time": "11:04 AM",
       "priority": "med"
     },
     {
-      "from": "Michael Rudich",
-      "subject": "Multiplier Change from 1x to x?",
-      "snippet": "Vistar is more like 99% at the moment. SV doesn't make any promises...",
+      "from": "Doug Bideaux",
+      "subject": "Re: Multiplier Change from 1x to x?",
+      "snippet": "Vistar is more like 99% at the moment. Vistar has a healthy open...",
       "time": "8:18 AM",
       "priority": "high"
-    },
-    {
-      "from": "Vistar Media",
-      "subject": "Vistar Scheduled Report: PS Daily",
-      "snippet": "Your scheduled report was successfully generated. Report Type: ssp_exchange",
-      "time": "8:04 AM",
-      "priority": "med"
     }
   ],
   "kpi": {
@@ -93,7 +93,7 @@
     "eventsLabel": "this week",
     "tasksComplete": 5,
     "tasksTotal": 8,
-    "unread": 2,
-    "focusScore": 96
+    "unread": 3,
+    "focusScore": 94
   }
 }
