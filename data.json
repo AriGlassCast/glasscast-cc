@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-23T12:10:00-04:00",
+  "updated": "2026-05-23T14:23:53.503-04:00",
   "calendar": [
     {
       "start": "2026-05-25T09:00",
@@ -36,7 +36,7 @@
     {
       "start": "2026-05-28T15:00",
       "end": "2026-05-28T15:45",
-      "title": "AI Office Hours PM",
+      "title": "Ai Office Hours PM",
       "meta": "Meet · Doug, Michael, Don, Adam",
       "dur": "45m",
       "cal": "glasscast"
@@ -67,7 +67,7 @@
       "priority": "med"
     },
     {
-      "from": "Plexus (GlassCast)",
+      "from": "Plexus",
       "subject": "PrimeSight Brief — May 23",
       "snippet": "PrimeSight Morning Brief Saturday, May 23, 2026. 86 displays across 79 venues.",
       "time": "5:31 AM",
@@ -76,14 +76,14 @@
     {
       "from": "Chris Grant",
       "subject": "Re: Follow-Up PrimeSight Invoice",
-      "snippet": "Hi Andrew, following up before the long weekend. Did you receive the invoice...",
+      "snippet": "Hi Andrew, I hope all is well. Following up before the long weekend...",
       "time": "11:04 AM",
       "priority": "med"
     },
     {
-      "from": "Michael Rudich",
-      "subject": "Multiplier Change from 1x to x?",
-      "snippet": "Is Vistar 50% of SSP revenue at this point? Does Screenverse think...",
+      "from": "Doug Bideaux",
+      "subject": "Re: Multiplier Change from 1x to x?",
+      "snippet": "Vistar is more like 99% at the moment. Vistar has a healthy open exchange...",
       "time": "8:18 AM",
       "priority": "high"
     }
