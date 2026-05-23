@@ -1,10 +1,10 @@
 {
-  "updated": "2026-05-23T18:10:00-04:00",
+  "updated": "2026-05-23T14:37:08-04:00",
   "calendar": [
     {
       "start": "2026-05-25T09:00",
       "end": "2026-05-25T09:30",
-      "title": "Daily Stand Up",
+      "title": "Daily Stand up",
       "meta": "Meet · Doug",
       "dur": "30m",
       "cal": "glasscast"
@@ -12,7 +12,7 @@
     {
       "start": "2026-05-26T09:00",
       "end": "2026-05-26T09:30",
-      "title": "Daily Stand Up",
+      "title": "Daily Stand up",
       "meta": "Meet · Doug",
       "dur": "30m",
       "cal": "glasscast"
@@ -20,7 +20,7 @@
     {
       "start": "2026-05-27T09:00",
       "end": "2026-05-27T09:30",
-      "title": "Daily Stand Up",
+      "title": "Daily Stand up",
       "meta": "Meet · Doug",
       "dur": "30m",
       "cal": "glasscast"
@@ -28,7 +28,7 @@
     {
       "start": "2026-05-28T09:00",
       "end": "2026-05-28T09:30",
-      "title": "Daily Stand Up",
+      "title": "Daily Stand up",
       "meta": "Meet · Doug",
       "dur": "30m",
       "cal": "glasscast"
@@ -36,7 +36,7 @@
     {
       "start": "2026-05-28T15:00",
       "end": "2026-05-28T15:45",
-      "title": "AI Office Hours PM",
+      "title": "Ai Office Hours PM",
       "meta": "Meet · Doug, Michael, Don, Adam",
       "dur": "45m",
       "cal": "glasscast"
@@ -44,7 +44,7 @@
     {
       "start": "2026-05-29T09:00",
       "end": "2026-05-29T09:30",
-      "title": "Daily Stand Up",
+      "title": "Daily Stand up",
       "meta": "Meet · Doug",
       "dur": "30m",
       "cal": "glasscast"
@@ -52,7 +52,7 @@
     {
       "start": "2026-05-29T15:00",
       "end": "2026-05-29T15:45",
-      "title": "Primesight Weekly Check-in",
+      "title": "Primesight Weekly check-in",
       "meta": "Meet · Doug, Don, Adam, Michael",
       "dur": "45m",
       "cal": "glasscast"
@@ -60,18 +60,18 @@
   ],
   "mail": [
     {
-      "from": "Brian (JWX)",
+      "from": "Brian Rifkin",
       "subject": "Introduction: Ari <> Brian",
       "snippet": "Great to see you earlier this week. I'd like to introduce you to Ari Chasin, CEO of Glasscast...",
       "time": "2:03 PM",
       "priority": "med"
     },
     {
-      "from": "GitHub",
+      "from": "GitHub Actions",
       "subject": "Run failed: pages build and deployment",
-      "snippet": "pages build and deployment workflow run: Some jobs were not successful...",
+      "snippet": "pages build and deployment workflow run: Some jobs were not successful",
       "time": "11:08 AM",
-      "priority": "med"
+      "priority": "low"
     },
     {
       "from": "Vistar Media",
@@ -83,7 +83,7 @@
     {
       "from": "Plexus",
       "subject": "PrimeSight Brief — May 23",
-      "snippet": "PrimeSight Morning Brief Saturday, May 23, 2026. 86 displays across 79 venues.",
+      "snippet": "PrimeSight Morning Brief Saturday, May 23. 86 displays across 79 venues.",
       "time": "5:31 AM",
       "priority": "high"
     }
@@ -93,7 +93,7 @@
     "eventsLabel": "this week",
     "tasksComplete": 5,
     "tasksTotal": 8,
-    "unread": 3,
-    "focusScore": 94
+    "unread": 1,
+    "focusScore": 96
   }
 }
