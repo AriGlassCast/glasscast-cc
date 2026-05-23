@@ -1,26 +1,26 @@
 {
-  "updated": "2026-05-23T00:04:31-04:00",
+  "updated": "2026-05-23T00:26:46-04:00",
   "calendar": [
     {"start":"2026-05-25T09:00","end":"2026-05-25T09:30","title":"Daily Stand up","meta":"Meet · Doug","dur":"30m","cal":"glasscast"},
     {"start":"2026-05-26T09:00","end":"2026-05-26T09:30","title":"Daily Stand up","meta":"Meet · Doug","dur":"30m","cal":"glasscast"},
     {"start":"2026-05-27T09:00","end":"2026-05-27T09:30","title":"Daily Stand up","meta":"Meet · Doug","dur":"30m","cal":"glasscast"},
     {"start":"2026-05-28T09:00","end":"2026-05-28T09:30","title":"Daily Stand up","meta":"Meet · Doug","dur":"30m","cal":"glasscast"},
-    {"start":"2026-05-28T15:00","end":"2026-05-28T15:45","title":"AI Office Hours PM","meta":"Meet · Doug, Adam, Don, Michael","dur":"45m","cal":"glasscast"},
+    {"start":"2026-05-28T15:00","end":"2026-05-28T15:45","title":"Ai Office Hours PM","meta":"Meet · Doug, Michael, Don, Adam","dur":"45m","cal":"glasscast"},
     {"start":"2026-05-29T09:00","end":"2026-05-29T09:30","title":"Daily Stand up","meta":"Meet · Doug","dur":"30m","cal":"glasscast"},
     {"start":"2026-05-29T15:00","end":"2026-05-29T15:45","title":"Primesight Weekly check-in","meta":"Meet · Doug, Don, Adam, Michael","dur":"45m","cal":"glasscast"}
   ],
   "mail": [
-    {"from":"Carolyn Grant","subject":"Re: Follow-Up PrimeSight Invoice","snippet":"Hi Andrew, I hope all is well. I am following up before the long weekend...","time":"11:04 AM","priority":"med"},
-    {"from":"Vistar Media","subject":"Vistar Scheduled Report: PS Daily","snippet":"Your scheduled report was successfully generated. Please see the attached...","time":"8:04 AM","priority":"med"},
-    {"from":"Doug Bideaux","subject":"Re: Multiplier Change from 1x to x?","snippet":"Vistar is more like 99% at the moment. Vistar has a healthy open exchange...","time":"8:18 AM","priority":"high"},
-    {"from":"Plexus","subject":"PrimeSight Brief — May 22","snippet":"PrimeSight Morning Brief Friday, May 22, 2026. 76 displays across 70 venues.","time":"5:31 AM","priority":"high"}
+    {"from":"C. Grant","subject":"Re: Follow-Up PrimeSight Invoice","snippet":"Following up before the long weekend. Did you receive the invoice to set up ACH...","time":"3:04 PM","priority":"high"},
+    {"from":"Doug Bideaux","subject":"Re: Multiplier Change from 1x to x?","snippet":"Vistar is more like 99% at the moment. Vistar has a healthy open exchange...","time":"12:18 PM","priority":"high"},
+    {"from":"Vistar Media","subject":"Vistar Scheduled Report: PS Daily","snippet":"Your scheduled report was successfully generated. Please see attached...","time":"12:04 PM","priority":"med"},
+    {"from":"Plexus","subject":"PrimeSight Brief — May 22","snippet":"PrimeSight Morning Brief Friday, May 22. 76 displays across 70 venues...","time":"9:31 AM","priority":"high"}
   ],
   "kpi": {
-    "events": 9,
+    "events": 7,
     "eventsLabel": "this week",
     "tasksComplete": 5,
     "tasksTotal": 8,
     "unread": 1,
-    "focusScore": 90
+    "focusScore": 98
   }
 }
