@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-23T14:30:00-04:00",
+  "updated": "2026-05-23T18:20:00-04:00",
   "calendar": [
     {
       "start": "2026-05-25T09:00",
@@ -67,25 +67,25 @@
       "priority": "med"
     },
     {
-      "from": "GitHub Actions",
-      "subject": "Run failed: pages build and deployment",
-      "snippet": "pages build and deployment workflow run: Some jobs were not successful",
-      "time": "11:08 AM",
-      "priority": "high"
-    },
-    {
-      "from": "Vistar Media",
-      "subject": "Vistar Scheduled Report: PS Daily",
-      "snippet": "Your scheduled report was successfully generated. Please see the attached file...",
-      "time": "8:04 AM",
-      "priority": "med"
-    },
-    {
       "from": "Plexus",
       "subject": "PrimeSight Brief — May 23",
-      "snippet": "PrimeSight Morning Brief Saturday, May 23. 86 displays across 79 venues.",
+      "snippet": "Good morning team. 86 displays across 79 venues. Full DMA breakdown below.",
       "time": "5:31 AM",
       "priority": "high"
+    },
+    {
+      "from": "Michael Rudich",
+      "subject": "Multiplier Change from 1x to x?",
+      "snippet": "Vistar is more like 99% at the moment. Long story short we need multipliers loaded...",
+      "time": "8:18 AM",
+      "priority": "high"
+    },
+    {
+      "from": "Claudia Grant",
+      "subject": "Re: Follow-Up PrimeSight Invoice",
+      "snippet": "Hi Andrew, following up before the long weekend. Did you receive the invoice to set up...",
+      "time": "11:04 AM",
+      "priority": "med"
     }
   ],
   "kpi": {
