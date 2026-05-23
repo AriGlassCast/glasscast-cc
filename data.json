@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-23T09:07:12-04:00",
+  "updated": "2026-05-23T12:10:00-04:00",
   "calendar": [
     {
       "start": "2026-05-25T09:00",
@@ -36,7 +36,7 @@
     {
       "start": "2026-05-28T15:00",
       "end": "2026-05-28T15:45",
-      "title": "Ai Office Hours PM",
+      "title": "AI Office Hours PM",
       "meta": "Meet · Doug, Michael, Don, Adam",
       "dur": "45m",
       "cal": "glasscast"
@@ -64,26 +64,26 @@
       "subject": "Vistar Scheduled Report: PS Daily",
       "snippet": "Your scheduled report was successfully generated. Please see the attached file below...",
       "time": "8:04 AM",
-      "priority": "low"
+      "priority": "med"
     },
     {
-      "from": "Plexus",
+      "from": "Plexus (GlassCast)",
       "subject": "PrimeSight Brief — May 23",
-      "snippet": "PrimeSight Morning Brief Saturday, May 23, 2026 Good morning team — happy Saturday...",
+      "snippet": "PrimeSight Morning Brief Saturday, May 23, 2026. 86 displays across 79 venues.",
       "time": "5:31 AM",
       "priority": "high"
     },
     {
-      "from": "C. Grant",
+      "from": "Chris Grant",
       "subject": "Re: Follow-Up PrimeSight Invoice",
-      "snippet": "Hi Andrew, I hope all is well. I am following up before the long weekend...",
+      "snippet": "Hi Andrew, I hope all is well. Following up before the long weekend...",
       "time": "11:04 AM",
       "priority": "med"
     },
     {
       "from": "Michael Rudich",
       "subject": "Multiplier Change from 1x to x?",
-      "snippet": "Is Vistar 50% of SSP revenue at this point? I have just been in the Vistar SSP...",
+      "snippet": "Is Vistar 50% of SSP revenue at this point? Does Screenverse think...",
       "time": "8:18 AM",
       "priority": "high"
     }
