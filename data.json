@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-23T02:46:34-04:00",
+  "updated": "2026-05-23T12:00:00-04:00",
   "calendar": [
     {
       "start": "2026-05-25T09:00",
@@ -63,29 +63,29 @@
       "from": "Chris Grant",
       "subject": "Re: Follow-Up PrimeSight Invoice",
       "snippet": "Hi Andrew, I hope all is well. I am following up before the long weekend...",
-      "time": "3:04 PM",
-      "priority": "high"
-    },
-    {
-      "from": "Doug Bideaux",
-      "subject": "Re: Multiplier Change from 1x to x?",
-      "snippet": "Vistar is more like 99% at the moment. Vistar has a healthy open exchange...",
-      "time": "12:18 PM",
-      "priority": "high"
-    },
-    {
-      "from": "Vistar Media",
-      "subject": "Vistar Scheduled Report: PS Daily",
-      "snippet": "Your scheduled report was successfully generated. Please see the attached...",
-      "time": "12:04 PM",
+      "time": "11:04 AM",
       "priority": "med"
+    },
+    {
+      "from": "Michael Rudich",
+      "subject": "Multiplier Change from 1x to x?",
+      "snippet": "Vistar is more like 99% at the moment. Vistar has a healthy open exchange...",
+      "time": "8:18 AM",
+      "priority": "high"
     },
     {
       "from": "Plexus",
       "subject": "PrimeSight Brief — May 22",
-      "snippet": "PrimeSight Morning Brief Friday, May 22, 2026 Good morning team — happy...",
-      "time": "9:31 AM",
+      "snippet": "PrimeSight Morning Brief Friday, May 22, 2026. 76 displays across 70 venues.",
+      "time": "5:31 AM",
       "priority": "high"
+    },
+    {
+      "from": "Joel Trillboards",
+      "subject": "Meet Bo",
+      "snippet": "Hi EMG / Glasscast, I wanted to introduce you to Bo Sijuade and Chris...",
+      "time": "5:12 PM",
+      "priority": "med"
     }
   ],
   "kpi": {
@@ -94,6 +94,6 @@
     "tasksComplete": 5,
     "tasksTotal": 8,
     "unread": 1,
-    "focusScore": 98
+    "focusScore": 96
   }
 }
