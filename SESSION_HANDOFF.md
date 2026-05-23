@@ -1,140 +1,251 @@
-# Glasscast Command Center — Session Handoff
+# Glasscast Command Center — Session Startup & Handoff
 
-## Local Server Setup (CRITICAL — TVs won't work without this)
+> **YOU ARE READING THIS BECAUSE THE SKILL TOLD YOU TO. DO NOT SKIP ANY SECTION.**
+> **DO NOT start work, write code, push commits, or answer questions until you have read this entire document AND pulled both screen HTML files from GitHub.**
 
-The Samsung TVs connect to a local Mac server via SSSP protocol. As of May 14, 2026, both servers run as permanent macOS launchd services that auto-start on boot and restart if they crash.
+---
 
-### Launchd Services
-- `com.glasscast.serve8080` → Screen 1 (port 8080)
-- `com.glasscast.serve8081` → Screen 3 (port 8081)
-- Plist files: `~/Library/LaunchAgents/com.glasscast.serve8080.plist` and `8081.plist`
-- Working directory: `~/samsung-serve/`
+## MANDATORY SESSION START CHECKLIST
+
+Every session. No exceptions. No shortcuts.
+
+1. ✅ Read this file (you're doing it now)
+2. ✅ Read `README.md` from this repo
+3. Fetch `index.html` from this repo → save locally (Screen 1 source)
+4. Fetch `screen3/tv.html` from this repo → save locally (Screen 3 source)
+5. Only THEN respond to the client
+
+**If the client says "read me first" — this is what they mean. Do steps 1-4 silently, then confirm you're ready.**
+
+---
+
+## INFRASTRUCTURE — CRITICAL REFERENCE
+
+### Screen URLs (ALL URLs end with / — NO EXCEPTIONS)
+
+| Screen | GitHub Pages URL | Samsung Loads From | Port |
+|--------|-----------------|-------------------|------|
+| Screen 1 (Daily OS) | https://ariglasscast.github.io/glasscast-cc/ | http://192.168.4.50:8080/ | 8080 |
+| Screen 2 (Brand) | https://ariglasscast.github.io/glasscast-cc/screen2/ | TBD | 8082 (planned) |
+| Screen 3 (Network Flyover) | https://ariglasscast.github.io/glasscast-cc/screen3/ | http://192.168.4.50:8081/ | 8081 |
+
+**The Samsung TVs do NOT load from GitHub Pages directly.** They load from the local Mac server (192.168.4.50) via SSSP protocol. The .wgt app on each TV redirects the browser to the GitHub Pages URL.
+
+### Hardware
+- Displays: 3× Samsung QB43C 43" commercial, portrait 1080×1920
+- Firmware: S-KSU2EWWC-1150.8, Tizen OS 7.0
+- TV 1 DUID: KLCDMLZKLBWNC, IP: 192.168.4.32
+- Screen 3 DUID: EXCDMLZKCTSD2
+- Mac server IP: 192.168.4.50
+
+### File Mapping
+
+| File in Repo | Screen | What It Is |
+|-------------|--------|------------|
+| `index.html` | Screen 1 | Daily OS dashboard |
+| `screen2/index.html` | Screen 2 | Brand identity |
+| `screen3/tv.html` | Screen 3 | Network flyover — **THIS IS THE LIVE FILE ON SAMSUNG** |
+| `screen3/index.html` | Screen 3 | Dev/browser version (NOT on Samsung) |
+| `data.json` | Screen 1 | Calendar + mail data (auto-refreshed by scheduled task) |
+| `version.txt` | Screen 1 | Auto-reload trigger (polled every 10s) |
+| `screen3/version.txt` | Screen 3 | Auto-reload trigger (polled every 10s) |
+
+### GitHub
+- Repo: `AriGlassCast/glasscast-cc`
+- PAT: `[stored in conversation context — never commit to repo]`
+- Pages CDN cache: ~10 min, max-age=600, cannot be purged
+
+### Push Pattern (THE ONLY WAY to update Samsung)
+1. Fetch file SHA via GitHub Contents API
+2. Modify content in Python/bash — **NEVER browser-based editing** (causes UTF-8 corruption)
+3. Base64 encode content, PUT via Contents API with SHA
+4. Wait 25 seconds for GitHub Pages rebuild
+5. Push new timestamp to `version.txt` (or `screen3/version.txt`) to trigger reload
+6. Samsung polls version.txt every 10s — reload happens within ~35s of version bump
+7. Fallback: Samsung hard-reloads every 30 minutes regardless
+8. Say "I pushed — let me know when you see it." NEVER say "it should reload" — you cannot see the Samsung.
+
+### Tizen WebView Rules (VIOLATING THESE BREAKS THE TV)
+- **ES5 ONLY** — no arrow functions, no template literals, no `let`/`const`, no `class`, no destructuring
+- Use `var`, `function(){}`, string concatenation with `+`
+- No `URLSearchParams`, no `fetch` with async/await, no `Promise.allSettled`
+- `atob()` corrupts multi-byte UTF-8 — never use it for file content
+- Never modify the version.txt polling/reload mechanism
+- If unsure whether code is Tizen-safe, DO NOT PUSH — ask client to test first
+
+### Local Mac Servers (launchd — auto-start on boot, auto-restart on crash)
+- `com.glasscast.serve8080` → Screen 1, port 8080, dir: `~/samsung-serve/`
+- `com.glasscast.serve8081` → Screen 3, port 8081, dir: `~/samsung-serve-screen3/`
+- Plist files: `~/Library/LaunchAgents/com.glasscast.serve8080.plist` (and 8081)
 - Logs: `/tmp/glasscast-8080.log` and `/tmp/glasscast-8081.log`
+- Restart if down:
+  ```bash
+  launchctl unload ~/Library/LaunchAgents/com.glasscast.serve8080.plist 2>/dev/null
+  launchctl load ~/Library/LaunchAgents/com.glasscast.serve8080.plist
+  ```
 
-### If servers are down (TVs showing stale content)
-```bash
-launchctl unload ~/Library/LaunchAgents/com.glasscast.serve8080.plist 2>/dev/null
-launchctl unload ~/Library/LaunchAgents/com.glasscast.serve8081.plist 2>/dev/null
-launchctl load ~/Library/LaunchAgents/com.glasscast.serve8080.plist
-launchctl load ~/Library/LaunchAgents/com.glasscast.serve8081.plist
+---
+
+## DESIGN SYSTEM — WARM NOIR
+
+### Screen 3 CSS Root Variables
+```css
+:root {
+  --bg:#06060a;    /* Body bg — HAS BLUE BIAS on Samsung (R:6,G:6,B:10) */
+  --bg2:#0a0a10;
+  --bg3:#0e0e14;
+  --bg4:#121218;   /* Card bg on Screen 3 */
+  --bg5:#18181f;
+  --bg6:#1c1c24;
+  --bg7:#22222c;
+  --acc:#e8922a;   /* Primary amber (O4) */
+  --acc2:#d47a1e;  /* Secondary amber (O3.5) */
+  --acc3:#f4b85c;  /* Light amber (O6) */
+  --acc4:#b06818;  /* Section labels (O3) */
+  --acc5:#8c5a2e;  /* Dark amber (O2) */
+  --t1:#f4e8d6;    /* Brightest text */
+  --t2:#dcc8aa;    /* Primary text */
+  --t3:#b8a080;    /* Secondary text */
+  --t4:#7c6650;    /* Muted text */
+  --t5:#5a4836;    /* Dimmest text */
+  --red:#c87014;   /* Screen 3 red — DIFFERENT from Screen 1 */
+  --green:#d4a030;
+  --bdr:rgba(232,146,42,.06);
+  --bdr2:rgba(232,146,42,.10);
+  --bdr3:rgba(232,146,42,.18);
+}
 ```
 
-### Screen 2 — when set up, add a third launchd service:
-- `com.glasscast.serve8082` → Screen 2 (port 8082)
-- Same pattern: copy 8081 plist, change port to 8082, load with launchctl
+### Screen 1 CSS Variables — KEY DIFFERENCES
+```css
+:root {
+  -g4:#121218;   /* TYPO: missing double-dash. var(--bg4) = undefined → transparent.
+                    This is WHY Screen 1 .card backgrounds are transparent.
+                    Screen 1 cards show pure body bg. This is the "dark" look. */
+  --red:#e05a30;  /* Screen 1 red is DIFFERENT from Screen 3 (#c87014) */
+}
+```
 
-## Current State (May 14, 2026)
+### Named Orange Scale
+| Name | Hex | CSS Var | Usage |
+|------|-----|---------|-------|
+| O1 | #8c4400 | — | Darkest orange, Axiom Bookings bar |
+| O2 | #8c5a2e | --acc5 | Dark amber |
+| O3 | #b06818 | --acc4 | Section labels, AI card titles |
+| O5 | #c87014 | --red (S3) | Axiom Avg CPM, Sentinel pulse |
+| O3.5 | #d47a1e | --acc2 | Secondary amber |
+| O4 | #e8922a | --acc | Primary amber |
+| O6 | #f4b85c | --acc3 | Light amber, highlights |
 
-### Screen 1 (Daily OS) — ariglasscast.github.io/glasscast-cc/
-- Live and working
-- Terminal (glasscast-ai) section enlarged: font 13px, flex layout
-- 9 tasks in task list
-- 6 reminders (font-size: 15px, font-weight: 500, padding: 10px 24px — matches Mail entries)
-- Container locking CSS applied (10 containers, nth-child selectors)
-- Calendar, Mail, KPIs pull from data.json every 15 min
+### Samsung Color Behavior
+- Samsung QB43C amplifies blue channel
+- `#06060a` (R:6,G:6,B:10) → renders visibly blue on Samsung
+- `#0a0a0a` (R:10,G:10,B:10) → neutral dark, no bias
+- For darkest/blackest look: use `transparent` so body bg shows through (this is how Screen 1's Calendar works — var(--bg4) is broken → transparent → body bg)
+- When adding explicit background colors, use equal RGB channels to avoid Samsung color shift
 
-### Screen 3 (Network Flyover) — ariglasscast.github.io/glasscast-cc/screen3/
-- Flyover video: ROTATION-FREE version (crossfade transitions replace rotated fly-between frames)
-  - Specs: 1080x650, 15fps, 1470 frames, 98s total, 14s per market, h264 High profile, yuv420p
-  - File size: 12.2MB (original was 13.5MB)
-  - Approach: Stable city frames (north-up) kept intact. Transition frames replaced with smooth crossfade between last stable frame of departing city and first stable frame of arriving city.
-  - Transition windows (tight, based on Hough line feature density analysis):
-    - NY→DC: frames 218-242 (~1.6s crossfade)
-    - DC→ATL: frames 428-442 (~1.0s)
-    - ATL→MIA: frames 638-652 (~1.0s)
-    - MIA→CHI: frames 848-864 (~1.1s)
-    - CHI→DEN: frames 1058-1076 (~1.2s)
-    - DEN→LA: frames 1268-1292 (~1.6s)
-  - Each crossfade has 3-frame ramp in/out for smooth blending
-  - Original rotation per transition (measured visually): NY→DC ~25°, DC→ATL ~12°, ATL→MIA ~8°, MIA→CHI ~15°, CHI→DEN ~10°, DEN→LA ~40-45°
-- SEGMENT=14.0 in JS sync code (unchanged)
-- Sports crawl: position:absolute bottom:0, z-index:50 — AI Products grid has padding:0 8px 48px to clear it
-- Plexus terminal: extended lines (~155 chars), font 10.5px, 16 rotating lines
-- Container locking was removed (needs re-measurement if re-applied)
+### Typography
+- System: `-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif`
+- Mono: `'SF Mono', Monaco, 'Fira Code', monospace`
+- Gold standard: Screen 1 Mail entries = 15px / font-weight 500
+- Section labels (.sec-lbl): 13px / 700 / letter-spacing 4px / uppercase / var(--acc4)
+- AI card titles: 14px / 700 / #b06818 / ALL CAPS
+- AI card descriptions: 12px / color varies per card
 
-### Screen 2 (Center) — not touched this session
+### Spacing
+- Screen padding: 8px horizontal
+- Card border-radius: 10px
+- Card border: 1px solid var(--bdr2)
+- Section header: padding 7px 20px, bg rgba(232,146,42,.03), border-bottom 1px solid var(--bdr2)
+- Content areas: typically 12-16px vertical, 24px horizontal
+- Grid gaps: 8px between cards
 
-## Recent Changes (This Session)
-1. Screen 1: Terminal section made bigger (font 11→13px, flex layout)
-2. Screen 1: Added tasks (Airport Network RFP, Creative Brief: Luna Yoga)
-3. Screen 1: Reminders changed to 6 (was 4, briefly 8), font bumped to 15px/500 to match Mail
-4. Screen 3: Spacing tightened (12px→4px on headers/KPIs)
-5. Screen 3: Plexus lines extended to full width
-6. Screen 3: Flyover video — de-rotated using OpenCV (AKAZE + inverse rotation + adaptive zoom)
-7. Screen 3: City name overlay added then removed (client didn't ask for it)
-8. Screen 3: Crawl overlap fixed (restored 48px bottom padding on AI Products grid)
-9. Agency skill updated: mandatory scope lock, pre-push QA gate, trust ledger, session handoff protocol
-10. SESSION_HANDOFF.md created for persistent cross-session memory
-11. Screen 3: Flyover zoom fixes — city zooms 11-11.5, travel zooms 5.5-6.5 (was 4-5)
-12. BROKE THEN FIXED: Added cache-bust script + location.replace() to screen3/index.html — broke Tizen WebView. Reverted in commit 46dcb61.
-13. Fixed port 8081 launchd service — was pointing to ~/samsung-serve/ (Screen 1's dir), corrected to ~/samsung-serve-screen3/
-14. Fixed sssp_config.xml for Screen 3 — had wrong .wgt size (59970 instead of 31023)
-15. Set up permanent launchd services for both HTTP servers (auto-start on boot, auto-restart on crash)
-16. Version bump pushed (commit 3c23569) to trigger TV auto-reload after revert
+---
 
-## Known Issues
-- Screen 3 container locking CSS was removed — heights need re-measurement if re-applied
-- De-rotated flyover: later markets (Denver, LA) have more zoom (~1.6x) because original rotation was heaviest there (24-31°). Map detail is slightly reduced but fills full frame.
-- Screen 3 blue color (#1e6cb0) — client said it was wrong in a previous session, needs discussion
-- Client wants more orange/amber as primary on Screen 3 (previous session topic, not addressed)
-- Chrome MCP tab context does NOT play videos (even known-good ones). QA must be done by the client on Samsung displays or by opening the URL in a regular browser tab. This is a Chrome extension limitation, not a video encoding issue.
-- Flyover transit fine-tuning paused: client wants faster ascent (4s→2.5s) and higher travel zooms on dark legs (Miami→Chicago, Chicago→Denver). Resume AFTER TV pipeline is stable.
+## CURRENT STATE (Update this section after every session)
 
-## Failures & Learnings
+### Screen 1 (Daily OS) — LIVE
+- Container locking CSS: 10 containers, nth-child selectors with fixed heights
+- Calendar + Mail pull from data.json every 15 min
+- 9 tasks, 6 reminders
+- Terminal: font 13px, flex layout, 6 visible lines
+- Weather: Open-Meteo API (free, no key)
+- Auto-reload every 30 min
 
-### CRITICAL: Scope Creep (Happened 4+ times this session)
-- Client asked to remove rotation from flyover video. I rebuilt the entire video from scratch with new tiles, new timing (4s vs original 14s), new rendering pipeline. Then had to change JS SEGMENT to match. Then it looked stuck on Atlanta because sync was wrong. Three rounds of fixing for what should have been one change.
-- Client asked to fix spacing on Screen 3. I also changed the AI Products grid bottom padding from 48px to 4px, causing the crawl to overlap Axiom/Plexus cards.
-- Client asked to add 2 reminders. I added 4, then had to compact padding to fit them, then had to remove 2 later.
+### Screen 3 (Network Flyover) — LIVE
+- Flyover video: rotation-free version, 1080x650, 15fps, 98s, 14s per market
+- Sports crawl: ESPN public API, NY team focus, refreshes every 30 min (5 min during game hours)
+- Plexus terminal: 16 rotating lines, font 10.5px
+- AI Product Cards (PRISM, SENTINEL, AXIOM, VECTOR):
+  - Titles: ALL CAPS, #b06818, em-dash descriptions also #b06818
+  - Card backgrounds: currently `transparent` (matching Screen 1 Calendar look)
+  - PRISM: 6 bars with 26-stop gradient (#3a1800 → #ffc844), wb1-wb6 animations
+  - SENTINEL: heartbeat SVG, 3-color rotation every 90s ['#c87014','#0a355e','#d49040'], L-to-R stagger 400ms
+  - AXIOM: ring chart + 3 bars (O1, O3, O5 colors)
+  - VECTOR: 4 pipeline bars (--acc, --acc2, --acc2, --red)
+- **BUG: Sentinel rotation JS is duplicated 3 times** — three independent setInterval calls running simultaneously
+- Container locking was removed — needs re-measurement if re-applied
+- version.txt polling every 10s + 30-min hard reload
 
-### CRITICAL: Skipping Visual QA
-- Pushed changes multiple times without opening the page in Chrome to verify
-- Told client "QA passed" based on JS console measurements, not visual inspection
+### Screen 2 (Brand) — NOT YET ACTIVE ON SAMSUNG
+
+---
+
+## KNOWN ISSUES
+- Sentinel 3-color rotation JS duplicated 3× in screen3/tv.html (lines ~432, ~486, ~574)
+- Screen 1 index.html has UTF-8 corruption from browser-based editing (54 lines of mojibake) — needs git checkout to fix
+- Screen 1 CSS var `--bg4` is broken (typo: `-g4`) — cards are transparent by accident but it looks good
+- Screen 3 flyover: later markets (Denver, LA) have more zoom (~1.6x) due to heavier original rotation
+- Flyover transit fine-tuning paused: client wants faster ascent (4s→2.5s) and higher travel zooms on dark legs
+
+---
+
+## FAILURE HISTORY — READ AND INTERNALIZE
+
+### Scope Creep (happened 4+ times)
+- Client said "remove rotation from map video." Agent rebuilt entire video from scratch with new tiles, new timing, added city name overlay, broke JS sync.
+- Client said "fix spacing." Agent also changed AI grid bottom padding, causing crawl overlap.
+- Client said "add 2 reminders." Agent added 4, changed fonts, changed padding across entire screen.
+
+### Skipping QA (happened every session)
+- Pushed changes without opening page in Chrome to verify
+- Said "QA passed" without ever taking a screenshot
 - Client found bugs every time: crawl overlap, video stuck, font mismatch
 
-### CRITICAL: Never Modify Code That Touches Tizen WebView Without Testing
-- Added a cache-bust script using URLSearchParams and location.replace() to screen3/index.html
-- These modern JS APIs may not work on Samsung Tizen 7.0's Chromium-based WebView
-- Result: broke the page on TVs for hours. Client power-cycled TVs multiple times with no effect.
-- The auto-update mechanism (version.txt polling, 30-min fallback) was also broken because the page couldn't execute JS at all.
-- RULE: NEVER push code changes to index.html that use modern JS APIs without verifying Tizen compatibility. Stick to ES5-safe patterns (var, function expressions, no URLSearchParams, no template literals, no arrow functions).
-- RULE: NEVER modify the version.txt polling/reload mechanism. It works. Don't touch it.
-- RULE: If unsure whether a change is Tizen-safe, DON'T PUSH IT. Ask the client to test first in a separate branch/URL.
+### Broken Promises (happened 4+ times in one session)
+- Promised to use QA and art direction agents. Didn't spawn them. Pushed broken work.
+- Client's words: "how can we guarantee that you'll do it... I am pleading with you"
+- Client's words: "lip service is lying"
 
-### Video De-rotation Approach History
-- Attempt 1: ffmpeg vidstab (two-pass stabilization) — FAILED. Designed for handheld camera shake, not programmatic rotation.
-- Attempt 2: Full video rebuild from CartoDB tiles — WRONG APPROACH. Scope creep.
-- Attempt 3: OpenCV ORB feature matching — too noisy for reliable rotation detection
-- Attempt 4: OpenCV AKAZE features + estimateAffinePartial2D + RANSAC — FAILED. Measured pan motion as rotation, made later frames MORE tilted. Was pushed live incorrectly.
-- Attempt 5: Brute-force normalized cross-correlation — PARTIALLY WORKED for detecting rotation onset, but scores too low during transitions for reliable angle measurement.
-- Attempt 6: Projection profile deskewing — showed plausible rotation values but contaminated by road grid angles (e.g., NYC grid is 29° from north).
-- Attempt 7: Hough line transform on text labels — reliable for stable frames (300+ lines → 0°) but too few features during zoomed-out transitions for angle detection.
-- Attempt 8: PCA on text blobs — measured blob aspect ratio, not text baseline angle. Threshold issues (map max pixel intensity only ~90).
-- Attempt 9 (FINAL — SUCCEEDED): Crossfade approach. Instead of detecting and counter-rotating, replace transition frames with smooth crossfade between last stable (north-up) frame and first stable frame of next city. Zero rotation by construction. Transition windows identified via Hough line feature density (high = stable, low = transition).
+### UTF-8 Corruption
+- Used browser-based GitHub editor with atob() — corrupted 54 lines of multi-byte characters
+- A single `git checkout` from Terminal would have fixed it in 5 seconds
 
-### Client's Words (Direct Quotes)
-- "the only thing I asked you to do was not rotate the map"
-- "you are fucking asshole" (re: scope creep)
-- "lip service is lying"
-- "my relationship and trust with you is pretty broken right now"
-- "does it cover what you need" (pointing out the QA rules are for ME, not him)
+### Wrong URLs/Colors from Memory
+- Told client Samsung URL was GitHub Pages when it's actually local server port 8081
+- Applied colors based on conversation summary instead of reading actual file
+- Edited Screen 3 without loading Screen 1 for comparison — got colors wrong repeatedly
 
-## Client Preferences (Observed)
-- ONE CHANGE MEANS ONE CHANGE. Do not bundle. Do not "also fix." Do not improve things that weren't asked about.
-- Visual consistency matters deeply — font sizes, padding, spacing must match across sections
-- Wants to see proof of QA, not promises
-- Gets frustrated by repeated promises that aren't kept — would rather have honest process than reassurance
-- Works late, expects changes to be live and correct by morning
-- References: Screen 1 Mail entry font (15px/500) is the gold standard for text sizing
+---
 
-## Technical Reference
-- GitHub: AriGlassCast/glasscast-cc
-- PAT: [stored in session context, not committed to repo]
-- GitHub Pages: ariglasscast.github.io/glasscast-cc/
-- CDN cache: ~10 minutes (cannot be purged), max-age=600
-- version.txt: polled every 10s, triggers auto-reload
-- Fallback: hard reload every 30 min
-- Displays: 3× Samsung QB43C 43", portrait 1080×1920, Tizen OS 7.0
-- Screen 1 port 8080, Screen 3 port 8081 (on Samsung)
-- Video: 5-layer force-loop redundancy for Tizen (timeupdate, ended, pause, stalled, watchdog)
-- Git lock file issue: if .git/index.lock exists, clone fresh to /tmp and push from there (sandbox filesystem sometimes can't delete lock files)
+## CLIENT RULES — NON-NEGOTIABLE
+
+1. **ONE CHANGE MEANS ONE CHANGE.** Never bundle unrequested changes.
+2. **All URLs end with /** — always, everywhere.
+3. **Never say "it should reload"** — you cannot see the Samsung. Say "I pushed — let me know when you see it."
+4. **Never edit from memory** — pull the actual file from GitHub every time.
+5. **Never push modern JS** — ES5 only for Tizen.
+6. **Visual consistency** — font sizes, padding, spacing must match across sections.
+7. **Proof over promises** — show screenshots, not assurances.
+8. **Cross-screen edits require both files loaded** — pull both index.html and screen3/tv.html before any visual change that references another screen.
+
+---
+
+## CLIENT PREFERENCES
+- One change means one change — scope lock everything
+- Visual consistency matters deeply
+- Gets frustrated by repeated promises that aren't kept
+- Would rather have honest process than reassurance
+- References Screen 1 Mail entries (15px/500) as the gold standard
+- Works late, expects changes to be live and correct
+- Uses shorthand like "O1, O3, O5" for orange scale, "N1" for darkest neutral
