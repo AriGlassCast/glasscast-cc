@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-24T12:00:00-04:00",
+  "updated": "2026-05-24T05:26:54-04:00",
   "calendar": [
     {"start":"2026-05-25T09:00","end":"2026-05-25T09:30","title":"Daily Stand Up","meta":"Meet · Doug","dur":"30m","cal":"glasscast"},
     {"start":"2026-05-26T09:00","end":"2026-05-26T09:30","title":"Daily Stand Up","meta":"Meet · Doug","dur":"30m","cal":"glasscast"},
@@ -10,10 +10,10 @@
     {"start":"2026-05-29T15:00","end":"2026-05-29T15:45","title":"Primesight Weekly Check-in","meta":"Meet · Doug, Don, Adam, Michael","dur":"45m","cal":"glasscast"}
   ],
   "mail": [
-    {"from":"Brian Rifkin","subject":"Introduction: Ari <> Brian","snippet":"Great to see you earlier this week. I'd like to introduce you to Ari Chasin, CEO of Glasscast...","time":"2:03 PM","priority":"high"},
-    {"from":"GitHub Actions","subject":"Run failed: pages build and deployment - main","snippet":"pages build and deployment workflow run: Some jobs were not successful...","time":"11:08 AM","priority":"med"},
-    {"from":"Vistar Media","subject":"Vistar Scheduled Report: PS Daily","snippet":"Your scheduled report was successfully generated. Please see the attached...","time":"8:04 AM","priority":"med"},
-    {"from":"PrimeSight Plexus","subject":"PrimeSight Brief — May 23","snippet":"Good morning team — happy Saturday. 86 displays across 79 venues...","time":"5:31 AM","priority":"high"}
+    {"from":"Brian Cullinane","subject":"Re: Introduction: Ari <> Brian","snippet":"VideoGiraffe wasn't available. Would love to connect — I'll give you a shout after the weekend.","time":"4:17 PM","priority":"med"},
+    {"from":"GitHub Actions","subject":"Run failed: pages build and deployment","snippet":"pages build and deployment workflow run: Some jobs were not successful","time":"11:08 AM","priority":"high"},
+    {"from":"Vistar Media","subject":"Vistar Scheduled Report: PS Daily","snippet":"Your scheduled report was successfully generated. Please see the attached file below.","time":"8:04 AM","priority":"med"},
+    {"from":"Plexus","subject":"PrimeSight Brief — May 23","snippet":"Good morning team — happy Saturday. 86 displays across 79 venues.","time":"5:31 AM","priority":"high"}
   ],
   "kpi": {
     "events": 7,
