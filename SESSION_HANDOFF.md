@@ -171,18 +171,28 @@ Every session. No exceptions. No shortcuts.
 - Terminal: font 13px, flex layout, 6 visible lines
 - Weather: Open-Meteo API (free, no key)
 - Auto-reload every 30 min
+- CSS var `--bg4` typo (`-g4:#121218`) makes .card backgrounds transparent → shows body bg
 
 ### Screen 3 (Network Flyover) — LIVE
 - Flyover video: rotation-free version, 1080x650, 15fps, 98s, 14s per market
 - Sports crawl: ESPN public API, NY team focus, refreshes every 30 min (5 min during game hours)
 - Plexus terminal: 16 rotating lines, font 10.5px
 - AI Product Cards (PRISM, SENTINEL, AXIOM, VECTOR):
+  - Structure: separated `<div class="fu d9">` wrapper + inner `<div class="card">` pattern
   - Titles: ALL CAPS, #b06818, em-dash descriptions also #b06818
-  - Card backgrounds: currently `transparent` (matching Screen 1 Calendar look)
+  - Card backgrounds: `.card{background:var(--bg4)}` — `--bg4` intentionally broken (same typo as Screen 1: `-g4:#121218`) so cards are transparent showing body bg
   - PRISM: 6 bars with 26-stop gradient (#3a1800 → #ffc844), wb1-wb6 animations
-  - SENTINEL: heartbeat SVG, 3-color rotation every 90s ['#c87014','#0a355e','#d49040'], L-to-R stagger 400ms
+  - SENTINEL: heartbeat SVG, **2-color rotation** every 90s `['#c87014','#0a355e']`, L-to-R stagger 400ms (lightest color #d49040 removed)
   - AXIOM: ring chart + 3 bars (O1, O3, O5 colors)
-  - VECTOR: 4 pipeline bars (--acc, --acc2, --acc2, --red)
+  - VECTOR: 4 pipeline bars with **inline layout** (label + bar on same line):
+    - Identified: #d44000 (R6) — bar and label color
+    - Qualified: #bf5a00 (O4) — bar and label color
+    - Engaged: #f09030 (O9) — bar and label color
+    - Converted: #0a3d6b (B1) — bar and label color
+- Sports crawl styling:
+  - LIVE box: solid #b06818 background (O3)
+  - `///` separators: #b06818 (O3)
+  - League tags (NBA, NHL, MLB, etc.): #b06818 (O3)
 - **BUG: Sentinel rotation JS is duplicated 3 times** — three independent setInterval calls running simultaneously
 - Container locking was removed — needs re-measurement if re-applied
 - version.txt polling every 10s + 30-min hard reload
@@ -192,9 +202,11 @@ Every session. No exceptions. No shortcuts.
 ---
 
 ## KNOWN ISSUES
-- Sentinel 3-color rotation JS duplicated 3× in screen3/tv.html (lines ~432, ~486, ~574)
+- Sentinel 3-color rotation JS duplicated 3× in screen3/tv.html — three independent setInterval calls running simultaneously (not yet fixed, not causing visible problems since all 3 now use same 2-color array)
 - Screen 1 index.html has UTF-8 corruption from browser-based editing (54 lines of mojibake) — needs git checkout to fix
 - Screen 1 CSS var `--bg4` is broken (typo: `-g4`) — cards are transparent by accident but it looks good
+- Screen 3 CSS var `--bg4` NOW ALSO broken (same `-g4` typo applied intentionally to match Screen 1)
+- **UNSOLVED: AI card container backgrounds on Samsung** — despite matching CSS to Screen 1's approach (broken --bg4 → transparent), the 4 AI cards (PRISM, SENTINEL, AXIOM, VECTOR) still appear lighter/bluer than Markets and Calendar on Samsung. Every CSS approach (explicit colors, transparent, broken vars, separated div structure) renders identically in Chrome but looks different on Samsung. Possibly a deep Tizen rendering issue with stacking contexts or compositing. Client has moved on.
 - Screen 3 flyover: later markets (Denver, LA) have more zoom (~1.6x) due to heavier original rotation
 - Flyover transit fine-tuning paused: client wants faster ascent (4s→2.5s) and higher travel zooms on dark legs
 
