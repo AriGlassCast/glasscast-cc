@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-24T13:07:32.677878-04:00",
+  "updated": "2026-05-24T12:30:00-04:00",
   "calendar": [
     {
       "start": "2026-05-25T09:00",
@@ -62,29 +62,29 @@
     {
       "from": "Don Winter",
       "subject": "Re: Veridooh / AdQuick Discussion",
-      "snippet": "this circumvents programmatic fees. and they can do a tech connect, but since we will never be...",
+      "snippet": "this circumvents programmatic fees. and they can do a tech connect...",
       "time": "12:04 PM",
       "priority": "high"
     },
     {
-      "from": "Vistar Media",
-      "subject": "Vistar Scheduled Report: PS Daily",
-      "snippet": "Your scheduled report was successfully generated. Please see the attached file below...",
-      "time": "8:04 AM",
-      "priority": "med"
-    },
-    {
-      "from": "Plexus System",
+      "from": "Plexus",
       "subject": "PrimeSight Brief \u2014 May 24",
-      "snippet": "PrimeSight Morning Brief Sunday, May 24, 2026. 93 displays across 84 venues...",
+      "snippet": "PrimeSight Morning Brief Sunday, May 24, 2026. 93 displays across 84 venues.",
       "time": "5:31 AM",
       "priority": "high"
     },
     {
       "from": "Brian Cullinane",
       "subject": "Re: Introduction: Ari <> Brian",
-      "snippet": "VideoGiraffe wasn't available. Would love to connect- I'll give you a shout after...",
+      "snippet": "VideoGiraffe was not available. Would love to connect- giving you a shout...",
       "time": "4:17 PM",
+      "priority": "med"
+    },
+    {
+      "from": "Chris Grant",
+      "subject": "Re: Follow-Up PrimeSight Invoice",
+      "snippet": "Hi Andrew, I hope all is well. Following up before the long weekend...",
+      "time": "11:04 AM",
       "priority": "med"
     }
   ],
@@ -94,6 +94,6 @@
     "tasksComplete": 5,
     "tasksTotal": 8,
     "unread": 1,
-    "focusScore": 96
+    "focusScore": 98
   }
 }
