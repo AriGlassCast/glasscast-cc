@@ -2,6 +2,14 @@
   "updated": "2026-05-25T12:45:00-04:00",
   "calendar": [
     {
+      "start": "2026-05-25T09:00",
+      "end": "2026-05-25T09:30",
+      "title": "Daily Stand up",
+      "meta": "Meet · Doug",
+      "dur": "30m",
+      "cal": "glasscast"
+    },
+    {
       "start": "2026-05-26T09:00",
       "end": "2026-05-26T09:30",
       "title": "Daily Stand up",
@@ -62,7 +70,7 @@
     {
       "from": "Sarah Brooks",
       "subject": "Elevated Events at Citi Field",
-      "snippet": "Hi Ari, We haven't been able to get in contact with you...",
+      "snippet": "Hi Ari, We haven't been able to get in contact with you, so we're guessing this may not be a top priority...",
       "time": "8:33 AM",
       "priority": "low"
     },
@@ -74,17 +82,17 @@
       "priority": "low"
     },
     {
-      "from": "Amazon",
-      "subject": "Promotional credit from your recent order",
-      "snippet": "Thank you for purchasing LuckIn 8 Pack Shelf and 5 other...",
-      "time": "1:52 AM",
-      "priority": "low"
+      "from": "Samsung",
+      "subject": "About your Samsung TV",
+      "snippet": "We are reaching out to remind you that your Samsung Smart TV may use ACR technology...",
+      "time": "5:06 PM",
+      "priority": "med"
     },
     {
-      "from": "Amazon Digital",
-      "subject": "Order of The Replacements",
-      "snippet": "Thank you for shopping with us. Find all of your new and...",
-      "time": "11:35 PM",
+      "from": "Home Depot",
+      "subject": "Order #WK25799609 Delivered",
+      "snippet": "Thank you for shopping with us! Delivery done, Ari! Your package was delivered today.",
+      "time": "3:15 PM",
       "priority": "low"
     }
   ],
