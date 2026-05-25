@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-25T00:19:39.003629-04:00",
+  "updated": "2026-05-25T01:16:00-04:00",
   "calendar": [
     {
       "start": "2026-05-25T09:00",
@@ -70,7 +70,7 @@
     {
       "from": "Amazon Digital",
       "subject": "Amazon.com order of The Replacements",
-      "snippet": "Thank you for shopping with us. Find all of your new and previous...",
+      "snippet": "Thank you for shopping with us. Find all of your new and previous Am...",
       "time": "11:35 PM",
       "priority": "low"
     },
@@ -84,14 +84,14 @@
     {
       "from": "Google Accounts",
       "subject": "Security alert",
-      "snippet": "You allowed Claude for Gmail access to some of your Google Account...",
+      "snippet": "You allowed Claude for Gmail access to some of your Google Account d...",
       "time": "2:26 PM",
       "priority": "med"
     },
     {
       "from": "Samsung",
       "subject": "About your Samsung TV",
-      "snippet": "We are reaching out to remind you that your Samsung Smart TV may...",
+      "snippet": "We are reaching out to remind you that your Samsung Smart TV may use...",
       "time": "5:06 PM",
       "priority": "low"
     }
