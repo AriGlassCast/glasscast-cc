@@ -1,6 +1,14 @@
 {
-  "updated": "2026-05-25T15:30:00-04:00",
+  "updated": "2026-05-25T16:05:00-04:00",
   "calendar": [
+    {
+      "start": "2026-05-25T09:00",
+      "end": "2026-05-25T09:30",
+      "title": "Daily Stand up",
+      "meta": "Meet · Doug",
+      "dur": "30m",
+      "cal": "glasscast"
+    },
     {
       "start": "2026-05-26T09:00",
       "end": "2026-05-26T09:30",
@@ -60,40 +68,40 @@
   ],
   "mail": [
     {
-      "from": "Amazon Returns",
-      "subject": "Advance refund issued for 35-Pack Flat Mending Plates",
-      "snippet": "You ordered the items below, but the package is being returned to us by the carrier.",
-      "time": "3:25 PM",
+      "from": "Amazon",
+      "subject": "Delivered: HOME MASTER HARDWARE and 7 more items",
+      "snippet": "Delivered: HOME MASTER HARDWARE and 7 more items to your address",
+      "time": "4:01 PM",
+      "priority": "low"
+    },
+    {
+      "from": "KL Schools",
+      "subject": "With Sadness: Loss in Our School Community",
+      "snippet": "Katonah-Lewisboro School District - Dear JJHS Community...",
+      "time": "4:00 PM",
       "priority": "low"
     },
     {
       "from": "OpenAI",
       "subject": "Your ChatGPT Plus, now more personalized",
-      "snippet": "See what shapes your answers, manage what ChatGPT remembers, and connect Gmail.",
+      "snippet": "See what shapes your answers, manage what ChatGPT remembers...",
       "time": "2:58 PM",
       "priority": "low"
     },
     {
       "from": "Jeri Barrett",
       "subject": "Proposal for Professional Services",
-      "snippet": "Thank you for sending the proposal. I've gone through it carefully.",
-      "time": "4:17 PM",
+      "snippet": "Ari See attached information. Thank You, Jeri Barrett, RLA...",
+      "time": "6:15 PM",
       "priority": "med"
-    },
-    {
-      "from": "Home Depot",
-      "subject": "Order #WK25799609 Delivered",
-      "snippet": "Thank you for shopping with us! Your package was delivered today.",
-      "time": "3:15 PM",
-      "priority": "low"
     }
   ],
   "kpi": {
-    "events": 7,
+    "events": 8,
     "eventsLabel": "this week",
     "tasksComplete": 5,
     "tasksTotal": 8,
-    "unread": 2,
-    "focusScore": 96
+    "unread": 5,
+    "focusScore": 86
   }
 }
