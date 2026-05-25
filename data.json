@@ -10,10 +10,10 @@
     {"start":"2026-05-29T15:00","end":"2026-05-29T15:45","title":"Primesight Weekly check-in","meta":"Meet · Doug, Don, Adam, Michael","dur":"45m","cal":"glasscast"}
   ],
   "mail": [
-    {"from":"Amazon","subject":"Delivered: Hydrapeak 25oz Stainless...","snippet":"Delivered: \"Hydrapeak 25oz Stainless...\" Your package has arrived.","time":"7:45 PM","priority":"low"},
-    {"from":"Google Accounts","subject":"Security alert","snippet":"You allowed Claude for Gmail access to some of your Google Account data","time":"2:26 PM","priority":"med"},
-    {"from":"Samsung","subject":"About your Samsung TV","snippet":"We are reaching out to remind you that your Samsung Smart TV may use ACR","time":"5:06 PM","priority":"low"},
-    {"from":"Home Depot","subject":"Order #WK25799609 Delivered","snippet":"Delivery done, Ari! Your package was delivered today.","time":"3:15 PM","priority":"low"}
+    {"from":"Amazon","subject":"Delivered: Hydrapeak 25oz Stainless...","snippet":"Delivered: \"Hydrapeak 25oz Stainless...\" Your package has been","time":"7:45 PM","priority":"low"},
+    {"from":"Google Accounts","subject":"Security alert","snippet":"You allowed Claude for Gmail access to some of your Google Acc","time":"2:26 PM","priority":"high"},
+    {"from":"Samsung","subject":"About your Samsung TV","snippet":"We are reaching out to remind you that your Samsung Smart TV m","time":"5:06 PM","priority":"med"},
+    {"from":"Home Depot","subject":"Order #WK25799609 Delivered","snippet":"Thank you for shopping with us! Your package was delivered tod","time":"3:15 PM","priority":"low"}
   ],
   "kpi": {
     "events": 7,
