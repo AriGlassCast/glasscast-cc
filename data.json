@@ -1,6 +1,14 @@
 {
-  "updated": "2026-05-25T13:06:00-04:00",
+  "updated": "2026-05-25T13:36:42-04:00",
   "calendar": [
+    {
+      "start": "2026-05-25T09:00",
+      "end": "2026-05-25T09:30",
+      "title": "Daily Stand up",
+      "meta": "Meet · Doug",
+      "dur": "30m",
+      "cal": "glasscast"
+    },
     {
       "start": "2026-05-26T09:00",
       "end": "2026-05-26T09:30",
@@ -29,7 +37,7 @@
       "start": "2026-05-28T15:00",
       "end": "2026-05-28T15:45",
       "title": "Ai Office Hours PM",
-      "meta": "Meet · Doug, Adam, Michael, Don",
+      "meta": "Meet · Doug, Michael, Don, Adam",
       "dur": "45m",
       "cal": "glasscast"
     },
@@ -45,7 +53,7 @@
       "start": "2026-05-29T15:00",
       "end": "2026-05-29T15:45",
       "title": "Primesight Weekly check-in",
-      "meta": "Meet · Doug, Adam, Michael, Don",
+      "meta": "Meet · Doug, Don, Adam, Michael",
       "dur": "45m",
       "cal": "glasscast"
     },
@@ -62,29 +70,29 @@
     {
       "from": "Jeri Barrett",
       "subject": "Proposal for Professional Services",
-      "snippet": "Ari See attached information. Thank You, Jeri Barrett, RLA JD Bar...",
+      "snippet": "Ari See attached information. Thank You, Jeri Barrett, RLA JD",
       "time": "4:17 PM",
       "priority": "med"
     },
     {
       "from": "Home Depot",
       "subject": "Order #WK25799609 Delivered",
-      "snippet": "Thank you for shopping with us! Your package was delivered today.",
+      "snippet": "Thank you for shopping with us! Your package was delivered",
       "time": "3:15 PM",
       "priority": "low"
     },
     {
       "from": "Spotify",
       "subject": "Updates to Our Privacy Policy",
-      "snippet": "We've updated our Privacy Policy to provide clearer language and...",
+      "snippet": "We've updated our Privacy Policy to provide clearer language",
       "time": "12:25 PM",
       "priority": "low"
     },
     {
-      "from": "Claskari Estee",
-      "subject": "Dr. Riollano-Cruz - Infectious Disease Specialist @ 9:30am",
-      "snippet": "THIS E-MAIL IS INTENDED ONLY FOR THE ADDRESSEE(S) AND MAY CONTA...",
-      "time": "1:18 PM",
+      "from": "Kellan Cantrell",
+      "subject": "25 Garlen Road Contract Wrap Up",
+      "snippet": "Hi Ari, To wrap up our contract I am attaching an invoice for",
+      "time": "12:26 PM",
       "priority": "med"
     }
   ],
@@ -93,7 +101,7 @@
     "eventsLabel": "this week",
     "tasksComplete": 5,
     "tasksTotal": 8,
-    "unread": 10,
-    "focusScore": 76
+    "unread": 0,
+    "focusScore": 96
   }
 }
