@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-25T07:34:33-04:00",
+  "updated": "2026-05-25T12:30:00-04:00",
   "calendar": [
     {
       "start": "2026-05-26T09:00",
@@ -44,7 +44,7 @@
     {
       "start": "2026-05-29T15:00",
       "end": "2026-05-29T15:45",
-      "title": "Primesight Weekly Check-In",
+      "title": "Primesight Weekly Check-in",
       "meta": "Meet · Doug, Don, Adam, Michael",
       "dur": "45m",
       "cal": "glasscast"
@@ -62,7 +62,7 @@
     {
       "from": "Amazon Shipping",
       "subject": "Shipped: HOME MASTER HARDWARE and 7 more items",
-      "snippet": "Shipped: HOME MASTER HARDWARE and 7 more items",
+      "snippet": "Shipped: HOME MASTER HARDWARE... and 7 more items",
       "time": "1:52 AM",
       "priority": "low"
     },
@@ -71,7 +71,7 @@
       "subject": "Security alert",
       "snippet": "You allowed Claude for Gmail access to some of your Google Account data",
       "time": "2:26 PM",
-      "priority": "med"
+      "priority": "high"
     },
     {
       "from": "Samsung",
