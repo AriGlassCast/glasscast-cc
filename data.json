@@ -1,14 +1,6 @@
 {
-  "updated": "2026-05-25T16:37:24.073-04:00",
+  "updated": "2026-05-25T13:06:00-04:00",
   "calendar": [
-    {
-      "start": "2026-05-25T09:00",
-      "end": "2026-05-25T09:30",
-      "title": "Daily Stand up",
-      "meta": "Meet · Doug",
-      "dur": "30m",
-      "cal": "glasscast"
-    },
     {
       "start": "2026-05-26T09:00",
       "end": "2026-05-26T09:30",
@@ -37,7 +29,7 @@
       "start": "2026-05-28T15:00",
       "end": "2026-05-28T15:45",
       "title": "Ai Office Hours PM",
-      "meta": "Meet · Doug, Michael, Don, Adam",
+      "meta": "Meet · Doug, Adam, Michael, Don",
       "dur": "45m",
       "cal": "glasscast"
     },
@@ -53,7 +45,7 @@
       "start": "2026-05-29T15:00",
       "end": "2026-05-29T15:45",
       "title": "Primesight Weekly check-in",
-      "meta": "Meet · Doug, Don, Adam, Michael",
+      "meta": "Meet · Doug, Adam, Michael, Don",
       "dur": "45m",
       "cal": "glasscast"
     },
@@ -68,31 +60,31 @@
   ],
   "mail": [
     {
-      "from": "USAA",
-      "subject": "Memorial Day",
-      "snippet": "Message from the CEO — Together, let’s honor what was given.",
-      "time": "9:36 AM",
+      "from": "Jeri Barrett",
+      "subject": "Proposal for Professional Services",
+      "snippet": "Ari See attached information. Thank You, Jeri Barrett, RLA JD Bar...",
+      "time": "4:17 PM",
+      "priority": "med"
+    },
+    {
+      "from": "Home Depot",
+      "subject": "Order #WK25799609 Delivered",
+      "snippet": "Thank you for shopping with us! Your package was delivered today.",
+      "time": "3:15 PM",
       "priority": "low"
     },
     {
-      "from": "Sarah Brooks",
-      "subject": "Elevated Events at Citi Field",
-      "snippet": "We haven’t been able to get in contact with you, so we’re g...",
-      "time": "8:33 AM",
+      "from": "Spotify",
+      "subject": "Updates to Our Privacy Policy",
+      "snippet": "We've updated our Privacy Policy to provide clearer language and...",
+      "time": "12:25 PM",
       "priority": "low"
     },
     {
-      "from": "Amazon Shipping",
-      "subject": "Shipped: HOME MASTER HARDWARE and 7 more items",
-      "snippet": "Shipped: HOME MASTER HARDWARE and 7 more items",
-      "time": "1:52 AM",
-      "priority": "low"
-    },
-    {
-      "from": "Kellan Cantrell",
-      "subject": "Re: 25 Garlen Road Contract Wrap Up",
-      "snippet": "Wondering if you sent these documents - I just see the invoice",
-      "time": "12:26 PM",
+      "from": "Claskari Estee",
+      "subject": "Dr. Riollano-Cruz - Infectious Disease Specialist @ 9:30am",
+      "snippet": "THIS E-MAIL IS INTENDED ONLY FOR THE ADDRESSEE(S) AND MAY CONTA...",
+      "time": "1:18 PM",
       "priority": "med"
     }
   ],
