@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-25T04:39:20-04:00",
+  "updated": "2026-05-25T09:00:00-04:00",
   "calendar": [
     {
       "start": "2026-05-25T09:00",
@@ -37,7 +37,7 @@
       "start": "2026-05-28T15:00",
       "end": "2026-05-28T15:45",
       "title": "Ai Office Hours PM",
-      "meta": "Meet · Doug, Adam, Michael, Don",
+      "meta": "Meet · Doug, Michael, Don, Adam",
       "dur": "45m",
       "cal": "glasscast"
     },
@@ -53,7 +53,7 @@
       "start": "2026-05-29T15:00",
       "end": "2026-05-29T15:45",
       "title": "Primesight Weekly check-in",
-      "meta": "Meet · Doug, Adam, Michael, Don",
+      "meta": "Meet · Doug, Don, Adam, Michael",
       "dur": "45m",
       "cal": "glasscast"
     },
@@ -69,31 +69,31 @@
   "mail": [
     {
       "from": "Amazon Shipping",
-      "subject": "Shipped: HOME MASTER HARDWARE... and 7 more items",
-      "snippet": "Shipped: HOME MASTER HARDWARE... and 7 more items",
+      "subject": "Shipped: HOME MASTER HARDWARE and 7 more items",
+      "snippet": "Shipped: HOME MASTER HARDWARE... and 7 more items tracking update",
       "time": "1:52 AM",
       "priority": "low"
     },
     {
-      "from": "Google Accounts",
-      "subject": "Security alert",
-      "snippet": "You allowed Claude for Gmail access to some of your Google Account data",
-      "time": "2:26 PM",
+      "from": "Samsung",
+      "subject": "About your Samsung TV",
+      "snippet": "Reminder that your Samsung Smart TV may use ACR technology...",
+      "time": "9:06 PM",
       "priority": "med"
     },
     {
-      "from": "Samsung",
-      "subject": "About your Samsung TV",
-      "snippet": "Your Samsung Smart TV may use Automatic Content Recognition (ACR) technology",
-      "time": "5:06 PM",
+      "from": "Home Depot",
+      "subject": "Order #WK25799609 Delivered",
+      "snippet": "Thank you for shopping with us! Your package was delivered today.",
+      "time": "7:15 PM",
       "priority": "low"
     },
     {
-      "from": "Home Depot",
-      "subject": "Order Delivered: Let us know how we did!",
-      "snippet": "Your package was delivered today. Order #WK25799609",
-      "time": "3:15 PM",
-      "priority": "low"
+      "from": "Amazon Orders",
+      "subject": "Problem during shipping: 35-Pack Flat Mending and 1 other",
+      "snippet": "Problem during shipping: 35-Pack Flat Mending... and 1 other item",
+      "time": "4:51 PM",
+      "priority": "med"
     }
   ],
   "kpi": {
