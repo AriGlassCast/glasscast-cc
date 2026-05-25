@@ -1,10 +1,10 @@
 {
-  "updated": "2026-05-25T13:00:00-04:00",
+  "updated": "2026-05-25T10:06:58-04:00",
   "calendar": [
     {
       "start": "2026-05-25T09:00",
       "end": "2026-05-25T09:30",
-      "title": "Daily Stand up",
+      "title": "Daily Stand Up",
       "meta": "Meet · Doug",
       "dur": "30m",
       "cal": "glasscast"
@@ -12,7 +12,7 @@
     {
       "start": "2026-05-26T09:00",
       "end": "2026-05-26T09:30",
-      "title": "Daily Stand up",
+      "title": "Daily Stand Up",
       "meta": "Meet · Doug",
       "dur": "30m",
       "cal": "glasscast"
@@ -20,7 +20,7 @@
     {
       "start": "2026-05-27T09:00",
       "end": "2026-05-27T09:30",
-      "title": "Daily Stand up",
+      "title": "Daily Stand Up",
       "meta": "Meet · Doug",
       "dur": "30m",
       "cal": "glasscast"
@@ -28,7 +28,7 @@
     {
       "start": "2026-05-28T09:00",
       "end": "2026-05-28T09:30",
-      "title": "Daily Stand up",
+      "title": "Daily Stand Up",
       "meta": "Meet · Doug",
       "dur": "30m",
       "cal": "glasscast"
@@ -44,7 +44,7 @@
     {
       "start": "2026-05-29T09:00",
       "end": "2026-05-29T09:30",
-      "title": "Daily Stand up",
+      "title": "Daily Stand Up",
       "meta": "Meet · Doug",
       "dur": "30m",
       "cal": "glasscast"
@@ -52,7 +52,7 @@
     {
       "start": "2026-05-29T15:00",
       "end": "2026-05-29T15:45",
-      "title": "Primesight Weekly check-in",
+      "title": "Primesight Weekly Check-In",
       "meta": "Meet · Doug, Don, Adam, Michael",
       "dur": "45m",
       "cal": "glasscast"
@@ -60,7 +60,7 @@
     {
       "start": "2026-06-01T09:00",
       "end": "2026-06-01T09:30",
-      "title": "Daily Stand up",
+      "title": "Daily Stand Up",
       "meta": "Meet · Doug",
       "dur": "30m",
       "cal": "glasscast"
@@ -68,32 +68,32 @@
   ],
   "mail": [
     {
-      "from": "Sarah Brooks",
-      "subject": "Elevated Events at Citi Field",
-      "snippet": "We haven't been able to get in contact with you, so we're gues...",
-      "time": "8:33 AM",
-      "priority": "med"
+      "from": "USAA",
+      "subject": "Memorial Day",
+      "snippet": "Message from the CEO — Together, let's honor what was given.",
+      "time": "9:36 AM",
+      "priority": "low"
     },
     {
-      "from": "Amazon Shipping",
-      "subject": "Shipped: HOME MASTER HARDWARE and 7 more items",
-      "snippet": "Shipped: HOME MASTER HARDWARE and 7 more items",
-      "time": "1:52 AM",
+      "from": "Sarah Brooks",
+      "subject": "Elevated Events at Citi Field",
+      "snippet": "We haven't been able to get in contact with you, so we're g...",
+      "time": "8:33 AM",
       "priority": "low"
+    },
+    {
+      "from": "Kellan Cantrell",
+      "subject": "25 Garlen Road Contract Wrap Up",
+      "snippet": "Hi Ari, To wrap up our contract I am attaching an invoice f...",
+      "time": "12:26 PM",
+      "priority": "med"
     },
     {
       "from": "Samsung",
       "subject": "About your Samsung TV",
-      "snippet": "We are reaching out to remind you that your Samsung Smart TV m...",
+      "snippet": "Your Samsung Smart TV may use Automatic Content Recognition...",
       "time": "5:06 PM",
       "priority": "med"
-    },
-    {
-      "from": "Home Depot",
-      "subject": "Order #WK25799609 Delivered",
-      "snippet": "Thank you for shopping with us! Your package was delivered today.",
-      "time": "3:15 PM",
-      "priority": "low"
     }
   ],
   "kpi": {
