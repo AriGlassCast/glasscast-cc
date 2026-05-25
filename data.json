@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-25T13:36:42-04:00",
+  "updated": "2026-05-25T18:07:12.591-04:00",
   "calendar": [
     {
       "start": "2026-05-25T09:00",
@@ -37,7 +37,7 @@
       "start": "2026-05-28T15:00",
       "end": "2026-05-28T15:45",
       "title": "Ai Office Hours PM",
-      "meta": "Meet · Doug, Michael, Don, Adam",
+      "meta": "Meet · Doug, Adam, Michael, Don",
       "dur": "45m",
       "cal": "glasscast"
     },
@@ -53,7 +53,7 @@
       "start": "2026-05-29T15:00",
       "end": "2026-05-29T15:45",
       "title": "Primesight Weekly check-in",
-      "meta": "Meet · Doug, Don, Adam, Michael",
+      "meta": "Meet · Doug, Adam, Michael, Don",
       "dur": "45m",
       "cal": "glasscast"
     },
@@ -77,23 +77,23 @@
     {
       "from": "Home Depot",
       "subject": "Order #WK25799609 Delivered",
-      "snippet": "Thank you for shopping with us! Your package was delivered",
+      "snippet": "Thank you for shopping with us! Your package was delivered today.",
       "time": "3:15 PM",
       "priority": "low"
     },
     {
       "from": "Spotify",
       "subject": "Updates to Our Privacy Policy",
-      "snippet": "We've updated our Privacy Policy to provide clearer language",
+      "snippet": "We've updated our Privacy Policy to provide clearer language and",
       "time": "12:25 PM",
       "priority": "low"
     },
     {
-      "from": "Kellan Cantrell",
-      "subject": "25 Garlen Road Contract Wrap Up",
-      "snippet": "Hi Ari, To wrap up our contract I am attaching an invoice for",
-      "time": "12:26 PM",
-      "priority": "med"
+      "from": "Refurb Tracker",
+      "subject": "1 new refurbished product on Apple Store US",
+      "snippet": "Refurbished Mac mini Apple M4 Pro Chip with 14-Core CPU and 20-C",
+      "time": "9:44 AM",
+      "priority": "low"
     }
   ],
   "kpi": {
@@ -101,7 +101,7 @@
     "eventsLabel": "this week",
     "tasksComplete": 5,
     "tasksTotal": 8,
-    "unread": 0,
-    "focusScore": 96
+    "unread": 8,
+    "focusScore": 80
   }
 }
