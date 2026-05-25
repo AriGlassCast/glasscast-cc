@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-25T15:15:00-04:00",
+  "updated": "2026-05-25T15:30:00-04:00",
   "calendar": [
     {
       "start": "2026-05-26T09:00",
@@ -60,40 +60,40 @@
   ],
   "mail": [
     {
-      "from": "OpenAI",
-      "subject": "Your ChatGPT Plus, now more personalized",
-      "snippet": "See what shapes your answers, manage what ChatGPT remembers",
-      "time": "2:58 PM",
+      "from": "Amazon Returns",
+      "subject": "Advance refund issued for 35-Pack Flat Mending Plates",
+      "snippet": "You ordered the items below, but the package is being returned to us by the carrier.",
+      "time": "3:25 PM",
       "priority": "low"
     },
     {
-      "from": "Home Depot",
-      "subject": "Order #WK25799609 Delivered",
-      "snippet": "Thank you for shopping with us! Your package was delivered",
-      "time": "3:15 PM",
+      "from": "OpenAI",
+      "subject": "Your ChatGPT Plus, now more personalized",
+      "snippet": "See what shapes your answers, manage what ChatGPT remembers, and connect Gmail.",
+      "time": "2:58 PM",
       "priority": "low"
     },
     {
       "from": "Jeri Barrett",
       "subject": "Proposal for Professional Services",
-      "snippet": "Ari See attached information. Thank You, Jeri Barrett",
-      "time": "6:14 PM",
+      "snippet": "Thank you for sending the proposal. I've gone through it carefully.",
+      "time": "4:17 PM",
       "priority": "med"
     },
     {
-      "from": "Kellan Cantrell",
-      "subject": "25 Garlen Road Contract Wrap Up",
-      "snippet": "Hi Ari, To wrap up our contract I am attaching an invoice",
-      "time": "12:26 PM",
-      "priority": "med"
+      "from": "Home Depot",
+      "subject": "Order #WK25799609 Delivered",
+      "snippet": "Thank you for shopping with us! Your package was delivered today.",
+      "time": "3:15 PM",
+      "priority": "low"
     }
   ],
   "kpi": {
-    "events": 8,
+    "events": 7,
     "eventsLabel": "this week",
     "tasksComplete": 5,
     "tasksTotal": 8,
-    "unread": 1,
-    "focusScore": 94
+    "unread": 2,
+    "focusScore": 96
   }
 }
