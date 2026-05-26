@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-26T09:30:00-04:00",
+  "updated": "2026-05-26T09:23:00-04:00",
   "calendar": [
     {
       "start": "2026-05-26T09:00",
@@ -70,7 +70,7 @@
     {
       "from": "KL School District",
       "subject": "With Sadness: Loss in Our School Community",
-      "snippet": "It is with deep sadness that we share the news of the passing of one...",
+      "snippet": "It is with deep sadness that we share the news of the passing...",
       "time": "6:30 PM",
       "priority": "low"
     },
@@ -83,8 +83,8 @@
     },
     {
       "from": "Amazon Returns",
-      "subject": "Advance refund issued for 35-Pack Flat Mending Plates",
-      "snippet": "You ordered the items below, but the package is being returned to us...",
+      "subject": "Advance refund issued for Flat Mending Plates",
+      "snippet": "You ordered the items below, but the package is being returned...",
       "time": "3:25 PM",
       "priority": "low"
     },
