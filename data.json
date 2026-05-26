@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-26T17:36:37.988-04:00",
+  "updated": "2026-05-26T14:00:00-04:00",
   "calendar": [
     {
       "start": "2026-05-27T09:00",
@@ -60,32 +60,32 @@
   ],
   "mail": [
     {
+      "from": "Estee Lauder Medical",
+      "subject": "Canceled: Dr. Riollano-Cruz - Infectious Disease Specialist",
+      "snippet": "Appointment canceled — Infectious Disease Specialist @ 9:30am",
+      "time": "1:50 PM",
+      "priority": "med"
+    },
+    {
+      "from": "Google Pay",
+      "subject": "You added a new card to Google Pay",
+      "snippet": "Discover how to quickly and safely pay online.",
+      "time": "1:46 PM",
+      "priority": "low"
+    },
+    {
       "from": "Beacon Theatre",
       "subject": "Last Chance! SatchVai Tickets Only $30 All-In",
-      "snippet": "This week – don’t miss your chance to get tickets. LAST CHANCE SatchVai...",
+      "snippet": "This week — don't miss your chance to get tickets. SatchVai May 28",
       "time": "1:01 PM",
       "priority": "low"
     },
     {
-      "from": "Reddit",
-      "subject": "u/TheSkepticGuy replied to your comment in r/macmini",
-      "snippet": "Thanks, but a 256GB hard drive isn’t a good fit for my needs...",
-      "time": "11:14 AM",
-      "priority": "low"
-    },
-    {
-      "from": "KL School District",
-      "subject": "With Sadness: Loss in Our School Community",
-      "snippet": "Dear KLSD Families, It is with deep sadness that we share the news...",
-      "time": "6:30 PM",
-      "priority": "low"
-    },
-    {
       "from": "Amazon",
-      "subject": "Delivered: HOME MASTER HARDWARE and 7 more items",
-      "snippet": "Delivered: HOME MASTER HARDWARE and 7 more items to your address...",
+      "subject": "Delivery update: Kanayu 30 Pack 6 Ft 4K HDMI and 4 more",
+      "snippet": "Delivery update for your recent order of HDMI cables and more",
       "time": "4:01 PM",
-      "priority": "low"
+      "priority": "med"
     }
   ],
   "kpi": {
@@ -93,7 +93,7 @@
     "eventsLabel": "this week",
     "tasksComplete": 5,
     "tasksTotal": 8,
-    "unread": 3,
-    "focusScore": 94
+    "unread": 5,
+    "focusScore": 90
   }
 }
