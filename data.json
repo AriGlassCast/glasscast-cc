@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-26T13:06:32-04:00",
+  "updated": "2026-05-26T17:36:37.988-04:00",
   "calendar": [
     {
       "start": "2026-05-27T09:00",
@@ -60,40 +60,40 @@
   ],
   "mail": [
     {
+      "from": "Beacon Theatre",
+      "subject": "Last Chance! SatchVai Tickets Only $30 All-In",
+      "snippet": "This week – don’t miss your chance to get tickets. LAST CHANCE SatchVai...",
+      "time": "1:01 PM",
+      "priority": "low"
+    },
+    {
       "from": "Reddit",
       "subject": "u/TheSkepticGuy replied to your comment in r/macmini",
-      "snippet": "Thanks, but a 256GB hard drive isn't a good fit for my needs...",
+      "snippet": "Thanks, but a 256GB hard drive isn’t a good fit for my needs...",
       "time": "11:14 AM",
       "priority": "low"
     },
     {
       "from": "KL School District",
       "subject": "With Sadness: Loss in Our School Community",
-      "snippet": "It is with deep sadness that we share the news of the passing...",
+      "snippet": "Dear KLSD Families, It is with deep sadness that we share the news...",
       "time": "6:30 PM",
       "priority": "low"
     },
     {
       "from": "Amazon",
       "subject": "Delivered: HOME MASTER HARDWARE and 7 more items",
-      "snippet": "Delivered: HOME MASTER HARDWARE and 7 more items",
-      "time": "4:01 PM",
-      "priority": "low"
-    },
-    {
-      "from": "Amazon",
-      "subject": "Delivery update: Kanayu 30 Pack 6 Ft 4K HDMI and 4 more",
-      "snippet": "Delivery update: Kanayu 30 Pack 6 Ft 4K HDMI and 4 more items",
+      "snippet": "Delivered: HOME MASTER HARDWARE and 7 more items to your address...",
       "time": "4:01 PM",
       "priority": "low"
     }
   ],
   "kpi": {
-    "events": 8,
+    "events": 7,
     "eventsLabel": "this week",
     "tasksComplete": 5,
     "tasksTotal": 8,
-    "unread": 2,
-    "focusScore": 92
+    "unread": 3,
+    "focusScore": 94
   }
 }
