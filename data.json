@@ -1,10 +1,10 @@
 {
-  "updated": "2026-05-26T13:30:00-04:00",
+  "updated": "2026-05-26T15:37:29.442-04:00",
   "calendar": [
     {
       "start": "2026-05-26T09:00",
       "end": "2026-05-26T09:30",
-      "title": "Daily Stand up",
+      "title": "Daily Stand Up",
       "meta": "Meet · Doug",
       "dur": "30m",
       "cal": "glasscast"
@@ -12,7 +12,7 @@
     {
       "start": "2026-05-27T09:00",
       "end": "2026-05-27T09:30",
-      "title": "Daily Stand up",
+      "title": "Daily Stand Up",
       "meta": "Meet · Doug",
       "dur": "30m",
       "cal": "glasscast"
@@ -20,7 +20,7 @@
     {
       "start": "2026-05-28T09:00",
       "end": "2026-05-28T09:30",
-      "title": "Daily Stand up",
+      "title": "Daily Stand Up",
       "meta": "Meet · Doug",
       "dur": "30m",
       "cal": "glasscast"
@@ -28,7 +28,7 @@
     {
       "start": "2026-05-28T15:00",
       "end": "2026-05-28T15:45",
-      "title": "Ai Office Hours PM",
+      "title": "AI Office Hours PM",
       "meta": "Meet · Doug, Michael, Don, Adam",
       "dur": "45m",
       "cal": "glasscast"
@@ -36,7 +36,7 @@
     {
       "start": "2026-05-29T09:00",
       "end": "2026-05-29T09:30",
-      "title": "Daily Stand up",
+      "title": "Daily Stand Up",
       "meta": "Meet · Doug",
       "dur": "30m",
       "cal": "glasscast"
@@ -44,7 +44,7 @@
     {
       "start": "2026-05-29T15:00",
       "end": "2026-05-29T15:45",
-      "title": "Primesight Weekly check-in",
+      "title": "Primesight Weekly Check-in",
       "meta": "Meet · Doug, Don, Adam, Michael",
       "dur": "45m",
       "cal": "glasscast"
@@ -52,7 +52,7 @@
     {
       "start": "2026-06-01T09:00",
       "end": "2026-06-01T09:30",
-      "title": "Daily Stand up",
+      "title": "Daily Stand Up",
       "meta": "Meet · Doug",
       "dur": "30m",
       "cal": "glasscast"
@@ -60,13 +60,20 @@
     {
       "start": "2026-06-02T09:00",
       "end": "2026-06-02T09:30",
-      "title": "Daily Stand up",
+      "title": "Daily Stand Up",
       "meta": "Meet · Doug",
       "dur": "30m",
       "cal": "glasscast"
     }
   ],
   "mail": [
+    {
+      "from": "Reddit",
+      "subject": "u/TheSkepticGuy replied to your comment in r/macmini",
+      "snippet": "Thanks, but a 256GB hard drive isn't a good fit for my needs...",
+      "time": "11:14 AM",
+      "priority": "low"
+    },
     {
       "from": "KL School District",
       "subject": "With Sadness: Loss in Our School Community",
@@ -82,17 +89,10 @@
       "priority": "low"
     },
     {
-      "from": "Amazon Returns",
-      "subject": "Advance refund issued for Flat Mending Plates",
-      "snippet": "Package is being returned to us by the carrier. Refund issued.",
-      "time": "3:25 PM",
-      "priority": "low"
-    },
-    {
-      "from": "OpenAI",
-      "subject": "Your ChatGPT Plus, now more personalized",
-      "snippet": "See what shapes your answers, manage what ChatGPT remembers...",
-      "time": "2:58 PM",
+      "from": "Amazon",
+      "subject": "Delivery update: Kanayu 30 Pack 6 Ft 4K HDMI and 4 more",
+      "snippet": "Delivery update: Kanayu 30 Pack 6 Ft 4K HDMI and 4 more items",
+      "time": "4:01 PM",
       "priority": "low"
     }
   ],
