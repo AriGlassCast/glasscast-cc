@@ -1,10 +1,10 @@
 {
-  "updated": "2026-05-26T09:23:18-04:00",
+  "updated": "2026-05-26T09:30:00-04:00",
   "calendar": [
     {
       "start": "2026-05-26T09:00",
       "end": "2026-05-26T09:30",
-      "title": "Daily Stand Up",
+      "title": "Daily Stand up",
       "meta": "Meet · Doug",
       "dur": "30m",
       "cal": "glasscast"
@@ -12,7 +12,7 @@
     {
       "start": "2026-05-27T09:00",
       "end": "2026-05-27T09:30",
-      "title": "Daily Stand Up",
+      "title": "Daily Stand up",
       "meta": "Meet · Doug",
       "dur": "30m",
       "cal": "glasscast"
@@ -20,7 +20,7 @@
     {
       "start": "2026-05-28T09:00",
       "end": "2026-05-28T09:30",
-      "title": "Daily Stand Up",
+      "title": "Daily Stand up",
       "meta": "Meet · Doug",
       "dur": "30m",
       "cal": "glasscast"
@@ -28,7 +28,7 @@
     {
       "start": "2026-05-28T15:00",
       "end": "2026-05-28T15:45",
-      "title": "AI Office Hours PM",
+      "title": "Ai Office Hours PM",
       "meta": "Meet · Doug, Michael, Don, Adam",
       "dur": "45m",
       "cal": "glasscast"
@@ -36,7 +36,7 @@
     {
       "start": "2026-05-29T09:00",
       "end": "2026-05-29T09:30",
-      "title": "Daily Stand Up",
+      "title": "Daily Stand up",
       "meta": "Meet · Doug",
       "dur": "30m",
       "cal": "glasscast"
@@ -44,7 +44,7 @@
     {
       "start": "2026-05-29T15:00",
       "end": "2026-05-29T15:45",
-      "title": "Primesight Weekly Check-in",
+      "title": "Primesight Weekly check-in",
       "meta": "Meet · Doug, Don, Adam, Michael",
       "dur": "45m",
       "cal": "glasscast"
@@ -52,7 +52,7 @@
     {
       "start": "2026-06-01T09:00",
       "end": "2026-06-01T09:30",
-      "title": "Daily Stand Up",
+      "title": "Daily Stand up",
       "meta": "Meet · Doug",
       "dur": "30m",
       "cal": "glasscast"
@@ -60,7 +60,7 @@
     {
       "start": "2026-06-02T09:00",
       "end": "2026-06-02T09:30",
-      "title": "Daily Stand Up",
+      "title": "Daily Stand up",
       "meta": "Meet · Doug",
       "dur": "30m",
       "cal": "glasscast"
@@ -68,9 +68,9 @@
   ],
   "mail": [
     {
-      "from": "KL Schools",
+      "from": "KL School District",
       "subject": "With Sadness: Loss in Our School Community",
-      "snippet": "It is with deep sadness that we share the news of the passing...",
+      "snippet": "It is with deep sadness that we share the news of the passing of one...",
       "time": "6:30 PM",
       "priority": "low"
     },
@@ -84,14 +84,14 @@
     {
       "from": "Amazon Returns",
       "subject": "Advance refund issued for 35-Pack Flat Mending Plates",
-      "snippet": "Your package is being returned. We've issued your refund.",
+      "snippet": "You ordered the items below, but the package is being returned to us...",
       "time": "3:25 PM",
-      "priority": "med"
+      "priority": "low"
     },
     {
       "from": "OpenAI",
       "subject": "Your ChatGPT Plus, now more personalized",
-      "snippet": "See what shapes your answers, manage what ChatGPT remembers",
+      "snippet": "See what shapes your answers, manage what ChatGPT remembers...",
       "time": "2:58 PM",
       "priority": "low"
     }
