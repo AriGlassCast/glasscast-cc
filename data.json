@@ -1,6 +1,14 @@
 {
-  "updated": "2026-05-26T11:30:00-04:00",
+  "updated": "2026-05-26T09:30:00-04:00",
   "calendar": [
+    {
+      "start": "2026-05-26T09:00",
+      "end": "2026-05-26T09:30",
+      "title": "Daily Stand up",
+      "meta": "Meet · Doug",
+      "dur": "30m",
+      "cal": "glasscast"
+    },
     {
       "start": "2026-05-27T09:00",
       "end": "2026-05-27T09:30",
@@ -62,16 +70,16 @@
     {
       "from": "Reddit",
       "subject": "u/TheSkepticGuy replied to your comment in r/macmini",
-      "snippet": "Thanks, but a 256GB hard drive isn't a good fit for my needs.",
+      "snippet": "Thanks, but a 256GB hard drive isn't a good fit for my needs...",
       "time": "11:14 AM",
       "priority": "low"
     },
     {
       "from": "KL School District",
       "subject": "With Sadness: Loss in Our School Community",
-      "snippet": "It is with deep sadness that we share the news of the passing",
+      "snippet": "It is with deep sadness that we share the news of the passing...",
       "time": "6:30 PM",
-      "priority": "low"
+      "priority": "med"
     },
     {
       "from": "Amazon",
@@ -81,11 +89,11 @@
       "priority": "low"
     },
     {
-      "from": "Amazon",
-      "subject": "Delivery update: Kanayu 30 Pack 6 Ft 4K HDMI and 4 more",
-      "snippet": "Delivery update: Kanayu 30 Pack 6 Ft 4K HDMI and 4 more items",
-      "time": "4:01 PM",
-      "priority": "low"
+      "from": "NY Wetland Services",
+      "subject": "Re: 25 Garlen Road Contract Wrap Up",
+      "snippet": "Hi Ari, To wrap up our contract I am attaching an invoice...",
+      "time": "12:26 PM",
+      "priority": "med"
     }
   ],
   "kpi": {
@@ -93,7 +101,7 @@
     "eventsLabel": "this week",
     "tasksComplete": 5,
     "tasksTotal": 8,
-    "unread": 3,
-    "focusScore": 90
+    "unread": 2,
+    "focusScore": 92
   }
 }
