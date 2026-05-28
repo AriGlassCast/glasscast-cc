@@ -1,108 +1,21 @@
 {
-  "updated": "2026-05-28T15:06:00-04:00",
+  "updated": "2026-05-28T15:30:00-04:00",
   "calendar": [
-    {
-      "start": "2026-05-28T15:00",
-      "end": "2026-05-28T15:45",
-      "title": "AI Office Hours PM",
-      "meta": "Meet \u00b7 Doug, Michael, Don, Adam",
-      "dur": "45m",
-      "cal": "glasscast"
-    },
-    {
-      "start": "2026-05-29T09:00",
-      "end": "2026-05-29T09:30",
-      "title": "Daily Stand up",
-      "meta": "Meet \u00b7 Doug",
-      "dur": "30m",
-      "cal": "glasscast"
-    },
-    {
-      "start": "2026-05-29T15:00",
-      "end": "2026-05-29T15:45",
-      "title": "Primesight Weekly check-in",
-      "meta": "Meet \u00b7 Doug, Don, Adam, Michael",
-      "dur": "45m",
-      "cal": "glasscast"
-    },
-    {
-      "start": "2026-06-01T09:00",
-      "end": "2026-06-01T09:30",
-      "title": "Daily Stand up",
-      "meta": "Meet \u00b7 Doug",
-      "dur": "30m",
-      "cal": "glasscast"
-    },
-    {
-      "start": "2026-06-02T09:00",
-      "end": "2026-06-02T09:30",
-      "title": "Daily Stand up",
-      "meta": "Meet \u00b7 Doug",
-      "dur": "30m",
-      "cal": "glasscast"
-    },
-    {
-      "start": "2026-06-03T09:00",
-      "end": "2026-06-03T09:30",
-      "title": "Daily Stand up",
-      "meta": "Meet \u00b7 Doug",
-      "dur": "30m",
-      "cal": "glasscast"
-    },
-    {
-      "start": "2026-06-04T09:00",
-      "end": "2026-06-04T09:30",
-      "title": "Daily Stand up",
-      "meta": "Meet \u00b7 Doug",
-      "dur": "30m",
-      "cal": "glasscast"
-    },
-    {
-      "start": "2026-06-04T12:30",
-      "end": "2026-06-04T13:00",
-      "title": "Primesight <> Screenverse bi-weekly",
-      "meta": "Meet \u00b7 Jessica, Sean, Doug, Nasra",
-      "dur": "30m",
-      "cal": "personal"
-    },
-    {
-      "start": "2026-06-04T15:00",
-      "end": "2026-06-04T15:45",
-      "title": "AI Office Hours PM",
-      "meta": "Meet \u00b7 Doug, Michael, Don, Adam",
-      "dur": "45m",
-      "cal": "glasscast"
-    }
+    {"start":"2026-05-28T15:00","end":"2026-05-28T15:45","title":"AI Office Hours PM","meta":"Meet · Doug, Adam, Don, Michael","dur":"45m","cal":"glasscast"},
+    {"start":"2026-05-29T09:00","end":"2026-05-29T09:30","title":"Daily Stand up","meta":"Meet · Doug","dur":"30m","cal":"glasscast"},
+    {"start":"2026-05-29T15:00","end":"2026-05-29T15:45","title":"Primesight Weekly check-in","meta":"Meet · Doug, Don, Adam, Michael","dur":"45m","cal":"glasscast"},
+    {"start":"2026-06-01T09:00","end":"2026-06-01T09:30","title":"Daily Stand up","meta":"Meet · Doug","dur":"30m","cal":"glasscast"},
+    {"start":"2026-06-02T09:00","end":"2026-06-02T09:30","title":"Daily Stand up","meta":"Meet · Doug","dur":"30m","cal":"glasscast"},
+    {"start":"2026-06-03T09:00","end":"2026-06-03T09:30","title":"Daily Stand up","meta":"Meet · Doug","dur":"30m","cal":"glasscast"},
+    {"start":"2026-06-04T09:00","end":"2026-06-04T09:30","title":"Daily Stand up","meta":"Meet · Doug","dur":"30m","cal":"glasscast"},
+    {"start":"2026-06-04T12:30","end":"2026-06-04T13:00","title":"Primesight <> Screenverse bi-weekly","meta":"Meet · Jessica, Sean, Doug, Nasra","dur":"30m","cal":"glasscast"},
+    {"start":"2026-06-04T15:00","end":"2026-06-04T15:45","title":"AI Office Hours PM","meta":"Meet · Doug, Adam, Don, Michael","dur":"45m","cal":"glasscast"}
   ],
   "mail": [
-    {
-      "from": "Don Winter",
-      "subject": "Re: Vistar Agreement Update- Primesight",
-      "snippet": "Major price hike, justified under the rational of predictability. Unfo...",
-      "time": "2:43 PM",
-      "priority": "high"
-    },
-    {
-      "from": "Doug Bideaux",
-      "subject": "D2P feedback",
-      "snippet": "thoughts? everything else looked good The Yes! Organic framing needs...",
-      "time": "1:46 PM",
-      "priority": "high"
-    },
-    {
-      "from": "Plexus",
-      "subject": "PrimeSight Brief \u2014 May 28",
-      "snippet": "104 displays across 94 venues. Full DMA breakdown below.",
-      "time": "9:31 AM",
-      "priority": "med"
-    },
-    {
-      "from": "Amy Forsdyke",
-      "subject": "RE: Draft letter to D2P - dispute re defective display units",
-      "snippet": "Checking in to see if you have any feedback on the draft letter...",
-      "time": "2:08 AM",
-      "priority": "high"
-    }
+    {"from":"Doug Bideaux","subject":"D2P feedback","snippet":"thoughts? everything else looked good The Yes! Organic framing needs to be broader","time":"9:46 AM","priority":"high"},
+    {"from":"Sean McKinney","subject":"Vistar Agreement Update- Primesight","snippet":"Please note, this is highly confidential and not to be shared outside","time":"12:57 PM","priority":"high"},
+    {"from":"Amy Forsdyke","subject":"RE: Draft letter to D2P - dispute re defective display units","snippet":"Checking in to see if you have any feedback on the draft letter","time":"10:08 PM","priority":"high"},
+    {"from":"Plexus","subject":"PrimeSight Brief — May 28","snippet":"104 displays across 94 venues. Full DMA breakdown below.","time":"5:31 AM","priority":"med"}
   ],
   "kpi": {
     "events": 10,
@@ -110,6 +23,6 @@
     "tasksComplete": 5,
     "tasksTotal": 8,
     "unread": 1,
-    "focusScore": 84
+    "focusScore": 88
   }
 }
