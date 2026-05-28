@@ -1,99 +1,28 @@
 {
-  "updated": "2026-05-26T14:00:00-04:00",
+  "updated": "2026-05-28T14:00:00-04:00",
   "calendar": [
-    {
-      "start": "2026-05-27T09:00",
-      "end": "2026-05-27T09:30",
-      "title": "Daily Stand up",
-      "meta": "Meet · Doug",
-      "dur": "30m",
-      "cal": "glasscast"
-    },
-    {
-      "start": "2026-05-28T09:00",
-      "end": "2026-05-28T09:30",
-      "title": "Daily Stand up",
-      "meta": "Meet · Doug",
-      "dur": "30m",
-      "cal": "glasscast"
-    },
-    {
-      "start": "2026-05-28T15:00",
-      "end": "2026-05-28T15:45",
-      "title": "Ai Office Hours PM",
-      "meta": "Meet · Doug, Michael, Don, Adam",
-      "dur": "45m",
-      "cal": "glasscast"
-    },
-    {
-      "start": "2026-05-29T09:00",
-      "end": "2026-05-29T09:30",
-      "title": "Daily Stand up",
-      "meta": "Meet · Doug",
-      "dur": "30m",
-      "cal": "glasscast"
-    },
-    {
-      "start": "2026-05-29T15:00",
-      "end": "2026-05-29T15:45",
-      "title": "Primesight Weekly check-in",
-      "meta": "Meet · Doug, Don, Adam, Michael",
-      "dur": "45m",
-      "cal": "glasscast"
-    },
-    {
-      "start": "2026-06-01T09:00",
-      "end": "2026-06-01T09:30",
-      "title": "Daily Stand up",
-      "meta": "Meet · Doug",
-      "dur": "30m",
-      "cal": "glasscast"
-    },
-    {
-      "start": "2026-06-02T09:00",
-      "end": "2026-06-02T09:30",
-      "title": "Daily Stand up",
-      "meta": "Meet · Doug",
-      "dur": "30m",
-      "cal": "glasscast"
-    }
+    {"start":"2026-05-28T15:00","end":"2026-05-28T15:45","title":"AI Office Hours PM","meta":"Meet · Doug, Michael, Don, Adam","dur":"45m","cal":"glasscast"},
+    {"start":"2026-05-29T09:00","end":"2026-05-29T09:30","title":"Daily Stand up","meta":"Meet · Doug","dur":"30m","cal":"glasscast"},
+    {"start":"2026-05-29T15:00","end":"2026-05-29T15:45","title":"Primesight Weekly check-in","meta":"Meet · Doug, Don, Adam, Michael","dur":"45m","cal":"glasscast"},
+    {"start":"2026-06-01T09:00","end":"2026-06-01T09:30","title":"Daily Stand up","meta":"Meet · Doug","dur":"30m","cal":"glasscast"},
+    {"start":"2026-06-02T09:00","end":"2026-06-02T09:30","title":"Daily Stand up","meta":"Meet · Doug","dur":"30m","cal":"glasscast"},
+    {"start":"2026-06-03T09:00","end":"2026-06-03T09:30","title":"Daily Stand up","meta":"Meet · Doug","dur":"30m","cal":"glasscast"},
+    {"start":"2026-06-04T09:00","end":"2026-06-04T09:30","title":"Daily Stand up","meta":"Meet · Doug","dur":"30m","cal":"glasscast"},
+    {"start":"2026-06-04T12:30","end":"2026-06-04T13:00","title":"Primesight <> Screenverse bi-weekly","meta":"Meet · Jessica, Sean, Doug, Nasra","dur":"30m","cal":"glasscast"},
+    {"start":"2026-06-04T15:00","end":"2026-06-04T15:45","title":"AI Office Hours PM","meta":"Meet · Doug, Michael, Don, Adam","dur":"45m","cal":"glasscast"}
   ],
   "mail": [
-    {
-      "from": "Estee Lauder Medical",
-      "subject": "Canceled: Dr. Riollano-Cruz - Infectious Disease Specialist",
-      "snippet": "Appointment canceled — Infectious Disease Specialist @ 9:30am",
-      "time": "1:50 PM",
-      "priority": "med"
-    },
-    {
-      "from": "Google Pay",
-      "subject": "You added a new card to Google Pay",
-      "snippet": "Discover how to quickly and safely pay online.",
-      "time": "1:46 PM",
-      "priority": "low"
-    },
-    {
-      "from": "Beacon Theatre",
-      "subject": "Last Chance! SatchVai Tickets Only $30 All-In",
-      "snippet": "This week — don't miss your chance to get tickets. SatchVai May 28",
-      "time": "1:01 PM",
-      "priority": "low"
-    },
-    {
-      "from": "Amazon",
-      "subject": "Delivery update: Kanayu 30 Pack 6 Ft 4K HDMI and 4 more",
-      "snippet": "Delivery update for your recent order of HDMI cables and more",
-      "time": "4:01 PM",
-      "priority": "med"
-    }
+    {"from":"Doug Bideaux","subject":"D2P feedback","snippet":"thoughts? everything else looked good The Yes! Organic framing needs to be broader","time":"1:46 PM","priority":"high"},
+    {"from":"Doug Bideaux","subject":"Fwd: Vistar Agreement Update- Primesight","snippet":"Sharing the full email thread, I don't think Don or Adam got it","time":"1:40 PM","priority":"high"},
+    {"from":"Plexus","subject":"PrimeSight Brief — May 28","snippet":"104 displays across 94 venues. Full DMA breakdown below.","time":"9:31 AM","priority":"high"},
+    {"from":"CyberCentra LLC","subject":"Reminder: Your invoice from CyberCentra LLC #FYSP9Z4J-0001","snippet":"New invoice from CyberCentra LLC #FYSP9Z4J-0001 is due in 6 days","time":"4:28 PM","priority":"med"}
   ],
   "kpi": {
-    "events": 7,
+    "events": 9,
     "eventsLabel": "this week",
     "tasksComplete": 5,
     "tasksTotal": 8,
-    "unread": 5,
+    "unread": 1,
     "focusScore": 90
   }
 }
