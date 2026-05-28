@@ -1,11 +1,11 @@
 {
-  "updated": "2026-05-28T14:37:00-04:00",
+  "updated": "2026-05-28T16:15:28-04:00",
   "calendar": [
     {
       "start": "2026-05-28T15:00",
       "end": "2026-05-28T15:45",
-      "title": "AI Office Hours PM",
-      "meta": "Meet \u00b7 Doug, Adam, Don, Michael",
+      "title": "Ai Office Hours PM",
+      "meta": "Meet \u00b7 Doug, Doug, Michael, Don, Adam",
       "dur": "45m",
       "cal": "glasscast"
     },
@@ -63,13 +63,13 @@
       "title": "Primesight <> Screenverse bi-weekly",
       "meta": "Meet \u00b7 Jessica, Sean, Doug, Nasra",
       "dur": "30m",
-      "cal": "glasscast"
+      "cal": "personal"
     },
     {
       "start": "2026-06-04T15:00",
       "end": "2026-06-04T15:45",
-      "title": "AI Office Hours PM",
-      "meta": "Meet \u00b7 Doug, Adam, Don, Michael",
+      "title": "Ai Office Hours PM",
+      "meta": "Meet \u00b7 Doug, Doug, Michael, Don, Adam",
       "dur": "45m",
       "cal": "glasscast"
     }
@@ -77,24 +77,24 @@
   "mail": [
     {
       "from": "Doug Bideaux",
-      "subject": "Re: Draft letter to Design to Production Pty Ltd",
-      "snippet": "Ari and I have reviewed Ben's draft. The chronology and pacing argument hold up well...",
-      "time": "12:28 PM",
-      "priority": "high"
-    },
-    {
-      "from": "Don Winter",
-      "subject": "Re: Vistar Agreement Update- Primesight",
-      "snippet": "Thanks. Major price hike, justified under the rational of predictability...",
-      "time": "10:43 AM",
+      "subject": "Re: Ai Office Hours PM",
+      "snippet": "I'm fixing my wife's flat at her job, sorry can't make this.",
+      "time": "2:54 PM",
       "priority": "high"
     },
     {
       "from": "Doug Bideaux",
       "subject": "D2P feedback",
-      "snippet": "Thoughts? Everything else looked good. The Yes! Organic framing needs to be broader...",
+      "snippet": "thoughts? everything else looked good The Yes! Organic framing n...",
       "time": "9:46 AM",
       "priority": "high"
+    },
+    {
+      "from": "Don Winter",
+      "subject": "Re: Vistar Agreement Update- Primesight",
+      "snippet": "Major price hike, justified under the rational of predictabilit...",
+      "time": "10:43 AM",
+      "priority": "med"
     },
     {
       "from": "Plexus",
@@ -109,7 +109,7 @@
     "eventsLabel": "this week",
     "tasksComplete": 5,
     "tasksTotal": 8,
-    "unread": 1,
-    "focusScore": 90
+    "unread": 2,
+    "focusScore": 88
   }
 }
