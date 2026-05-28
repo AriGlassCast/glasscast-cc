@@ -1,11 +1,11 @@
 {
-  "updated": "2026-05-28T12:06:00-04:00",
+  "updated": "2026-05-28T12:36:20-04:00",
   "calendar": [
     {
       "start": "2026-05-28T15:00",
       "end": "2026-05-28T15:45",
       "title": "Ai Office Hours PM",
-      "meta": "Meet \u00b7 Doug, Michael, Don, Adam",
+      "meta": "Meet \u00b7 Doug, Adam, Don, Michael",
       "dur": "45m",
       "cal": "glasscast"
     },
@@ -63,13 +63,13 @@
       "title": "Primesight <> Screenverse bi-weekly",
       "meta": "Meet \u00b7 Jessica, Sean, Doug, Nasra",
       "dur": "30m",
-      "cal": "personal"
+      "cal": "glasscast"
     },
     {
       "start": "2026-06-04T15:00",
       "end": "2026-06-04T15:45",
       "title": "Ai Office Hours PM",
-      "meta": "Meet \u00b7 Doug, Michael, Don, Adam",
+      "meta": "Meet \u00b7 Doug, Adam, Don, Michael",
       "dur": "45m",
       "cal": "glasscast"
     }
@@ -78,28 +78,28 @@
     {
       "from": "Doug Bideaux",
       "subject": "D2P feedback",
-      "snippet": "thoughts? everything else looked good The Yes! Organic framing needs to be broader",
+      "snippet": "thoughts? everything else looked good The Yes! Organic framing needs to be br...",
       "time": "9:46 AM",
       "priority": "high"
     },
     {
-      "from": "Don Winter",
-      "subject": "Vistar Agreement Update- Primesight",
-      "snippet": "Major price hike, justified under the rational of predictability. Unfortunately...",
-      "time": "10:43 AM",
+      "from": "Sean McKinney",
+      "subject": "Vistar Agreement Update - Primesight",
+      "snippet": "Please note, this is highly confidential and not to be shared outside the int...",
+      "time": "12:57 PM",
       "priority": "high"
     },
     {
       "from": "Amy Forsdyke",
       "subject": "Draft letter to D2P - defective display units",
-      "snippet": "Checking in to see if you have any feedback on the draft letter...",
-      "time": "2:31 AM",
+      "snippet": "Checking in to see if you have any feedback on the draft letter or if you are...",
+      "time": "12:28 PM",
       "priority": "high"
     },
     {
       "from": "CyberCentra LLC",
-      "subject": "Invoice reminder #FYSP9Z4J-0001",
-      "snippet": "New invoice from CyberCentra LLC. Reminder: your invoice is due in 6 days.",
+      "subject": "Invoice Reminder #FYSP9Z4J-0001",
+      "snippet": "New invoice from CyberCentra LLC. Your invoice is due in 6 days.",
       "time": "4:28 PM",
       "priority": "med"
     }
