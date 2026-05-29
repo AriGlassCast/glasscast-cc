@@ -1,11 +1,11 @@
 {
-  "updated": "2026-05-29T12:22:53.524541-04:00",
+  "updated": "2026-05-29T12:37:40-04:00",
   "calendar": [
     {
       "start": "2026-05-29T15:00",
       "end": "2026-05-29T15:45",
       "title": "Primesight Weekly check-in",
-      "meta": "Meet \u00b7 Doug, Don, Adam, Michael",
+      "meta": "Meet · Doug, Don, Adam, Michael",
       "dur": "45m",
       "cal": "glasscast"
     },
@@ -13,7 +13,7 @@
       "start": "2026-05-31T19:00",
       "end": "2026-05-31T19:30",
       "title": "Call with MGL re correspondence to D2P",
-      "meta": "Teams \u00b7 Doug, Amy, Ben",
+      "meta": "Teams · Doug, Amy, Ben",
       "dur": "30m",
       "cal": "glasscast"
     },
@@ -21,7 +21,7 @@
       "start": "2026-06-01T09:00",
       "end": "2026-06-01T09:30",
       "title": "Daily Stand up",
-      "meta": "Meet \u00b7 Doug",
+      "meta": "Meet · Doug",
       "dur": "30m",
       "cal": "glasscast"
     },
@@ -29,7 +29,7 @@
       "start": "2026-06-02T09:00",
       "end": "2026-06-02T09:30",
       "title": "Daily Stand up",
-      "meta": "Meet \u00b7 Doug",
+      "meta": "Meet · Doug",
       "dur": "30m",
       "cal": "glasscast"
     },
@@ -37,7 +37,7 @@
       "start": "2026-06-03T09:00",
       "end": "2026-06-03T09:30",
       "title": "Daily Stand up",
-      "meta": "Meet \u00b7 Doug",
+      "meta": "Meet · Doug",
       "dur": "30m",
       "cal": "glasscast"
     },
@@ -45,7 +45,7 @@
       "start": "2026-06-04T09:00",
       "end": "2026-06-04T09:30",
       "title": "Daily Stand up",
-      "meta": "Meet \u00b7 Doug",
+      "meta": "Meet · Doug",
       "dur": "30m",
       "cal": "glasscast"
     },
@@ -53,15 +53,15 @@
       "start": "2026-06-04T12:30",
       "end": "2026-06-04T13:00",
       "title": "Primesight <> Screenverse bi-weekly",
-      "meta": "Meet \u00b7 Jessica, Sean, Doug, Nasra",
+      "meta": "Meet · Jessica, Sean, Doug, Nasra",
       "dur": "30m",
-      "cal": "glasscast"
+      "cal": "personal"
     },
     {
       "start": "2026-06-04T15:00",
       "end": "2026-06-04T15:45",
       "title": "Ai Office Hours PM",
-      "meta": "Meet \u00b7 Doug, Doug R, Adam, Michael, Don",
+      "meta": "Meet · Doug B, Doug D, Michael, Don, Adam",
       "dur": "45m",
       "cal": "glasscast"
     },
@@ -69,7 +69,7 @@
       "start": "2026-06-05T09:00",
       "end": "2026-06-05T09:30",
       "title": "Daily Stand up",
-      "meta": "Meet \u00b7 Doug",
+      "meta": "Meet · Doug",
       "dur": "30m",
       "cal": "glasscast"
     },
@@ -77,12 +77,19 @@
       "start": "2026-06-05T15:00",
       "end": "2026-06-05T15:45",
       "title": "Primesight Weekly check-in",
-      "meta": "Meet \u00b7 Doug, Don, Adam, Michael",
+      "meta": "Meet · Doug, Don, Adam, Michael",
       "dur": "45m",
       "cal": "glasscast"
     }
   ],
   "mail": [
+    {
+      "from": "Ambi",
+      "subject": "LinkedIn <> Digital Media Post",
+      "snippet": "Saw your recent post about the Mandalorian movie and the if a tree falls analogy. 27 reactions show...",
+      "time": "10:12 AM",
+      "priority": "med"
+    },
     {
       "from": "Vistar Media",
       "subject": "Vistar Scheduled Report: PS Daily",
@@ -92,23 +99,16 @@
     },
     {
       "from": "Plexus",
-      "subject": "PrimeSight Brief \u2014 May 29",
+      "subject": "PrimeSight Brief — May 29",
       "snippet": "PrimeSight Morning Brief Friday, May 29, 2026. 104 displays across 94 venues.",
       "time": "5:31 AM",
       "priority": "high"
     },
     {
-      "from": "Ross Barish",
-      "subject": "Jesse Hendler Resume",
-      "snippet": "Thank you much for the assist. Please see my Son Julian friend Jesse Hendler...",
-      "time": "5:09 PM",
-      "priority": "med"
-    },
-    {
-      "from": "Doug Bideaux",
-      "subject": "D2P feedback",
-      "snippet": "thoughts? everything else looked good. The Yes! Organic framing needs to be broader...",
-      "time": "9:46 AM",
+      "from": "Amy Forsdyke",
+      "subject": "Call with MGL re correspondence to D2P",
+      "snippet": "Microsoft Teams meeting — Call with MGL re correspondence to D2P",
+      "time": "12:41 AM",
       "priority": "high"
     }
   ],
@@ -117,7 +117,7 @@
     "eventsLabel": "this week",
     "tasksComplete": 5,
     "tasksTotal": 8,
-    "unread": 2,
-    "focusScore": 88
+    "unread": 0,
+    "focusScore": 92
   }
 }
