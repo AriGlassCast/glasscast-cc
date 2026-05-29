@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-28T18:42:17.775590-04:00",
+  "updated": "2026-05-28T18:15:00-04:00",
   "calendar": [
     {
       "start": "2026-05-29T09:00",
@@ -61,7 +61,7 @@
       "start": "2026-06-04T15:00",
       "end": "2026-06-04T15:45",
       "title": "Ai Office Hours PM",
-      "meta": "Meet \u00b7 Doug, Doug, Michael, Don, Adam",
+      "meta": "Meet \u00b7 Doug, Michael, Don, Adam",
       "dur": "45m",
       "cal": "glasscast"
     }
@@ -70,7 +70,7 @@
     {
       "from": "Ross Barish",
       "subject": "Jesse Hendler Resume",
-      "snippet": "Thank you much for the assist. Please see my Son Julian's friend...",
+      "snippet": "Thank you much for the assist. Please see my Son Julian's friend Jesse...",
       "time": "5:09 PM",
       "priority": "med"
     },
@@ -78,21 +78,21 @@
       "from": "Doug Bideaux",
       "subject": "Re: Ai Office Hours PM",
       "snippet": "I'm fixing my wife's flat at her job, sorry can't make this.",
-      "time": "2:54 PM",
-      "priority": "high"
-    },
-    {
-      "from": "Doug Bideaux",
-      "subject": "D2P feedback",
-      "snippet": "thoughts? everything else looked good The Yes! Organic framing needs...",
-      "time": "9:46 AM",
+      "time": "3:03 PM",
       "priority": "high"
     },
     {
       "from": "Sean McKinney",
       "subject": "Vistar Agreement Update- Primesight",
-      "snippet": "Highly confidential. Writing to share update on Vistar agreement...",
+      "snippet": "Highly confidential. Writing to share Vistar agreement update details...",
       "time": "12:57 PM",
+      "priority": "high"
+    },
+    {
+      "from": "Doug Bideaux",
+      "subject": "D2P feedback",
+      "snippet": "Thoughts? Everything else looked good. The Yes! Organic framing needs...",
+      "time": "9:46 AM",
       "priority": "high"
     }
   ],
