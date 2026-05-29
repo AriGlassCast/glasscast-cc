@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-29T18:35:54-04:00",
+  "updated": "2026-05-29T19:31:30-04:00",
   "calendar": [
     {"start":"2026-05-31T19:00","end":"2026-05-31T19:30","title":"Call with MGL re correspondence to D2P","meta":"Teams · Amy, Doug, Ben","dur":"30m","cal":"personal"},
     {"start":"2026-06-01T09:00","end":"2026-06-01T09:30","title":"Daily Stand up","meta":"Meet · Doug","dur":"30m","cal":"glasscast"},
@@ -13,16 +13,16 @@
   ],
   "mail": [
     {"from":"Doug Bideaux","subject":"Re: Your invoice receipt for INV-9","snippet":"Hi guys, Can I please get the monthly reporting I asked for?","time":"1:17 PM","priority":"high"},
-    {"from":"Ambi","subject":"LinkedIn <> Digital Media Post","snippet":"Hey Ari, Saw your recent post about the Mandolrian movie an","time":"10:12 AM","priority":"low"},
-    {"from":"Vistar Media","subject":"Vistar Scheduled Report: PS Daily","snippet":"Your scheduled report was successfully generated.","time":"8:03 AM","priority":"med"},
-    {"from":"Plexus","subject":"PrimeSight Brief — May 29","snippet":"PrimeSight Morning Brief Friday, May 29, 2026 Good morning","time":"5:31 AM","priority":"high"}
+    {"from":"Amy Forsdyke","subject":"Call with MGL re correspondence to D2P","snippet":"Microsoft Teams meeting - Join: https://teams.microsoft.com/me","time":"12:41 AM","priority":"high"},
+    {"from":"Plexus","subject":"PrimeSight Brief — May 29","snippet":"PrimeSight Morning Brief Friday, May 29, 2026 — 104 displays","time":"5:31 AM","priority":"high"},
+    {"from":"Vistar Media","subject":"Vistar Scheduled Report: PS Daily","snippet":"Your scheduled report was successfully generated. Report Type:","time":"8:03 AM","priority":"med"}
   ],
   "kpi": {
     "events": 9,
     "eventsLabel": "this week",
     "tasksComplete": 5,
     "tasksTotal": 8,
-    "unread": 0,
-    "focusScore": 92
+    "unread": 50,
+    "focusScore": 20
   }
 }
