@@ -94,7 +94,7 @@ Every session. No exceptions. No shortcuts.
   --bg:#06060a;    /* Body bg — HAS BLUE BIAS on Samsung (R:6,G:6,B:10) */
   --bg2:#0a0a10;
   --bg3:#0e0e14;
-  --bg4:#121218;   /* Card bg on Screen 3 */
+  --bg4:#121218;   /* Card bg on Screen 3 — NOTE: .card now uses explicit #121218 instead of var(--bg4) */
   --bg5:#18181f;
   --bg6:#1c1c24;
   --bg7:#22222c;
@@ -141,7 +141,7 @@ Every session. No exceptions. No shortcuts.
 - Samsung QB43C amplifies blue channel
 - `#06060a` (R:6,G:6,B:10) → renders visibly blue on Samsung
 - `#0a0a0a` (R:10,G:10,B:10) → neutral dark, no bias
-- For darkest/blackest look: use `transparent` so body bg shows through (this is how Screen 1's Calendar works — var(--bg4) is broken → transparent → body bg)
+- For darkest/blackest look on Screen 3: use explicit `#121218` (N1) — transparent shows body bg #06060a which has blue bias. Screen 1 Calendar uses broken var(--bg4) → transparent, but Screen 1 body bg may render differently than Screen 3
 - When adding explicit background colors, use equal RGB channels to avoid Samsung color shift
 
 ### Typography
@@ -180,7 +180,7 @@ Every session. No exceptions. No shortcuts.
 - AI Product Cards (PRISM, SENTINEL, AXIOM, VECTOR):
   - Structure: separated `<div class="fu d9">` wrapper + inner `<div class="card">` pattern
   - Titles: ALL CAPS, #b06818, em-dash descriptions also #b06818
-  - Card backgrounds: `.card{background:var(--bg4)}` — `--bg4` intentionally broken (same typo as Screen 1: `-g4:#121218`) so cards are transparent showing body bg
+  - Card backgrounds: `.card{background:#121218}` — explicit N1 neutral dark (changed from transparent/broken var which showed blue-biased body bg on Samsung)
   - PRISM: 6 bars with 26-stop gradient (#3a1800 → #ffc844), wb1-wb6 animations
   - SENTINEL: heartbeat SVG, **2-color rotation** every 90s `['#c87014','#0a355e']`, L-to-R stagger 400ms (lightest color #d49040 removed)
   - AXIOM: ring chart + 3 bars (O1, O3, O5 colors)
@@ -205,8 +205,7 @@ Every session. No exceptions. No shortcuts.
 - Sentinel 3-color rotation JS duplicated 3× in screen3/tv.html — three independent setInterval calls running simultaneously (not yet fixed, not causing visible problems since all 3 now use same 2-color array)
 - Screen 1 index.html has UTF-8 corruption from browser-based editing (54 lines of mojibake) — needs git checkout to fix
 - Screen 1 CSS var `--bg4` is broken (typo: `-g4`) — cards are transparent by accident but it looks good
-- Screen 3 CSS var `--bg4` NOW ALSO broken (same `-g4` typo applied intentionally to match Screen 1)
-- **UNSOLVED: AI card container backgrounds on Samsung** — despite matching CSS to Screen 1's approach (broken --bg4 → transparent), the 4 AI cards (PRISM, SENTINEL, AXIOM, VECTOR) still appear lighter/bluer than Markets and Calendar on Samsung. Every CSS approach (explicit colors, transparent, broken vars, separated div structure) renders identically in Chrome but looks different on Samsung. Possibly a deep Tizen rendering issue with stacking contexts or compositing. Client has moved on.
+- **AI card container backgrounds on Samsung** — now set to explicit `#121218` (N1). Previous approaches (transparent, broken --bg4 var) showed blue-biased body bg on Samsung. N1 is equal-ish RGB so should render neutral. If still blue, the separated `fu/card` div structure may need collapsing.
 - Screen 3 flyover: later markets (Denver, LA) have more zoom (~1.6x) due to heavier original rotation
 - Flyover transit fine-tuning paused: client wants faster ascent (4s→2.5s) and higher travel zooms on dark legs
 
