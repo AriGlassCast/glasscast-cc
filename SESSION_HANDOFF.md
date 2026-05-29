@@ -141,7 +141,7 @@ Every session. No exceptions. No shortcuts.
 - Samsung QB43C amplifies blue channel
 - `#06060a` (R:6,G:6,B:10) → renders visibly blue on Samsung
 - `#0a0a0a` (R:10,G:10,B:10) → neutral dark, no bias
-- For darkest/blackest look on Screen 3: use explicit `#121218` (N1) — transparent shows body bg #06060a which has blue bias. Screen 1 Calendar uses broken var(--bg4) → transparent, but Screen 1 body bg may render differently than Screen 3
+- For darkest/blackest look on Screen 3: use `#060606` (equal RGB). NEVER use --bg scale vars for backgrounds — they all have blue bias. Screen 1 Calendar uses broken var(--bg4) → transparent → body bg #06060a, which has slight blue bias but is acceptable on Screen 1
 - When adding explicit background colors, use equal RGB channels to avoid Samsung color shift
 
 ### Typography
@@ -172,6 +172,7 @@ Every session. No exceptions. No shortcuts.
 - Weather: Open-Meteo API (free, no key)
 - Auto-reload every 30 min
 - CSS var `--bg4` typo (`-g4:#121218`) makes .card backgrounds transparent → shows body bg
+- Command Center, Pitch Notes, DOOH Contacts cards: hardcoded `#18181d` (was var(--bg5) #18181f, blue bias reduced +7→+5)
 
 ### Screen 3 (Network Flyover) — LIVE
 - Flyover video: rotation-free version, 1080x650, 15fps, 98s, 14s per market
@@ -180,7 +181,7 @@ Every session. No exceptions. No shortcuts.
 - AI Product Cards (PRISM, SENTINEL, AXIOM, VECTOR):
   - Structure: separated `<div class="fu d9">` wrapper + inner `<div class="card">` pattern
   - Titles: ALL CAPS, #b06818, em-dash descriptions also #b06818
-  - Card backgrounds: `.card{background:#121218}` — explicit N1 neutral dark (changed from transparent/broken var which showed blue-biased body bg on Samsung)
+  - Card backgrounds: `.card{background:#060606}` — equal RGB (6,6,6), zero blue bias. CONFIRMED WORKING on Samsung. Previous attempts (#121218, #0a0a0a, #06060a, transparent, broken --bg4) all showed blue on Samsung due to unequal RGB or body bg blue bias.
   - PRISM: 6 bars with 26-stop gradient (#3a1800 → #ffc844), wb1-wb6 animations
   - SENTINEL: heartbeat SVG, **2-color rotation** every 90s `['#c87014','#0a355e']`, L-to-R stagger 400ms (lightest color #d49040 removed)
   - AXIOM: ring chart + 3 bars (O1, O3, O5 colors)
@@ -205,7 +206,7 @@ Every session. No exceptions. No shortcuts.
 - Sentinel 3-color rotation JS duplicated 3× in screen3/tv.html — three independent setInterval calls running simultaneously (not yet fixed, not causing visible problems since all 3 now use same 2-color array)
 - Screen 1 index.html has UTF-8 corruption from browser-based editing (54 lines of mojibake) — needs git checkout to fix
 - Screen 1 CSS var `--bg4` is broken (typo: `-g4`) — cards are transparent by accident but it looks good
-- **AI card container backgrounds on Samsung** — now set to explicit `#121218` (N1). Previous approaches (transparent, broken --bg4 var) showed blue-biased body bg on Samsung. N1 is equal-ish RGB so should render neutral. If still blue, the separated `fu/card` div structure may need collapsing.
+- **AI card container backgrounds on Samsung** — SOLVED. Use `#060606` (equal RGB, zero blue). Samsung amplifies any blue channel imbalance. All --bg scale vars have blue bias and cannot be used for card backgrounds. Key learning: equal RGB values only for Samsung backgrounds.
 - Screen 3 flyover: later markets (Denver, LA) have more zoom (~1.6x) due to heavier original rotation
 - Flyover transit fine-tuning paused: client wants faster ascent (4s→2.5s) and higher travel zooms on dark legs
 
