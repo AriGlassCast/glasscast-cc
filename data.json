@@ -1,7 +1,7 @@
 {
-  "updated": "2026-05-30T13:36:02-04:00",
+  "updated": "2026-05-30T14:05:00-04:00",
   "calendar": [
-    {"start":"2026-05-31T19:00","end":"2026-05-31T19:30","title":"Call with MGL re correspondence to D2P","meta":"Teams · Amy, Ben, Doug","dur":"30m","cal":"glasscast"},
+    {"start":"2026-05-31T19:00","end":"2026-05-31T19:30","title":"Call with MGL re correspondence to D2P","meta":"Teams · Amy, Doug, Ben","dur":"30m","cal":"glasscast"},
     {"start":"2026-06-01T09:00","end":"2026-06-01T09:30","title":"Daily Stand up","meta":"Meet · Doug","dur":"30m","cal":"glasscast"},
     {"start":"2026-06-02T09:00","end":"2026-06-02T09:30","title":"Daily Stand up","meta":"Meet · Doug","dur":"30m","cal":"glasscast"},
     {"start":"2026-06-03T09:00","end":"2026-06-03T09:30","title":"Daily Stand up","meta":"Meet · Doug","dur":"30m","cal":"glasscast"},
@@ -12,10 +12,10 @@
     {"start":"2026-06-05T15:00","end":"2026-06-05T15:45","title":"Primesight Weekly check-in","meta":"Meet · Doug, Don, Adam, Michael","dur":"45m","cal":"glasscast"}
   ],
   "mail": [
-    {"from":"Dropbox","subject":"Which new (free) feature will you try first?","snippet":"Get organized and keep your work on track New at Dropbox We're","time":"8:59 AM","priority":"low"},
-    {"from":"Vistar Media","subject":"Vistar Scheduled Report: \"PS Daily\" from doug","snippet":"Your scheduled report was successfully generated. Please see","time":"8:03 AM","priority":"med"},
-    {"from":"Plexus","subject":"PrimeSight Brief — May 30","snippet":"PrimeSight Morning Brief Saturday, May 30, 2026 Good morning","time":"5:31 AM","priority":"high"},
-    {"from":"Amy Forsdyke","subject":"Call with MGL re correspondence to D2P","snippet":"Microsoft Teams meeting Join: https://teams.microsoft.com/me","time":"12:41 AM","priority":"med"}
+    {"from":"Plexus","subject":"PrimeSight Brief — May 30","snippet":"PrimeSight Morning Brief Saturday, May 30, 2026 Good morn","time":"5:31 AM","priority":"high"},
+    {"from":"Vistar Media","subject":"Vistar Scheduled Report: \"PS Daily\"","snippet":"Your scheduled report was successfully generated. Please","time":"8:03 AM","priority":"med"},
+    {"from":"Stacey's Window Cleaning","subject":"Window Cleaning","snippet":"Reaching out regarding window cleaning service","time":"1:49 PM","priority":"low"},
+    {"from":"Dropbox","subject":"Which new (free) feature will you try first?","snippet":"Get organized and keep your work on track New at Dropbox","time":"8:59 AM","priority":"low"}
   ],
   "kpi": {
     "events": 9,
