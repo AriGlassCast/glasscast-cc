@@ -923,5 +923,20 @@ html,body{margin:0!important;padding:0!important;overflow:hidden!important;backg
   window.addEventListener('resize',fit);
 })();
 </script>
+<script>
+(function(){
+  var _lastVer=null;
+  function checkForUpdate(){
+    fetch('version.txt?t='+Date.now()).then(function(r){return r.text();}).then(function(v){
+      v=v.trim();
+      if(_lastVer===null){_lastVer=v;return;}
+      if(v!==_lastVer){console.log('New version detected: '+v);location.reload();}
+    }).catch(function(){});
+  }
+  checkForUpdate();
+  setInterval(checkForUpdate,10000);
+  setTimeout(function(){location.reload();},1800000);
+})();
+</script>
 </body>
 </html>
