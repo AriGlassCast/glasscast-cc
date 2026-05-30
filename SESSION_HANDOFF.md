@@ -180,8 +180,9 @@ Every session. No exceptions. No shortcuts.
 - Plexus terminal: 16 rotating lines, font 10.5px
 - AI Product Cards (PRISM, SENTINEL, AXIOM, VECTOR):
   - Structure: separated `<div class="fu d9">` wrapper + inner `<div class="card">` pattern
-  - Titles: ALL CAPS, #b06818, em-dash descriptions also #b06818
-  - Card backgrounds: `.card{background:#060606}` — equal RGB (6,6,6), zero blue bias. CONFIRMED WORKING on Samsung. Previous attempts (#121218, #0a0a0a, #06060a, transparent, broken --bg4) all showed blue on Samsung due to unequal RGB or body bg blue bias.
+  - Titles: use `.sec-hdr` + `.sec-lbl` classes (matches Markets header — amber wash bg `rgba(232,146,42,.03)`, 13px, 700 weight, 4px letter-spacing, uppercase, `var(--acc4)`). Em-dash descriptions still #b06818 inline.
+  - Card backgrounds: `.card{background:#060606}` — equal RGB (6,6,6), zero blue bias. CONFIRMED WORKING on Samsung.
+  - Title bars: `.sec-hdr` class with amber wash — matches Markets header exactly. Plexus already had this; PRISM, SENTINEL, AXIOM, VECTOR updated to match.
   - PRISM: 6 bars with 26-stop gradient (#3a1800 → #ffc844), wb1-wb6 animations
   - SENTINEL: heartbeat SVG, **2-color rotation** every 90s `['#c87014','#0a355e']`, L-to-R stagger 400ms (lightest color #d49040 removed)
   - AXIOM: ring chart + 3 bars (O1, O3, O5 colors)
