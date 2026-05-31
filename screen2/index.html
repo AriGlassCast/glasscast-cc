@@ -919,5 +919,43 @@ html,body{margin:0!important;padding:0!important;overflow:hidden!important;backg
   setTimeout(function(){location.reload();},1800000);
 })();
 </script>
+<script>
+(function(){
+  var tickerMap = [
+    ['DJI','NDX','SPY','QQQ'],
+    ['ACHV','EL','NVDA','AAPL'],
+    ['AMZN','TSLA','GOOGL','NFLX'],
+    ['GLD','XLF','SOXL','VOO']
+  ];
+  function updateTickers(data){
+    if(!data||!data.tickers)return;
+    var groups=document.querySelectorAll('#tickerWrap .ticker-group');
+    for(var g=0;g<groups.length&&g<tickerMap.length;g++){
+      var rows=groups[g].children;
+      for(var r=0;r<rows.length&&r<tickerMap[g].length;r++){
+        var sym=tickerMap[g][r];
+        var t=data.tickers[sym];
+        if(!t)continue;
+        var cells=rows[r].children;
+        if(cells.length<4)continue;
+        cells[1].textContent=t.price.indexOf('.')!==-1?'$'+t.price:t.price;
+        var pct=parseFloat(t.change);
+        var pctEl=cells[3].querySelector('div');
+        if(pctEl){
+          pctEl.textContent=(pct>=0?'+':'')+pct.toFixed(2)+'%';
+          pctEl.style.color=pct>=0?'#f4b85c':'#ba3118';
+        }
+      }
+    }
+  }
+  function fetchStocks(){
+    fetch('/stock-data.json?t='+Date.now()).then(function(r){return r.json();}).then(function(d){
+      updateTickers(d);
+    }).catch(function(){});
+  }
+  fetchStocks();
+  setInterval(fetchStocks,300000);
+})();
+</script>
 </body>
 </html>
