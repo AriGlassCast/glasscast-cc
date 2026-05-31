@@ -1,20 +1,20 @@
 {
-  "updated": "2026-05-31T11:05:24-04:00",
+  "updated": "2026-05-31T11:35:42-04:00",
   "calendar": [
-    {"start":"2026-05-31T19:00","end":"2026-05-31T19:30","title":"Call with MGL re correspondence to D2P","meta":"Teams · Doug, Amy, Ben","dur":"30m","cal":"glasscast"},
+    {"start":"2026-05-31T19:00","end":"2026-05-31T19:30","title":"Call with MGL re correspondence to D2P","meta":"Teams · Amy, Doug, Ben","dur":"30m","cal":"glasscast"},
     {"start":"2026-06-01T09:00","end":"2026-06-01T09:30","title":"Daily Stand up","meta":"Meet · Doug","dur":"30m","cal":"glasscast"},
     {"start":"2026-06-02T09:00","end":"2026-06-02T09:30","title":"Daily Stand up","meta":"Meet · Doug","dur":"30m","cal":"glasscast"},
     {"start":"2026-06-03T09:00","end":"2026-06-03T09:30","title":"Daily Stand up","meta":"Meet · Doug","dur":"30m","cal":"glasscast"},
     {"start":"2026-06-04T09:00","end":"2026-06-04T09:30","title":"Daily Stand up","meta":"Meet · Doug","dur":"30m","cal":"glasscast"},
     {"start":"2026-06-04T12:30","end":"2026-06-04T13:00","title":"Primesight <> Screenverse bi-weekly","meta":"Meet · Jessica, Sean, Doug, Nasra","dur":"30m","cal":"personal"},
-    {"start":"2026-06-04T15:00","end":"2026-06-04T15:45","title":"Ai Office Hours PM","meta":"Meet · Doug, Adam, Michael, Don","dur":"45m","cal":"glasscast"},
+    {"start":"2026-06-04T15:00","end":"2026-06-04T15:45","title":"Ai Office Hours PM","meta":"Meet · Doug, Michael, Don, Adam","dur":"45m","cal":"glasscast"},
     {"start":"2026-06-05T09:00","end":"2026-06-05T09:30","title":"Daily Stand up","meta":"Meet · Doug","dur":"30m","cal":"glasscast"},
-    {"start":"2026-06-05T15:00","end":"2026-06-05T15:45","title":"Primesight Weekly check-in","meta":"Meet · Doug, Adam, Don, Michael","dur":"45m","cal":"glasscast"}
+    {"start":"2026-06-05T15:00","end":"2026-06-05T15:45","title":"Primesight Weekly check-in","meta":"Meet · Doug, Don, Adam, Michael","dur":"45m","cal":"glasscast"}
   ],
   "mail": [
-    {"from":"Plexus","subject":"PrimeSight Brief — May 31","snippet":"PrimeSight Morning Brief Sunday, May 31, 2026 Good morning te","time":"5:31 AM","priority":"high"},
     {"from":"Vistar Media","subject":"Vistar Scheduled Report: \"PS Daily\"","snippet":"Your scheduled report was successfully generated. Please see","time":"8:03 AM","priority":"low"},
-    {"from":"Dropbox","subject":"Which new (free) feature will you try first?","snippet":"Get organized and keep your work on track New at Dropbox We'","time":"8:59 AM","priority":"low"},
+    {"from":"Plexus Brief","subject":"PrimeSight Brief — May 31","snippet":"PrimeSight Morning Brief Sunday, May 31, 2026. 105 displays","time":"5:31 AM","priority":"high"},
+    {"from":"Dropbox","subject":"Which new (free) feature will you try first?","snippet":"Get organized and keep your work on track. New at Dropbox","time":"8:59 AM","priority":"low"},
     {"from":"Doug Bideaux","subject":"Re: Your invoice receipt for INV-9","snippet":"Hi guys, Can I please get the monthly reporting I asked for?","time":"1:17 PM","priority":"high"}
   ],
   "kpi": {
