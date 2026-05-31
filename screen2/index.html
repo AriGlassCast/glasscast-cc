@@ -451,9 +451,9 @@ html,body{margin:0!important;padding:0!important;overflow:hidden!important;backg
           <div style="text-align:right;min-width:62px"><div style="font-family:monospace;font-size:14px;color:var(--acc3);font-weight:500">+3.41%</div></div>
         </div>
         <div style="padding:6px 20px;border-bottom:1px solid var(--bdr);display:flex;align-items:center;gap:12px">
-          <div style="font-family:monospace;font-size:16px;font-weight:700;color:var(--blue3);width:64px">EL</div>
+          <div style="font-family:monospace;font-size:16px;font-weight:700;color:#ba3118;width:64px">EL</div>
           <div style="font-family:monospace;font-size:14px;color:var(--t2);min-width:80px">$82.90</div>
-          <div style="flex:1"><div style="width:100%;height:3px;background:var(--bg);border-radius:2px;overflow:hidden"><div style="height:100%;border-radius:3px;background:linear-gradient(90deg,var(--blue),var(--blue3));width:58%;animation:sliderPulse3 4.2s ease-in-out infinite;transform-origin:left"></div></div></div>
+          <div style="flex:1"><div style="width:100%;height:3px;background:var(--bg);border-radius:2px;overflow:hidden"><div style="height:100%;border-radius:3px;background:linear-gradient(90deg,#8b0000,#ba3118);width:58%;animation:sliderPulse3 4.2s ease-in-out infinite;transform-origin:left"></div></div></div>
           <div style="text-align:right;min-width:62px"><div style="font-family:monospace;font-size:14px;color:#ba3118;font-weight:500">-1.28%</div></div>
         </div>
         <div style="padding:6px 20px;border-bottom:1px solid var(--bdr);display:flex;align-items:center;gap:12px">
@@ -490,9 +490,9 @@ html,body{margin:0!important;padding:0!important;overflow:hidden!important;backg
           <div style="text-align:right;min-width:62px"><div style="font-family:monospace;font-size:14px;color:var(--acc3);font-weight:500">+1.08%</div></div>
         </div>
         <div style="padding:6px 20px;display:flex;align-items:center;gap:12px">
-          <div style="font-family:monospace;font-size:16px;font-weight:700;color:var(--blue3);width:64px">NFLX</div>
+          <div style="font-family:monospace;font-size:16px;font-weight:700;color:#ba3118;width:64px">NFLX</div>
           <div style="font-family:monospace;font-size:14px;color:var(--t2);min-width:80px">$87.89</div>
-          <div style="flex:1"><div style="width:100%;height:3px;background:var(--bg);border-radius:2px;overflow:hidden"><div style="height:100%;border-radius:3px;background:linear-gradient(90deg,var(--blue),var(--blue3));width:35%;animation:sliderPulse3 4.3s ease-in-out infinite;transform-origin:left"></div></div></div>
+          <div style="flex:1"><div style="width:100%;height:3px;background:var(--bg);border-radius:2px;overflow:hidden"><div style="height:100%;border-radius:3px;background:linear-gradient(90deg,#8b0000,#ba3118);width:35%;animation:sliderPulse3 4.3s ease-in-out infinite;transform-origin:left"></div></div></div>
           <div style="text-align:right;min-width:62px"><div style="font-family:monospace;font-size:14px;color:#ba3118;font-weight:500">-4.40%</div></div>
         </div>
       </div>
@@ -505,9 +505,9 @@ html,body{margin:0!important;padding:0!important;overflow:hidden!important;backg
           <div style="text-align:right;min-width:62px"><div style="font-family:monospace;font-size:14px;color:var(--acc3);font-weight:500">+0.45%</div></div>
         </div>
         <div style="padding:6px 20px;border-bottom:1px solid var(--bdr);display:flex;align-items:center;gap:12px">
-          <div style="font-family:monospace;font-size:16px;font-weight:700;color:var(--blue3);width:64px">XLF</div>
+          <div style="font-family:monospace;font-size:16px;font-weight:700;color:#ba3118;width:64px">XLF</div>
           <div style="font-family:monospace;font-size:14px;color:var(--t2);min-width:80px">$51.59</div>
-          <div style="flex:1"><div style="width:100%;height:3px;background:var(--bg);border-radius:2px;overflow:hidden"><div style="height:100%;border-radius:3px;background:linear-gradient(90deg,var(--blue),var(--blue3));width:40%;animation:sliderPulse2 5s ease-in-out infinite;transform-origin:left"></div></div></div>
+          <div style="flex:1"><div style="width:100%;height:3px;background:var(--bg);border-radius:2px;overflow:hidden"><div style="height:100%;border-radius:3px;background:linear-gradient(90deg,#8b0000,#ba3118);width:40%;animation:sliderPulse2 5s ease-in-out infinite;transform-origin:left"></div></div></div>
           <div style="text-align:right;min-width:62px"><div style="font-family:monospace;font-size:14px;color:#ba3118;font-weight:500">-0.31%</div></div>
         </div>
         <div style="padding:6px 20px;border-bottom:1px solid var(--bdr);display:flex;align-items:center;gap:12px">
@@ -950,10 +950,17 @@ html,body{margin:0!important;padding:0!important;overflow:hidden!important;backg
         if(cells.length<4)continue;
         cells[1].textContent=t.price.indexOf('.')!==-1?'$'+t.price:t.price;
         var pct=parseFloat(t.change);
+        var isDown=pct<0;
         var pctEl=cells[3].querySelector('div');
         if(pctEl){
           pctEl.textContent=(pct>=0?'+':'')+pct.toFixed(2)+'%';
-          pctEl.style.color=pct>=0?'#f4b85c':'#ba3118';
+          pctEl.style.color=isDown?'#ba3118':'#f4b85c';
+        }
+        var symEl=cells[0];
+        if(symEl)symEl.style.color=isDown?'#ba3118':'#e8922a';
+        var barInner=cells[2].querySelector('div div');
+        if(barInner){
+          barInner.style.background=isDown?'linear-gradient(90deg,#8b0000,#ba3118)':'linear-gradient(90deg,#d47a1e,#e8922a)';
         }
       }
     }
