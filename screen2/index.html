@@ -959,7 +959,7 @@ html,body{margin:0!important;padding:0!important;overflow:hidden!important;backg
     }
   }
   function fetchStocks(){
-    fetch('/stock-data.json?t='+Date.now()).then(function(r){return r.json();}).then(function(d){
+    fetch('https://ariglasscast.github.io/glasscast-cc/stock-data.json?t='+Date.now()).then(function(r){return r.json();}).then(function(d){
       updateTickers(d);
     }).catch(function(){});
   }
