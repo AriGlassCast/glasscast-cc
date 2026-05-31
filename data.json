@@ -1,7 +1,7 @@
 {
-  "updated": "2026-05-30T21:05:10-04:00",
+  "updated": "2026-05-30T22:05:00-04:00",
   "calendar": [
-    {"start":"2026-05-31T19:00","end":"2026-05-31T19:30","title":"Call with MGL re correspondence to D2P","meta":"Teams · Doug, Amy, Ben","dur":"30m","cal":"glasscast"},
+    {"start":"2026-05-31T19:00","end":"2026-05-31T19:30","title":"Call with MGL re correspondence to D2P","meta":"Teams · Amy, Doug, Ben","dur":"30m","cal":"personal"},
     {"start":"2026-06-01T09:00","end":"2026-06-01T09:30","title":"Daily Stand up","meta":"Meet · Doug","dur":"30m","cal":"glasscast"},
     {"start":"2026-06-02T09:00","end":"2026-06-02T09:30","title":"Daily Stand up","meta":"Meet · Doug","dur":"30m","cal":"glasscast"},
     {"start":"2026-06-03T09:00","end":"2026-06-03T09:30","title":"Daily Stand up","meta":"Meet · Doug","dur":"30m","cal":"glasscast"},
@@ -12,10 +12,10 @@
     {"start":"2026-06-05T15:00","end":"2026-06-05T15:45","title":"Primesight Weekly check-in","meta":"Meet · Doug, Don, Adam, Michael","dur":"45m","cal":"glasscast"}
   ],
   "mail": [
-    {"from":"Dropbox","subject":"Which new (free) feature will you try first?","snippet":"Get organized and keep your work on track New at Dropbox We're","time":"8:59 AM","priority":"low"},
-    {"from":"Vistar Media","subject":"Vistar Scheduled Report: PS Daily","snippet":"Your scheduled report was successfully generated. Please see th","time":"8:03 AM","priority":"med"},
-    {"from":"Plexus","subject":"PrimeSight Brief — May 30","snippet":"PrimeSight Morning Brief Saturday, May 30, 2026 Good morning te","time":"5:31 AM","priority":"high"},
-    {"from":"Stacey's Window Cleaning","subject":"Window Cleaning Service","snippet":"Scheduling follow-up for window cleaning service at your propert","time":"1:49 PM","priority":"med"}
+    {"from":"Dropbox","subject":"Which new (free) feature will you try first?","snippet":"Get organized and keep your work on track. New at Dropbox we're","time":"8:59 AM","priority":"low"},
+    {"from":"Vistar Media","subject":"Vistar Scheduled Report: PS Daily","snippet":"Your scheduled report was successfully generated. Please see","time":"8:03 AM","priority":"med"},
+    {"from":"Plexus (Glasscast)","subject":"PrimeSight Brief — May 30","snippet":"PrimeSight Morning Brief Saturday — 105 displays across 96 venues","time":"5:31 AM","priority":"high"},
+    {"from":"Doug Bideaux","subject":"Re: Your invoice receipt for INV-9","snippet":"Hi guys, Can I please get the monthly reporting I asked for?","time":"1:17 PM","priority":"high"}
   ],
   "kpi": {
     "events": 9,
