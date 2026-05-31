@@ -1,7 +1,7 @@
 {
-  "updated": "2026-05-31T10:04:51-04:00",
+  "updated": "2026-05-31T10:35:25-04:00",
   "calendar": [
-    {"start":"2026-05-31T19:00","end":"2026-05-31T19:30","title":"Call with MGL re correspondence to D2P","meta":"Teams · Doug, Amy, Ben","dur":"30m","cal":"personal"},
+    {"start":"2026-05-31T19:00","end":"2026-05-31T19:30","title":"Call with MGL re correspondence to D2P","meta":"Teams · Amy, Doug, Ben","dur":"30m","cal":"personal"},
     {"start":"2026-06-01T09:00","end":"2026-06-01T09:30","title":"Daily Stand up","meta":"Meet · Doug","dur":"30m","cal":"glasscast"},
     {"start":"2026-06-02T09:00","end":"2026-06-02T09:30","title":"Daily Stand up","meta":"Meet · Doug","dur":"30m","cal":"glasscast"},
     {"start":"2026-06-03T09:00","end":"2026-06-03T09:30","title":"Daily Stand up","meta":"Meet · Doug","dur":"30m","cal":"glasscast"},
@@ -12,10 +12,10 @@
     {"start":"2026-06-05T15:00","end":"2026-06-05T15:45","title":"Primesight Weekly check-in","meta":"Meet · Doug, Don, Adam, Michael","dur":"45m","cal":"glasscast"}
   ],
   "mail": [
-    {"from":"Plexus","subject":"PrimeSight Brief — May 31","snippet":"PrimeSight Morning Brief Sunday, May 31, 2026 Good mor","time":"5:31 AM","priority":"high"},
-    {"from":"Vistar Media","subject":"Vistar Scheduled Report: PS Daily","snippet":"Your scheduled report was successfully generated. Plea","time":"8:03 AM","priority":"med"},
-    {"from":"Doug Bideaux","subject":"Re: Your invoice receipt for INV-9","snippet":"Hi guys, Can I please get the monthly reporting I aske","time":"1:17 PM","priority":"high"},
-    {"from":"Ambi","subject":"LinkedIn <> Digital Media Post","snippet":"Hey Ari, Saw your recent post about the Mandolrian mov","time":"10:12 AM","priority":"med"}
+    {"from":"Plexus","subject":"PrimeSight Brief — May 31","snippet":"PrimeSight Morning Brief Sunday, May 31, 2026 Good morning team","time":"5:31 AM","priority":"high"},
+    {"from":"Vistar Media","subject":"Vistar Scheduled Report: \"PS Daily\"","snippet":"Your scheduled report was successfully generated. Please see the","time":"8:03 AM","priority":"low"},
+    {"from":"Doug Bideaux","subject":"Re: Your invoice receipt for INV-9","snippet":"Hi guys, Can I please get the monthly reporting I asked for? I'm","time":"1:17 PM","priority":"high"},
+    {"from":"Ambi","subject":"LinkedIn <> Digital Media Post","snippet":"Hey Ari, Saw your recent post about the Mandolrian movie and the","time":"10:12 AM","priority":"med"}
   ],
   "kpi": {
     "events": 9,
