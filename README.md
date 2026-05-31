@@ -26,7 +26,7 @@ Samsung QB43C TVs (Custom App via SSSP)
 | Screen | TV | GitHub Pages URL | Local Server | Port |
 |--------|-----|-----------------|-------------|------|
 | Screen 1 (Daily OS) | TV 1 | https://ariglasscast.github.io/glasscast-cc/ | http://192.168.4.50:8080/ | 8080 |
-| Screen 2 (Brand) | TV 2 | https://ariglasscast.github.io/glasscast-cc/screen2/ | TBD | TBD |
+| Screen 2 (Brand Intel) | TV 2 | https://ariglasscast.github.io/glasscast-cc/screen2/ | http://192.168.4.50:8082/ | 8082 |
 | Screen 3 (Network Flyover) | TV 3 | https://ariglasscast.github.io/glasscast-cc/screen3/ | http://192.168.4.50:8081/ | 8081 |
 
 ## Live Data Feeds (NO API CHARGES — all free)
@@ -42,6 +42,10 @@ Samsung QB43C TVs (Custom App via SSSP)
 - NY team focus: Knicks, Nets, Islanders, Mets, Giants
 - Refreshes every 30 min (5 min during game hours 12pm-1am)
 - Fetched client-side — no server or charges
+
+### Screen 2 — stock-data.json (auto-refreshed every 5 min via Cowork scheduled task)
+- **Financial Markets** â 16 stock/ETF/index quotes (Cowork web search, free)
+- Dashboard fetches stock-data.json every 5 min
 
 ## How Updates Work
 1. **Dashboard content** (HTML/CSS/JS): Push to this repo → GitHub Pages auto-deploys → TVs load on next refresh
@@ -85,5 +89,6 @@ cd ~/samsung-serve && python3 -m http.server 8080 --bind 0.0.0.0
 ## Samsung Certificates
 - Location: /Users/arichasin/SamsungCertificate/
 - Screen_1: DUID KLCDMLZKLBWNC
+- Screen_2: DUID 43CDMLZKCTUDE
 - Screen_3: DUID EXCDMLZKCTSD2
 - Launch Certificate Manager: `export JAVA_HOME=/Library/Java/JavaVirtualMachines/temurin-8.jdk/Contents/Home && open ~/tizen-studio/tools/certificate-manager/Certificate-manager.app`
