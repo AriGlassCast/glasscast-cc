@@ -26,7 +26,7 @@ Every session. No exceptions. No shortcuts.
 | Screen | GitHub Pages URL | Samsung Loads From | Port |
 |--------|-----------------|-------------------|------|
 | Screen 1 (Daily OS) | https://ariglasscast.github.io/glasscast-cc/ | http://192.168.4.50:8080/ | 8080 |
-| Screen 2 (Brand) | https://ariglasscast.github.io/glasscast-cc/screen2/ | TBD | 8082 (planned) |
+| Screen 2 (Brand Intel) | https://ariglasscast.github.io/glasscast-cc/screen2/ | http://192.168.4.50:8082/ | 8082 |
 | Screen 3 (Network Flyover) | https://ariglasscast.github.io/glasscast-cc/screen3/ | http://192.168.4.50:8081/ | 8081 |
 
 **The Samsung TVs do NOT load from GitHub Pages directly.** They load from the local Mac server (192.168.4.50) via SSSP protocol. The .wgt app on each TV redirects the browser to the GitHub Pages URL.
@@ -36,6 +36,7 @@ Every session. No exceptions. No shortcuts.
 - Firmware: S-KSU2EWWC-1150.8, Tizen OS 7.0
 - TV 1 DUID: KLCDMLZKLBWNC, IP: 192.168.4.32
 - Screen 3 DUID: EXCDMLZKCTSD2
+- Screen 2 DUID: 43CDMLZKCTUDE, Firmware: S-KSU2EWWC-1170.6
 - Mac server IP: 192.168.4.50
 
 ### File Mapping
@@ -49,6 +50,7 @@ Every session. No exceptions. No shortcuts.
 | `data.json` | Screen 1 | Calendar + mail data (auto-refreshed by scheduled task) |
 | `version.txt` | Screen 1 | Auto-reload trigger (polled every 10s) |
 | `screen3/version.txt` | Screen 3 | Auto-reload trigger (polled every 10s) |
+| `screen2/version.txt` | Screen 2 | Auto-reload trigger (polled every 10s) |
 
 ### GitHub
 - Repo: `AriGlassCast/glasscast-cc`
@@ -136,6 +138,7 @@ Every session. No exceptions. No shortcuts.
 | O3.5 | #d47a1e | --acc2 | Secondary amber |
 | O4 | #e8922a | --acc | Primary amber |
 | O6 | #f4b85c | --acc3 | Light amber, highlights |
+| R0 | #ba3118 | — | Screen 2 negative/spend red (midpoint of #950800 and #e05a30) |
 
 ### Samsung Color Behavior
 - Samsung QB43C amplifies blue channel
@@ -199,7 +202,32 @@ Every session. No exceptions. No shortcuts.
 - Container locking was removed — needs re-measurement if re-applied
 - version.txt polling every 10s + 30-min hard reload
 
-### Screen 2 (Brand) — NOT YET ACTIVE ON SAMSUNG
+### Screen 2 (Brand Intel) — LIVE ON SAMSUNG
+- Port 8082, launchd: com.glasscast.serve8082, dir: ~/samsung-serve-screen2/
+- TV DUID: 43CDMLZKCTUDE (firmware S-KSU2EWWC-1170.6)
+- Samsung cert: Screen_2, Public privilege
+- .wgt source: ~/GlasscastWgt-Screen2/ (redirect to GitHub Pages screen2/)
+- version.txt polling every 10s + 30-min hard reload
+- CSS var `--bg4` broken (same `-g4` typo as Screen 1) — cards transparent, body bg shows
+- `--green` removed entirely — all positive indicators use `var(--acc3)` (#f4b85c)
+- `--blue` vars set to B1.5 (#14558e) — used only for Evening, Times Sq, Pipeline
+- R0 (#ba3118) — custom red for negative stocks, Spend bars, Fill Rate unsold bars
+- All SVG chart labels hardcoded (not var()) for Tizen compatibility
+- Revenue chart: lines use style attr (not SVG attrs) for Tizen SVG rendering
+- Revenue chart months: Dec-May (May highlighted as current)
+- AI terminal: matches Plexus layout (Screen 3), line colors from Plexus palette
+- AI terminal: 158px height, fills space above pinned crawl
+- Crawl: `position:absolute;bottom:8px` — pinned to bottom, never moves
+- Crawl: LIVE box #b06818 (O3), matches Screen 3
+- Hero KPI cards (Fill Rate, Screens Online, Impressions): sec-hdr titles, inline bars like Vector
+- KPI bars animate with JS (transition:width, random jitter every 4s) like Screen 1 CPU/Memory
+- Fill Rate + Markets positions swapped (Fill Rate left, Markets right)
+- Health dot matrix: flex fills container height, gap:3px
+- Engagement chart: viewBox expanded to y=-15 for peak visibility, vertically centered
+- All section spacing: 8px vertical gaps (matches KPI card gap)
+- Side margins: 8px (matches Screen 1/3)
+- Revenue vs Spend: amber gradient (Revenue), R0 gradient (Spend)
+- Butterfly bar height: 14px with shimmer animation
 
 ---
 
@@ -208,6 +236,7 @@ Every session. No exceptions. No shortcuts.
 - Screen 1 index.html has UTF-8 corruption from browser-based editing (54 lines of mojibake) — needs git checkout to fix
 - Screen 1 CSS var `--bg4` is broken (typo: `-g4`) — cards are transparent by accident but it looks good
 - **AI card container backgrounds on Samsung** — SOLVED. Use `#060606` (equal RGB, zero blue). Samsung amplifies any blue channel imbalance. All --bg scale vars have blue bias and cannot be used for card backgrounds. Key learning: equal RGB values only for Samsung backgrounds.
+- Screen 2 Revenue chart: SVG lines require style attr (not SVG presentation attrs) for Tizen rendering — animateMotion dots may not work on all firmware
 - Screen 3 flyover: later markets (Denver, LA) have more zoom (~1.6x) due to heavier original rotation
 - Flyover transit fine-tuning paused: client wants faster ascent (4s→2.5s) and higher travel zooms on dark legs
 
