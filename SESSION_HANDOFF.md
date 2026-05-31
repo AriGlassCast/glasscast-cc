@@ -51,6 +51,7 @@ Every session. No exceptions. No shortcuts.
 | `version.txt` | Screen 1 | Auto-reload trigger (polled every 10s) |
 | `screen3/version.txt` | Screen 3 | Auto-reload trigger (polled every 10s) |
 | `screen2/version.txt` | Screen 2 | Auto-reload trigger (polled every 10s) |
+| `stock-data.json` | Screen 2 | Financial Markets data (auto-refreshed every 5 min by scheduled task) |
 
 ### GitHub
 - Repo: `AriGlassCast/glasscast-cc`
@@ -178,6 +179,8 @@ Every session. No exceptions. No shortcuts.
 - Command Center, Pitch Notes, DOOH Contacts cards: hardcoded `#18181d` (was var(--bg5) #18181f, blue bias reduced +7→+5)
 
 ### Screen 3 (Network Flyover) — LIVE
+- Topbar: 44px (matches Screen 1 and 2)
+- Plexus terminal: 146px height
 - Flyover video: rotation-free version, 1080x650, 15fps, 98s, 14s per market
 - Sports crawl: ESPN public API, NY team focus, refreshes every 30 min (5 min during game hours)
 - Plexus terminal: 16 rotating lines, font 10.5px
@@ -202,32 +205,58 @@ Every session. No exceptions. No shortcuts.
 - Container locking was removed — needs re-measurement if re-applied
 - version.txt polling every 10s + 30-min hard reload
 
-### Screen 2 (Brand Intel) — LIVE ON SAMSUNG
+### Screen 2 (Brand Intel) — LIVE ON SAMSUNG — LAYOUT LOCKED
 - Port 8082, launchd: com.glasscast.serve8082, dir: ~/samsung-serve-screen2/
 - TV DUID: 43CDMLZKCTUDE (firmware S-KSU2EWWC-1170.6)
 - Samsung cert: Screen_2, Public privilege
 - .wgt source: ~/GlasscastWgt-Screen2/ (redirect to GitHub Pages screen2/)
 - version.txt polling every 10s + 30-min hard reload
-- CSS var `--bg4` broken (same `-g4` typo as Screen 1) — cards transparent, body bg shows
-- `--green` removed entirely — all positive indicators use `var(--acc3)` (#f4b85c)
-- `--blue` vars set to B1.5 (#14558e) — used only for Evening, Times Sq, Pipeline
-- R0 (#ba3118) — custom red for negative stocks, Spend bars, Fill Rate unsold bars
-- All SVG chart labels hardcoded (not var()) for Tizen compatibility
-- Revenue chart: lines use style attr (not SVG attrs) for Tizen SVG rendering
-- Revenue chart months: Dec-May (May highlighted as current)
-- AI terminal: matches Plexus layout (Screen 3), line colors from Plexus palette
-- AI terminal: 158px height, fills space above pinned crawl
-- Crawl: `position:absolute;bottom:8px` — pinned to bottom, never moves
-- Crawl: LIVE box #b06818 (O3), matches Screen 3
-- Hero KPI cards (Fill Rate, Screens Online, Impressions): sec-hdr titles, inline bars like Vector
-- KPI bars animate with JS (transition:width, random jitter every 4s) like Screen 1 CPU/Memory
-- Fill Rate + Markets positions swapped (Fill Rate left, Markets right)
-- Health dot matrix: flex fills container height, gap:3px
-- Engagement chart: viewBox expanded to y=-15 for peak visibility, vertically centered
-- All section spacing: 8px vertical gaps (matches KPI card gap)
-- Side margins: 8px (matches Screen 1/3)
-- Revenue vs Spend: amber gradient (Revenue), R0 gradient (Spend)
-- Butterfly bar height: 14px with shimmer animation
+
+**Layout (LOCKED — do not change without client approval):**
+- Topbar: 44px (matches Screen 1 and 3)
+- Hero: Monthly Revenue (left, flex centered) + 3 KPI cards (right, inline bars)
+- Row 2: Revenue chart (left, 5fr) + Campaigns (right, 4fr)
+- Row 3: Fill Rate by daypart (left, swapped) + Markets area chart (right, swapped)
+- Row 4: Engagement curves (full width, viewBox 0 -15 640 200)
+- Row 5: Revenue vs Spend 7 markets (left) + Financial Markets tickers (right)
+- Row 6: Impressions mountain (left) + Health dot matrix (right)
+- AI Terminal: 285px height, background #060606, Plexus code colors
+- Crawl: position:absolute;bottom:8px (PINNED — never moves)
+- Side margins: 8px, vertical gaps: 8px (matches Screen 1)
+
+**Colors (LOCKED):**
+- CSS var --bg4 broken (typo -g4) — cards transparent, body bg shows (matches Screen 1)
+- No green anywhere — all positive indicators use var(--acc3) (#f4b85c)
+- --blue vars = B1.5 (#14558e) — used for Evening, Times Sq, Pipeline line
+- R0 (#ba3118) — negative stocks, Fill Rate unsold bars, Spend bars gradient
+- R1 (#8b0000) — used in Spend bar gradient stops
+- Down stocks: ticker symbol, bar, and % all turn R0 dynamically via JS
+- All SVG chart labels hardcoded (#dcc8aa) for Tizen compatibility
+- AI terminal code lines: Plexus palette (#0a355e, #a05000, #b06818, #f4b85c, #8c4400, #e8922a, #950800)
+- AI terminal background: #060606 (matches Screen 3 Plexus)
+
+**Animations:**
+- KPI bars (Fill Rate, Screens Online, Impressions): JS jitter every 3s (transition:width) + sliderPulse CSS
+- Fill Rate daypart bars: breatheGlow CSS (opacity 0.4-1.0, no scaleX)
+- Fill Rate unsold bars: breatheGlow CSS
+- Revenue vs Spend: sliderPulse CSS on all 7 market bars
+- Financial Markets: sliderPulse CSS on ticker progress bars, groups cycle every 30s
+- Revenue chart: static lines (Tizen SVG limitation), animateMotion traveling dots
+- Engagement/Markets/Impressions: fadeIn + breathing CSS animations, animateMotion dots
+- Health dot matrix: equalizer-style JS animation every 3s
+
+**Live Data:**
+- stock-data.json: pulled every 5 min by scheduled task (refresh-stock-data), 16 symbols
+- Screen 2 fetches stock-data.json every 5 min, updates ticker values + colors dynamically
+- AI terminal: code bursts cycle (15s/30s/45s intervals)
+- News crawl: static business headlines (not ESPN)
+
+**Tizen SVG Notes:**
+- Revenue chart lines require NO CSS animation to stay visible (static rendering)
+- SVG presentation attrs (stroke, fill) work with hardcoded colors, NOT var()
+- animateMotion (SMIL) works for traveling dots
+- CSS animations on SVG elements (breatheA, fadeIn) work via style attribute
+- breatheSlow/breatheGlow animations cause SVG repaint issues if mixed with static elements
 
 ---
 
