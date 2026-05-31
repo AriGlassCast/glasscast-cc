@@ -1,7 +1,7 @@
 {
-  "updated": "2026-05-30T23:05:00-04:00",
+  "updated": "2026-05-30T23:35:00-04:00",
   "calendar": [
-    {"start":"2026-05-31T19:00","end":"2026-05-31T19:30","title":"Call with MGL re correspondence to D2P","meta":"Teams · Doug, Amy, Ben","dur":"30m","cal":"glasscast"},
+    {"start":"2026-05-31T19:00","end":"2026-05-31T19:30","title":"Call with MGL re correspondence to D2P","meta":"Teams · Doug, Amy, Ben","dur":"30m","cal":"personal"},
     {"start":"2026-06-01T09:00","end":"2026-06-01T09:30","title":"Daily Stand up","meta":"Meet · Doug","dur":"30m","cal":"glasscast"},
     {"start":"2026-06-02T09:00","end":"2026-06-02T09:30","title":"Daily Stand up","meta":"Meet · Doug","dur":"30m","cal":"glasscast"},
     {"start":"2026-06-03T09:00","end":"2026-06-03T09:30","title":"Daily Stand up","meta":"Meet · Doug","dur":"30m","cal":"glasscast"},
@@ -13,16 +13,16 @@
   ],
   "mail": [
     {"from":"Dropbox","subject":"Which new (free) feature will you try first?","snippet":"Get organized and keep your work on track. New at Dropbox.","time":"8:59 AM","priority":"low"},
-    {"from":"Vistar Media","subject":"Vistar Scheduled Report: \"PS Daily\"","snippet":"Your scheduled report was successfully generated. Please see attached","time":"8:03 AM","priority":"med"},
-    {"from":"Plexus (Glasscast)","subject":"PrimeSight Brief — May 30","snippet":"PrimeSight Morning Brief — Saturday. 105 displays across 96 venues.","time":"5:31 AM","priority":"high"},
-    {"from":"Stacey's Window Cleaning","subject":"Window Cleaning Service","snippet":"Personal correspondence from Stacey's Window Cleaning","time":"1:49 PM","priority":"low"}
+    {"from":"Vistar Media","subject":"Vistar Scheduled Report: PS Daily","snippet":"Your scheduled report was successfully generated. See attached.","time":"8:03 AM","priority":"med"},
+    {"from":"Plexus","subject":"PrimeSight Brief — May 30","snippet":"PrimeSight Morning Brief Saturday. 105 displays across 96 venues.","time":"5:31 AM","priority":"high"},
+    {"from":"Stacey's Window Cleaning","subject":"Service inquiry","snippet":"Follow-up on window cleaning service scheduling.","time":"1:49 PM","priority":"med"}
   ],
   "kpi": {
     "events": 9,
     "eventsLabel": "this week",
     "tasksComplete": 5,
     "tasksTotal": 8,
-    "unread": 10,
-    "focusScore": 80
+    "unread": 8,
+    "focusScore": 84
   }
 }
