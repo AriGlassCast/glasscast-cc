@@ -53,6 +53,13 @@ Samsung QB43C TVs (Custom App via SSSP)
 3. **Screen 3 scores**: Client-side ESPN fetch — always live, nothing to push
 4. **TV .wgt**: NEVER needs updating unless redirect URL changes
 
+## SCREEN LAYOUT STATUS
+- **Screen 1 (Daily OS): LOCKED** — do not modify layout, colors, or spacing
+- **Screen 2 (Brand Intel): LOCKED** — do not modify layout, colors, or spacing
+- **Screen 3 (Network Flyover): LOCKED** — do not modify layout, colors, or spacing
+
+All visual changes require explicit client approval.
+
 ## CRITICAL RULES — DO NOT BREAK
 - All URLs must end with /
 - .wgt files MUST be signed with Samsung certificates — NEVER use plain `zip`
