@@ -580,13 +580,13 @@ html,body{margin:0!important;padding:0!important;overflow:hidden!important;backg
 
 <!-- AI TERMINAL — brand intel code bursts -->
 <div class="fu d12" style="padding:0 8px 4px;opacity:0">
-  <div class="card" style="border-color:rgba(232,146,42,.14);animation:glowBorder 4s ease-in-out infinite">
-    <div style="display:flex;align-items:center;gap:10px;padding:10px 24px;background:rgba(232,146,42,.03);border-bottom:1px solid var(--bdr2)">
-      <div style="display:flex;gap:5px"><div style="width:9px;height:9px;border-radius:50%;background:var(--red)"></div><div style="width:9px;height:9px;border-radius:50%;background:var(--acc)"></div><div style="width:9px;height:9px;border-radius:50%;background:var(--acc4)"></div></div>
-      <span style="font-family:monospace;font-size:11px;color:var(--t4);letter-spacing:1px">glasscast-ai ~/brand-intel</span>
-      <span id="aiTermSt" style="margin-left:auto;font-family:monospace;font-size:9px;color:var(--acc);animation:breathe 2s ease-in-out infinite">analyzing</span>
+  <div class="card" style="position:relative;overflow:hidden;border-color:rgba(232,146,42,.14);animation:glowBorder 4s ease-in-out infinite;display:flex;flex-direction:column">
+    <div style="display:flex;align-items:center;gap:10px;padding:7px 20px;background:rgba(232,146,42,.03);border-bottom:1px solid var(--bdr2);flex-shrink:0">
+      <div style="display:flex;gap:5px"><div style="width:9px;height:9px;border-radius:50%;background:#e05a30"></div><div style="width:9px;height:9px;border-radius:50%;background:#e8922a"></div><div style="width:9px;height:9px;border-radius:50%;background:#b06818"></div></div>
+      <span style="font-family:monospace;font-size:13px;color:var(--t4);letter-spacing:1px">glasscast-ai ~/brand-intel</span>
+      <span id="aiTermSt" style="margin-left:auto;font-family:monospace;font-size:10px;color:var(--acc)">RUNNING</span>
     </div>
-    <div id="aiTerm" style="padding:14px 24px;font-family:'SF Mono',Monaco,'Fira Code',monospace;font-size:11px;line-height:1.8;height:340px;overflow:hidden;color:var(--t5)"></div>
+    <div id="aiTerm" style="padding:14px 24px;font-family:'SF Mono',Monaco,'Fira Code',monospace;font-size:13px;line-height:1.8;height:130px;overflow:hidden;color:var(--t5);white-space:nowrap"></div>
   </div>
 </div>
 
