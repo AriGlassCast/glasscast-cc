@@ -119,27 +119,27 @@ html,body{margin:0!important;padding:0!important;overflow:hidden!important;backg
     <div class="fu d3 card" style="opacity:0">
       <div class="sec-hdr"><span class="sec-lbl">Fill Rate</span><span class="sec-meta" style="color:var(--acc)">83% · +8%</span></div>
       <div style="padding:8px 20px;display:flex;flex-direction:column;gap:6px">
-        <div style="display:flex;align-items:center;gap:10px"><span style="font-size:10px;color:var(--acc3);width:62px;flex-shrink:0">Morning</span><div style="flex:1;height:6px;background:var(--bg);border-radius:3px;overflow:hidden"><div style="height:100%;border-radius:3px;background:linear-gradient(90deg,var(--acc2),var(--acc3));width:91%;transition:width 3s" id="frMorn"></div></div><span style="font-family:monospace;font-size:10px;color:var(--acc);width:30px;text-align:right" id="frMornP">91%</span></div>
-        <div style="display:flex;align-items:center;gap:10px"><span style="font-size:10px;color:var(--acc2);width:62px;flex-shrink:0">Afternoon</span><div style="flex:1;height:6px;background:var(--bg);border-radius:3px;overflow:hidden"><div style="height:100%;border-radius:3px;background:linear-gradient(90deg,var(--acc4),var(--acc));width:88%;transition:width 3s" id="frAftn"></div></div><span style="font-family:monospace;font-size:10px;color:var(--acc);width:30px;text-align:right" id="frAftnP">88%</span></div>
-        <div style="display:flex;align-items:center;gap:10px"><span style="font-size:10px;color:var(--red);width:62px;flex-shrink:0">Evening</span><div style="flex:1;height:6px;background:var(--bg);border-radius:3px;overflow:hidden"><div style="height:100%;border-radius:3px;background:linear-gradient(90deg,var(--red),var(--red));width:42%;transition:width 3s" id="frEve"></div></div><span style="font-family:monospace;font-size:10px;color:var(--red);width:30px;text-align:right" id="frEveP">42%</span></div>
+        <div style="display:flex;align-items:center;gap:10px"><span style="font-size:10px;color:var(--acc3);width:62px;flex-shrink:0">Morning</span><div style="flex:1;height:6px;background:var(--bg);border-radius:3px;overflow:hidden"><div style="height:100%;border-radius:3px;background:linear-gradient(90deg,var(--acc2),var(--acc3));width:91%;transition:width 2s;transform-origin:left;animation:sliderPulse1 5s ease-in-out infinite" id="frMorn"></div></div><span style="font-family:monospace;font-size:10px;color:var(--acc);width:30px;text-align:right" id="frMornP">91%</span></div>
+        <div style="display:flex;align-items:center;gap:10px"><span style="font-size:10px;color:var(--acc2);width:62px;flex-shrink:0">Afternoon</span><div style="flex:1;height:6px;background:var(--bg);border-radius:3px;overflow:hidden"><div style="height:100%;border-radius:3px;background:linear-gradient(90deg,var(--acc4),var(--acc));width:88%;transition:width 2s;transform-origin:left;animation:sliderPulse2 6s .3s ease-in-out infinite" id="frAftn"></div></div><span style="font-family:monospace;font-size:10px;color:var(--acc);width:30px;text-align:right" id="frAftnP">88%</span></div>
+        <div style="display:flex;align-items:center;gap:10px"><span style="font-size:10px;color:var(--red);width:62px;flex-shrink:0">Evening</span><div style="flex:1;height:6px;background:var(--bg);border-radius:3px;overflow:hidden"><div style="height:100%;border-radius:3px;background:linear-gradient(90deg,var(--red),var(--red));width:42%;transition:width 2s;transform-origin:left;animation:sliderPulse3 7s .6s ease-in-out infinite" id="frEve"></div></div><span style="font-family:monospace;font-size:10px;color:var(--red);width:30px;text-align:right" id="frEveP">42%</span></div>
       </div>
     </div>
     <!-- SCREENS ONLINE -->
     <div class="fu d4 card" style="opacity:0">
       <div class="sec-hdr"><span class="sec-lbl">Screens Online</span><span class="sec-meta" style="color:var(--red)">7/8 · 99.5%</span></div>
       <div style="padding:8px 20px;display:flex;flex-direction:column;gap:6px">
-        <div style="display:flex;align-items:center;gap:10px"><span style="font-size:10px;color:var(--acc);width:62px;flex-shrink:0">Westfield</span><div style="flex:1;height:6px;background:var(--bg);border-radius:3px;overflow:hidden"><div style="height:100%;border-radius:3px;background:linear-gradient(90deg,var(--acc4),var(--acc));width:100%;transition:width 3s" id="soWest"></div></div><span style="font-family:monospace;font-size:10px;color:var(--acc);width:24px;text-align:right">3/3</span></div>
-        <div style="display:flex;align-items:center;gap:10px"><span style="font-size:10px;color:var(--acc2);width:62px;flex-shrink:0">Hudson Yds</span><div style="flex:1;height:6px;background:var(--bg);border-radius:3px;overflow:hidden"><div style="height:100%;border-radius:3px;background:linear-gradient(90deg,var(--acc2),var(--acc3));width:100%;transition:width 3s" id="soHuds"></div></div><span style="font-family:monospace;font-size:10px;color:var(--acc);width:24px;text-align:right">2/2</span></div>
-        <div style="display:flex;align-items:center;gap:10px"><span style="font-size:10px;color:var(--red);width:62px;flex-shrink:0">Times Sq</span><div style="flex:1;height:6px;background:var(--bg);border-radius:3px;overflow:hidden"><div style="height:100%;border-radius:3px;background:linear-gradient(90deg,var(--red),var(--red));width:67%;transition:width 3s" id="soTime"></div></div><span style="font-family:monospace;font-size:10px;color:var(--red);width:24px;text-align:right">2/3</span></div>
+        <div style="display:flex;align-items:center;gap:10px"><span style="font-size:10px;color:var(--acc);width:62px;flex-shrink:0">Westfield</span><div style="flex:1;height:6px;background:var(--bg);border-radius:3px;overflow:hidden"><div style="height:100%;border-radius:3px;background:linear-gradient(90deg,var(--acc4),var(--acc));width:100%;transition:width 2s;transform-origin:left;animation:sliderPulse1 6s .2s ease-in-out infinite" id="soWest"></div></div><span style="font-family:monospace;font-size:10px;color:var(--acc);width:24px;text-align:right">3/3</span></div>
+        <div style="display:flex;align-items:center;gap:10px"><span style="font-size:10px;color:var(--acc2);width:62px;flex-shrink:0">Hudson Yds</span><div style="flex:1;height:6px;background:var(--bg);border-radius:3px;overflow:hidden"><div style="height:100%;border-radius:3px;background:linear-gradient(90deg,var(--acc2),var(--acc3));width:100%;transition:width 2s;transform-origin:left;animation:sliderPulse2 5.5s .4s ease-in-out infinite" id="soHuds"></div></div><span style="font-family:monospace;font-size:10px;color:var(--acc);width:24px;text-align:right">2/2</span></div>
+        <div style="display:flex;align-items:center;gap:10px"><span style="font-size:10px;color:var(--red);width:62px;flex-shrink:0">Times Sq</span><div style="flex:1;height:6px;background:var(--bg);border-radius:3px;overflow:hidden"><div style="height:100%;border-radius:3px;background:linear-gradient(90deg,var(--red),var(--red));width:67%;transition:width 2s;transform-origin:left;animation:sliderPulse3 7s .8s ease-in-out infinite" id="soTime"></div></div><span style="font-family:monospace;font-size:10px;color:var(--red);width:24px;text-align:right">2/3</span></div>
       </div>
     </div>
     <!-- IMPRESSIONS -->
     <div class="fu d5 card" style="opacity:0">
       <div class="sec-hdr"><span class="sec-lbl">Impressions</span><span class="sec-meta" style="color:var(--acc)">8.4K · <span style="color:var(--acc3)">+12%</span></span></div>
       <div style="padding:8px 20px;display:flex;flex-direction:column;gap:6px">
-        <div style="display:flex;align-items:center;gap:10px"><span style="font-size:10px;color:var(--acc);width:62px;flex-shrink:0">Walk-by</span><div style="flex:1;height:6px;background:var(--bg);border-radius:3px;overflow:hidden"><div style="height:100%;border-radius:3px;background:linear-gradient(90deg,var(--acc2),var(--acc));width:78%;transition:width 3s" id="imWalk"></div></div><span style="font-family:monospace;font-size:10px;color:var(--acc);width:30px;text-align:right">4.2K</span></div>
-        <div style="display:flex;align-items:center;gap:10px"><span style="font-size:10px;color:var(--acc3);width:62px;flex-shrink:0">Engaged</span><div style="flex:1;height:6px;background:var(--bg);border-radius:3px;overflow:hidden"><div style="height:100%;border-radius:3px;background:linear-gradient(90deg,var(--acc),var(--acc3));width:58%;transition:width 3s" id="imEng"></div></div><span style="font-family:monospace;font-size:10px;color:var(--acc);width:30px;text-align:right">3.1K</span></div>
-        <div style="display:flex;align-items:center;gap:10px"><span style="font-size:10px;color:var(--acc4);width:62px;flex-shrink:0">Interactive</span><div style="flex:1;height:6px;background:var(--bg);border-radius:3px;overflow:hidden"><div style="height:100%;border-radius:3px;background:linear-gradient(90deg,var(--acc4),var(--acc2));width:22%;transition:width 3s" id="imInt"></div></div><span style="font-family:monospace;font-size:10px;color:var(--acc);width:30px;text-align:right">1.1K</span></div>
+        <div style="display:flex;align-items:center;gap:10px"><span style="font-size:10px;color:var(--acc);width:62px;flex-shrink:0">Walk-by</span><div style="flex:1;height:6px;background:var(--bg);border-radius:3px;overflow:hidden"><div style="height:100%;border-radius:3px;background:linear-gradient(90deg,var(--acc2),var(--acc));width:78%;transition:width 2s;transform-origin:left;animation:sliderPulse1 5.5s .3s ease-in-out infinite" id="imWalk"></div></div><span style="font-family:monospace;font-size:10px;color:var(--acc);width:30px;text-align:right">4.2K</span></div>
+        <div style="display:flex;align-items:center;gap:10px"><span style="font-size:10px;color:var(--acc3);width:62px;flex-shrink:0">Engaged</span><div style="flex:1;height:6px;background:var(--bg);border-radius:3px;overflow:hidden"><div style="height:100%;border-radius:3px;background:linear-gradient(90deg,var(--acc),var(--acc3));width:58%;transition:width 2s;transform-origin:left;animation:sliderPulse2 6.5s .6s ease-in-out infinite" id="imEng"></div></div><span style="font-family:monospace;font-size:10px;color:var(--acc);width:30px;text-align:right">3.1K</span></div>
+        <div style="display:flex;align-items:center;gap:10px"><span style="font-size:10px;color:var(--acc4);width:62px;flex-shrink:0">Interactive</span><div style="flex:1;height:6px;background:var(--bg);border-radius:3px;overflow:hidden"><div style="height:100%;border-radius:3px;background:linear-gradient(90deg,var(--acc4),var(--acc2));width:22%;transition:width 2s;transform-origin:left;animation:sliderPulse3 7.5s .9s ease-in-out infinite" id="imInt"></div></div><span style="font-family:monospace;font-size:10px;color:var(--acc);width:30px;text-align:right">1.1K</span></div>
       </div>
     </div>
   </div>
@@ -866,7 +866,7 @@ html,body{margin:0!important;padding:0!important;overflow:hidden!important;backg
   // KPI BAR ANIMATION — smooth width transitions like Screen 1 CPU/Memory/Network
   function jitter(base, range) { return Math.max(5, Math.min(100, base + (Math.random() * range * 2 - range))); }
   setInterval(function() {
-    var m = jitter(91, 4); var a = jitter(88, 5); var e = jitter(42, 6);
+    var m = jitter(91, 8); var a = jitter(88, 10); var e = jitter(42, 10);
     var el;
     el = document.getElementById('frMorn'); if(el) el.style.width = m + '%';
     el = document.getElementById('frMornP'); if(el) el.textContent = Math.round(m) + '%';
@@ -875,14 +875,14 @@ html,body{margin:0!important;padding:0!important;overflow:hidden!important;backg
     el = document.getElementById('frEve'); if(el) el.style.width = e + '%';
     el = document.getElementById('frEveP'); if(el) el.textContent = Math.round(e) + '%';
     // Screens Online
-    el = document.getElementById('soWest'); if(el) el.style.width = jitter(100, 2) + '%';
-    el = document.getElementById('soHuds'); if(el) el.style.width = jitter(100, 2) + '%';
-    el = document.getElementById('soTime'); if(el) el.style.width = jitter(67, 5) + '%';
+    el = document.getElementById('soWest'); if(el) el.style.width = jitter(100, 5) + '%';
+    el = document.getElementById('soHuds'); if(el) el.style.width = jitter(100, 5) + '%';
+    el = document.getElementById('soTime'); if(el) el.style.width = jitter(67, 10) + '%';
     // Impressions
-    el = document.getElementById('imWalk'); if(el) el.style.width = jitter(78, 6) + '%';
-    el = document.getElementById('imEng'); if(el) el.style.width = jitter(58, 5) + '%';
-    el = document.getElementById('imInt'); if(el) el.style.width = jitter(22, 4) + '%';
-  }, 4000);
+    el = document.getElementById('imWalk'); if(el) el.style.width = jitter(78, 10) + '%';
+    el = document.getElementById('imEng'); if(el) el.style.width = jitter(58, 10) + '%';
+    el = document.getElementById('imInt'); if(el) el.style.width = jitter(22, 8) + '%';
+  }, 3000);
 
 
   // ANTI BURN-IN — pixel shift + screen wipe (no extra timers, piggybacks on clock)
