@@ -1,19 +1,19 @@
 {
-  "updated": "2026-05-31T16:04:55-04:00",
+  "updated": "2026-05-31T16:45:13-04:00",
   "calendar": [
     {
       "start": "2026-05-31T19:00",
       "end": "2026-05-31T19:30",
       "title": "Call with MGL re correspondence to D2P",
-      "meta": "Teams \u00b7 Doug, Amy, Ben",
+      "meta": "Teams · Doug, Amy, Ben",
       "dur": "30m",
-      "cal": "personal"
+      "cal": "glasscast"
     },
     {
       "start": "2026-06-01T09:00",
       "end": "2026-06-01T09:30",
       "title": "Daily Stand up",
-      "meta": "Meet \u00b7 Doug",
+      "meta": "Meet · Doug",
       "dur": "30m",
       "cal": "glasscast"
     },
@@ -21,7 +21,7 @@
       "start": "2026-06-02T09:00",
       "end": "2026-06-02T09:30",
       "title": "Daily Stand up",
-      "meta": "Meet \u00b7 Doug",
+      "meta": "Meet · Doug",
       "dur": "30m",
       "cal": "glasscast"
     },
@@ -29,7 +29,7 @@
       "start": "2026-06-03T09:00",
       "end": "2026-06-03T09:30",
       "title": "Daily Stand up",
-      "meta": "Meet \u00b7 Doug",
+      "meta": "Meet · Doug",
       "dur": "30m",
       "cal": "glasscast"
     },
@@ -37,7 +37,7 @@
       "start": "2026-06-04T09:00",
       "end": "2026-06-04T09:30",
       "title": "Daily Stand up",
-      "meta": "Meet \u00b7 Doug",
+      "meta": "Meet · Doug",
       "dur": "30m",
       "cal": "glasscast"
     },
@@ -45,15 +45,15 @@
       "start": "2026-06-04T12:30",
       "end": "2026-06-04T13:00",
       "title": "Primesight <> Screenverse bi-weekly",
-      "meta": "Meet \u00b7 Jessica, Sean, Doug, Nasra",
+      "meta": "Meet · Jessica, Sean, Doug, Nasra",
       "dur": "30m",
-      "cal": "personal"
+      "cal": "glasscast"
     },
     {
       "start": "2026-06-04T15:00",
       "end": "2026-06-04T15:45",
       "title": "Ai Office Hours PM",
-      "meta": "Meet \u00b7 Doug, Michael, Don, Adam",
+      "meta": "Meet · Doug, Michael, Don, Adam",
       "dur": "45m",
       "cal": "glasscast"
     },
@@ -61,7 +61,7 @@
       "start": "2026-06-05T09:00",
       "end": "2026-06-05T09:30",
       "title": "Daily Stand up",
-      "meta": "Meet \u00b7 Doug",
+      "meta": "Meet · Doug",
       "dur": "30m",
       "cal": "glasscast"
     },
@@ -69,7 +69,7 @@
       "start": "2026-06-05T15:00",
       "end": "2026-06-05T15:45",
       "title": "Primesight Weekly check-in",
-      "meta": "Meet \u00b7 Doug, Don, Adam, Michael",
+      "meta": "Meet · Doug, Don, Adam, Michael",
       "dur": "45m",
       "cal": "glasscast"
     }
@@ -78,28 +78,28 @@
     {
       "from": "Anthropic Support",
       "subject": "Re: Cowork Deleted My Session History and Is Now Unresponsive",
-      "snippet": "Hi there, Thanks for reaching out and sincere apologies for the",
+      "snippet": "Thanks for reaching out and sincere apologies for the delay",
       "time": "1:26 PM",
       "priority": "med"
     },
     {
       "from": "Vistar Media",
-      "subject": "Vistar Scheduled Report: \"PS Daily\" from doug@glasscastmedia.com",
-      "snippet": "Your scheduled report was successfully generated. Please see",
+      "subject": "Vistar Scheduled Report: \"PS Daily\"",
+      "snippet": "Your scheduled report was successfully generated. Please s",
       "time": "8:03 AM",
       "priority": "med"
     },
     {
       "from": "Plexus",
-      "subject": "PrimeSight Brief \u2014 May 31",
-      "snippet": "PrimeSight Morning Brief Sunday, May 31, 2026 Good morning team",
+      "subject": "PrimeSight Brief — May 31",
+      "snippet": "PrimeSight Morning Brief Sunday, May 31, 2026. 105 displays",
       "time": "5:31 AM",
       "priority": "high"
     },
     {
       "from": "Dropbox",
       "subject": "Which new (free) feature will you try first?",
-      "snippet": "Get organized and keep your work on track New at Dropbox We're",
+      "snippet": "Get organized and keep your work on track. New at Dropbox",
       "time": "8:59 AM",
       "priority": "low"
     }
@@ -109,7 +109,7 @@
     "eventsLabel": "this week",
     "tasksComplete": 5,
     "tasksTotal": 8,
-    "unread": 5,
-    "focusScore": 86
+    "unread": 10,
+    "focusScore": 76
   }
 }
