@@ -168,7 +168,7 @@ Every session. No exceptions. No shortcuts.
 
 ## CURRENT STATE (Update this section after every session)
 
-### Screen 1 (Daily OS) — LIVE
+### Screen 1 (Daily OS) — LIVE — LAYOUT LOCKED
 - Container locking CSS: 10 containers, nth-child selectors with fixed heights
 - Calendar + Mail pull from data.json every 15 min
 - 9 tasks, 6 reminders
@@ -178,7 +178,7 @@ Every session. No exceptions. No shortcuts.
 - CSS var `--bg4` typo (`-g4:#121218`) makes .card backgrounds transparent → shows body bg
 - Command Center, Pitch Notes, DOOH Contacts cards: hardcoded `#18181d` (was var(--bg5) #18181f, blue bias reduced +7→+5)
 
-### Screen 3 (Network Flyover) — LIVE
+### Screen 3 (Network Flyover) — LIVE — LAYOUT LOCKED
 - Topbar: 44px (matches Screen 1 and 2)
 - Plexus terminal: 146px height
 - Flyover video: rotation-free version, 1080x650, 15fps, 98s, 14s per market
@@ -308,7 +308,8 @@ Every session. No exceptions. No shortcuts.
 5. **Never push modern JS** — ES5 only for Tizen.
 6. **Visual consistency** — font sizes, padding, spacing must match across sections.
 7. **Proof over promises** — show screenshots, not assurances.
-8. **Cross-screen edits require both files loaded** — pull both index.html and screen3/tv.html before any visual change that references another screen.
+8. **ALL 3 SCREENS ARE LAYOUT LOCKED.** Do not change layout, spacing, colors, fonts, or container sizes on any screen without explicit client approval. The current state is approved.
+9. **Cross-screen edits require both files loaded** — pull both index.html and screen3/tv.html before any visual change that references another screen.
 
 ---
 
