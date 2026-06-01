@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-01T08:05:00-04:00",
+  "updated": "2026-06-01T08:35:07-04:00",
   "calendar": [
     {"start":"2026-06-01T09:00","end":"2026-06-01T09:30","title":"Daily Stand up","meta":"Meet · Doug","dur":"30m","cal":"glasscast"},
     {"start":"2026-06-02T09:00","end":"2026-06-02T09:30","title":"Daily Stand up","meta":"Meet · Doug","dur":"30m","cal":"glasscast"},
@@ -12,17 +12,17 @@
     {"start":"2026-06-08T09:00","end":"2026-06-08T09:30","title":"Daily Stand up","meta":"Meet · Doug","dur":"30m","cal":"glasscast"}
   ],
   "mail": [
-    {"from":"Plexus","subject":"PrimeSight Brief — Jun 01","snippet":"PrimeSight Morning Brief Monday, June 01, 2026. 105 disp","time":"5:31 AM","priority":"high"},
-    {"from":"GitHub","subject":"Your personal access token (classic) is about to expire","snippet":"Hi @AriGlassCast, We noticed your personal access token","time":"7:39 PM","priority":"med"},
-    {"from":"Anthropic Support","subject":"Re: Cowork Deleted My Session History and Is Now Unresponsive","snippet":"Hi there, Thanks for reaching out and sincere apologies","time":"1:26 PM","priority":"med"},
-    {"from":"Vistar Media","subject":"Vistar Scheduled Report: PS Daily","snippet":"Your scheduled report was successfully generated. Please","time":"8:03 AM","priority":"med"}
+    {"from":"Doug Wynkoop","subject":"Kickoff this week?","snippet":"Hi Jonathan, Hope you a nice time in Italy. We were wondering","time":"8:27 AM","priority":"high"},
+    {"from":"Vistar Media","subject":"Vistar Scheduled Report: PS Daily","snippet":"Your scheduled report was successfully generated. Please see","time":"8:06 AM","priority":"med"},
+    {"from":"Plexus","subject":"PrimeSight Brief — Jun 01","snippet":"PrimeSight Morning Brief Monday, June 01, 2026 Good morning t","time":"5:31 AM","priority":"high"},
+    {"from":"GitHub","subject":"GitHub PAT about to expire","snippet":"Hi @AriGlassCast, We noticed your personal access token (clas","time":"7:39 PM","priority":"low"}
   ],
   "kpi": {
     "events": 9,
     "eventsLabel": "this week",
     "tasksComplete": 5,
     "tasksTotal": 8,
-    "unread": 6,
-    "focusScore": 84
+    "unread": 2,
+    "focusScore": 92
   }
 }
