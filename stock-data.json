@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-01T04:44:47-04:00",
+  "updated": "2026-06-01T04:50:23-04:00",
   "tickers": {
     "DJI": {"price": "51032", "change": "+0.72"},
     "NDX": {"price": "30333", "change": "+0.36"},
@@ -15,7 +15,7 @@
     "NFLX": {"price": "86.02", "change": "-0.01"},
     "GLD": {"price": "417.34", "change": "+1.05"},
     "XLF": {"price": "51.58", "change": "+0.66"},
-    "SOXL": {"price": "224.34", "change": "-0.13"},
+    "SOXL": {"price": "223.21", "change": "-0.50"},
     "VOO": {"price": "695.52", "change": "+0.23"}
   }
 }
