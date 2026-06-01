@@ -1,28 +1,27 @@
 {
-  "updated": "2026-06-01T06:05:19-04:00",
+  "updated": "2026-06-01T10:35:04-04:00",
   "calendar": [
-    {"start":"2026-06-01T09:00","end":"2026-06-01T09:30","title":"Daily Stand up","meta":"Meet · Doug, Ari","dur":"30m","cal":"glasscast"},
-    {"start":"2026-06-02T09:00","end":"2026-06-02T09:30","title":"Daily Stand up","meta":"Meet · Doug, Ari","dur":"30m","cal":"glasscast"},
-    {"start":"2026-06-03T09:00","end":"2026-06-03T09:30","title":"Daily Stand up","meta":"Meet · Doug, Ari","dur":"30m","cal":"glasscast"},
-    {"start":"2026-06-04T09:00","end":"2026-06-04T09:30","title":"Daily Stand up","meta":"Meet · Doug, Ari","dur":"30m","cal":"glasscast"},
-    {"start":"2026-06-04T12:30","end":"2026-06-04T13:00","title":"Primesight <> Screenverse bi-weekly","meta":"Meet · Jessica, Sean, Ari, Doug, Nasra","dur":"30m","cal":"personal"},
-    {"start":"2026-06-04T15:00","end":"2026-06-04T15:45","title":"Ai Office Hours PM","meta":"Meet · Doug, Ari, Michael, Don, Adam","dur":"45m","cal":"glasscast"},
-    {"start":"2026-06-05T09:00","end":"2026-06-05T09:30","title":"Daily Stand up","meta":"Meet · Doug, Ari","dur":"30m","cal":"glasscast"},
-    {"start":"2026-06-05T15:00","end":"2026-06-05T15:45","title":"Primesight Weekly check-in","meta":"Meet · Doug, Ari, Don, Adam, Michael","dur":"45m","cal":"glasscast"},
-    {"start":"2026-06-08T09:00","end":"2026-06-08T09:30","title":"Daily Stand up","meta":"Meet · Doug, Ari","dur":"30m","cal":"glasscast"}
+    {"start":"2026-06-02T09:00","end":"2026-06-02T09:30","title":"Daily Stand up","meta":"Meet · Doug","dur":"30m","cal":"glasscast"},
+    {"start":"2026-06-03T09:00","end":"2026-06-03T09:30","title":"Daily Stand up","meta":"Meet · Doug","dur":"30m","cal":"glasscast"},
+    {"start":"2026-06-04T09:00","end":"2026-06-04T09:30","title":"Daily Stand up","meta":"Meet · Doug","dur":"30m","cal":"glasscast"},
+    {"start":"2026-06-04T12:30","end":"2026-06-04T13:00","title":"Primesight <> Screenverse bi-weekly","meta":"Meet · Jessica, Sean, Doug, Nasra","dur":"30m","cal":"glasscast"},
+    {"start":"2026-06-04T15:00","end":"2026-06-04T15:45","title":"Ai Office Hours PM","meta":"Meet · Doug, Adam, Michael, Don","dur":"45m","cal":"glasscast"},
+    {"start":"2026-06-05T09:00","end":"2026-06-05T09:30","title":"Daily Stand up","meta":"Meet · Doug","dur":"30m","cal":"glasscast"},
+    {"start":"2026-06-05T15:00","end":"2026-06-05T15:45","title":"Primesight Weekly check-in","meta":"Meet · Doug, Don, Adam, Michael","dur":"45m","cal":"glasscast"},
+    {"start":"2026-06-08T09:00","end":"2026-06-08T09:30","title":"Daily Stand up","meta":"Meet · Doug","dur":"30m","cal":"glasscast"}
   ],
   "mail": [
-    {"from":"Plexus","subject":"PrimeSight Brief — Jun 01","snippet":"PrimeSight Morning Brief Monday, June 01, 2026 Good morning team","time":"5:31 AM","priority":"high"},
-    {"from":"GitHub","subject":"Your personal access token (classic) is about to expire","snippet":"Hi @AriGlassCast, We noticed your personal access token (clas","time":"7:39 PM","priority":"med"},
-    {"from":"Anthropic Support","subject":"Re: Cowork Deleted My Session History and Is Now Unresponsive","snippet":"Hi there, Thanks for reaching out and sincere apologies for th","time":"1:26 PM","priority":"med"},
-    {"from":"Vistar Media","subject":"Vistar Scheduled Report: \"PS Daily\" from doug@glasscastmedia.com","snippet":"Your scheduled report was successfully generated. Please see t","time":"8:03 AM","priority":"med"}
+    {"from":"Glasscast Plexus","subject":"PrimeSight Brief — Jun 01","snippet":"PrimeSight Morning Brief Monday, June 01, 2026 — 105 displays","time":"5:31 AM","priority":"high"},
+    {"from":"GitHub","subject":"Your personal access token (classic) is about to expire","snippet":"Your personal access token 'glasscast-deploy-temp' will expire","time":"7:39 PM","priority":"low"},
+    {"from":"Anthropic Support","subject":"Re: Cowork Deleted My Session History and Is Now Unresponsive","snippet":"Thanks for reaching out and sincere apologies for the delay here","time":"1:26 PM","priority":"med"},
+    {"from":"Vistar Media","subject":"Vistar Scheduled Report: PS Daily","snippet":"Your scheduled report was successfully generated. Report Type:","time":"8:03 AM","priority":"med"}
   ],
   "kpi": {
-    "events": 8,
+    "events": 9,
     "eventsLabel": "this week",
     "tasksComplete": 5,
     "tasksTotal": 8,
-    "unread": 50,
-    "focusScore": 20
+    "unread": 1,
+    "focusScore": 94
   }
 }
