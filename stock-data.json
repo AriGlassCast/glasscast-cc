@@ -1,21 +1,21 @@
 {
-  "updated": "2026-06-01T06:42:00-04:00",
+  "updated": "2026-06-01T06:50:00-04:00",
   "tickers": {
     "DJI": {"price": "51032", "change": "+0.72"},
-    "NDX": {"price": "30334", "change": "+0.99"},
-    "SPY": {"price": "756.48", "change": "+0.25"},
-    "QQQ": {"price": "738.31", "change": "+0.37"},
+    "NDX": {"price": "30333", "change": "+0.36"},
+    "SPY": {"price": "755.65", "change": "+0.50"},
+    "QQQ": {"price": "737.65", "change": "+0.29"},
     "ACHV": {"price": "5.29", "change": "-0.19"},
-    "EL": {"price": "77.27", "change": "+0.15"},
-    "NVDA": {"price": "213.36", "change": "+1.05"},
-    "AAPL": {"price": "312.06", "change": "+0.45"},
-    "AMZN": {"price": "270.60", "change": "-1.23"},
-    "TSLA": {"price": "434.35", "change": "-1.55"},
-    "GOOGL": {"price": "380.57", "change": "-0.55"},
-    "NFLX": {"price": "86.01", "change": "-0.85"},
+    "EL": {"price": "74.50", "change": "-3.59"},
+    "NVDA": {"price": "212.49", "change": "+0.50"},
+    "AAPL": {"price": "312.06", "change": "-0.14"},
+    "AMZN": {"price": "270.64", "change": "-1.23"},
+    "TSLA": {"price": "434.35", "change": "+0.30"},
+    "GOOGL": {"price": "380.57", "change": "+0.50"},
+    "NFLX": {"price": "86.01", "change": "+0.40"},
     "GLD": {"price": "417.12", "change": "+1.05"},
-    "XLF": {"price": "51.36", "change": "-0.10"},
+    "XLF": {"price": "51.92", "change": "+0.33"},
     "SOXL": {"price": "224.34", "change": "-0.13"},
-    "VOO": {"price": "695.49", "change": "+0.23"}
+    "VOO": {"price": "695.49", "change": "+0.50"}
   }
 }
