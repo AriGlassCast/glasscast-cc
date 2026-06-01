@@ -1,27 +1,27 @@
 {
-  "updated": "2026-06-01T10:05:04-04:00",
+  "updated": "2026-06-01T10:35:00-04:00",
   "calendar": [
     {"start":"2026-06-02T09:00","end":"2026-06-02T09:30","title":"Daily Stand up","meta":"Meet · Doug","dur":"30m","cal":"glasscast"},
     {"start":"2026-06-03T09:00","end":"2026-06-03T09:30","title":"Daily Stand up","meta":"Meet · Doug","dur":"30m","cal":"glasscast"},
     {"start":"2026-06-04T09:00","end":"2026-06-04T09:30","title":"Daily Stand up","meta":"Meet · Doug","dur":"30m","cal":"glasscast"},
-    {"start":"2026-06-04T12:30","end":"2026-06-04T13:00","title":"Primesight <> Screenverse bi-weekly","meta":"Meet · Jessica, Sean, Doug, Nasra","dur":"30m","cal":"personal"},
+    {"start":"2026-06-04T12:30","end":"2026-06-04T13:00","title":"Primesight <> Screenverse bi-weekly","meta":"Meet · Jessica, Sean, Doug, Nasra","dur":"30m","cal":"glasscast"},
     {"start":"2026-06-04T15:00","end":"2026-06-04T15:45","title":"Ai Office Hours PM","meta":"Meet · Doug, Michael, Don, Adam","dur":"45m","cal":"glasscast"},
     {"start":"2026-06-05T09:00","end":"2026-06-05T09:30","title":"Daily Stand up","meta":"Meet · Doug","dur":"30m","cal":"glasscast"},
     {"start":"2026-06-05T15:00","end":"2026-06-05T15:45","title":"Primesight Weekly check-in","meta":"Meet · Doug, Don, Adam, Michael","dur":"45m","cal":"glasscast"},
     {"start":"2026-06-08T09:00","end":"2026-06-08T09:30","title":"Daily Stand up","meta":"Meet · Doug","dur":"30m","cal":"glasscast"}
   ],
   "mail": [
-    {"from":"Doug Greenlaw","subject":"Kickoff this week?","snippet":"Hi Jonathan, Hope you a nice time in Italy. We were wonder","time":"8:27 AM","priority":"high"},
-    {"from":"Vistar Media","subject":"Vistar Scheduled Report: \"PS Daily\"","snippet":"Your scheduled report was successfully generated. Please s","time":"8:06 AM","priority":"low"},
-    {"from":"Plexus","subject":"PrimeSight Brief — Jun 01","snippet":"PrimeSight Morning Brief Monday, June 01, 2026 Good mornin","time":"5:31 AM","priority":"high"},
-    {"from":"GitHub","subject":"Personal access token expiring","snippet":"Hi @AriGlassCast, We noticed your personal access token (c","time":"7:39 PM","priority":"low"}
+    {"from":"Doug Cohen","subject":"Kickoff this week?","snippet":"Hi Jonathan, Hope you a nice time in Italy. We were wond","time":"8:27 AM","priority":"high"},
+    {"from":"Plexus","subject":"PrimeSight Brief — Jun 01","snippet":"PrimeSight Morning Brief Monday, June 01, 2026 — happy M","time":"5:31 AM","priority":"high"},
+    {"from":"Vistar Media","subject":"Vistar Scheduled Report: PS Daily","snippet":"Your scheduled report was successfully generated. Please","time":"8:06 AM","priority":"low"},
+    {"from":"GitHub","subject":"Personal access token expiring","snippet":"We noticed your personal access token glasscast-deploy-t","time":"7:39 PM","priority":"low"}
   ],
   "kpi": {
-    "events": 9,
+    "events": 8,
     "eventsLabel": "this week",
     "tasksComplete": 5,
     "tasksTotal": 8,
-    "unread": 1,
-    "focusScore": 94
+    "unread": 6,
+    "focusScore": 84
   }
 }
