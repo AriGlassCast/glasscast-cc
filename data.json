@@ -1,27 +1,27 @@
 {
-  "updated": "2026-06-01T11:39:58-04:00",
+  "updated": "2026-06-01T12:05:53-04:00",
   "calendar": [
-    {"start":"2026-06-02T09:00","end":"2026-06-02T09:30","title":"Daily Stand up","meta":"Meet · Doug","dur":"30m","cal":"glasscast"},
-    {"start":"2026-06-03T09:00","end":"2026-06-03T09:30","title":"Daily Stand up","meta":"Meet · Doug","dur":"30m","cal":"glasscast"},
-    {"start":"2026-06-04T09:00","end":"2026-06-04T09:30","title":"Daily Stand up","meta":"Meet · Doug","dur":"30m","cal":"glasscast"},
-    {"start":"2026-06-04T12:30","end":"2026-06-04T13:00","title":"Primesight <> Screenverse bi-weekly","meta":"Meet · Jessica, Sean, Doug, Nasra","dur":"30m","cal":"personal"},
-    {"start":"2026-06-04T15:00","end":"2026-06-04T15:45","title":"Ai Office Hours PM","meta":"Meet · Doug, Michael, Don, Adam","dur":"45m","cal":"glasscast"},
-    {"start":"2026-06-05T09:00","end":"2026-06-05T09:30","title":"Daily Stand up","meta":"Meet · Doug","dur":"30m","cal":"glasscast"},
-    {"start":"2026-06-05T15:00","end":"2026-06-05T15:45","title":"Primesight Weekly check-in","meta":"Meet · Doug, Don, Adam, Michael","dur":"45m","cal":"glasscast"},
-    {"start":"2026-06-08T09:00","end":"2026-06-08T09:30","title":"Daily Stand up","meta":"Meet · Doug","dur":"30m","cal":"glasscast"}
+    {"start":"2026-06-02T09:00","end":"2026-06-02T09:30","title":"Daily Stand up","meta":"Meet · Doug, Ari","dur":"30m","cal":"glasscast"},
+    {"start":"2026-06-03T09:00","end":"2026-06-03T09:30","title":"Daily Stand up","meta":"Meet · Doug, Ari","dur":"30m","cal":"glasscast"},
+    {"start":"2026-06-04T09:00","end":"2026-06-04T09:30","title":"Daily Stand up","meta":"Meet · Doug, Ari","dur":"30m","cal":"glasscast"},
+    {"start":"2026-06-04T12:30","end":"2026-06-04T13:00","title":"Primesight <> Screenverse bi-weekly","meta":"Meet · Jessica, Sean, Doug","dur":"30m","cal":"personal"},
+    {"start":"2026-06-04T15:00","end":"2026-06-04T15:45","title":"Ai Office Hours PM","meta":"Meet · Doug, Michael, Adam","dur":"45m","cal":"glasscast"},
+    {"start":"2026-06-05T09:00","end":"2026-06-05T09:30","title":"Daily Stand up","meta":"Meet · Doug, Ari","dur":"30m","cal":"glasscast"},
+    {"start":"2026-06-05T15:00","end":"2026-06-05T15:45","title":"Primesight Weekly check-in","meta":"Meet · Doug, Adam, Michael","dur":"45m","cal":"glasscast"},
+    {"start":"2026-06-08T09:00","end":"2026-06-08T09:30","title":"Daily Stand up","meta":"Meet · Doug, Ari","dur":"30m","cal":"glasscast"}
   ],
   "mail": [
-    {"from":"Doug Aley","subject":"Kickoff this week?","snippet":"Hi Jonathan, Hope you a nice time in Italy. We were wonderi","time":"8:27 AM","priority":"high"},
-    {"from":"Plexus Glasscast","subject":"PrimeSight Brief — Jun 01","snippet":"PrimeSight Morning Brief Monday, June 01, 2026 Good morning","time":"5:31 AM","priority":"high"},
-    {"from":"GoodFriend Storage","subject":"Receipt for your payment at GoodFriend Self-Storage","snippet":"Dear PrimeSight, Thank you for your recent payment at GoodF","time":"10:47 AM","priority":"low"},
-    {"from":"Vistar Media","subject":"Vistar Scheduled Report: PS Daily","snippet":"Your scheduled report was successfully generated. Please se","time":"8:06 AM","priority":"low"}
+    {"from":"Andrew Hill","subject":"Ari, LOC for Glasscast","snippet":"Ari, Most owners carrying short term debt are not in any kind","time":"11:56 AM","priority":"med"},
+    {"from":"GoodFriend Storage","subject":"Receipt for your payment at GoodFriend Self-Storage - Bedford Hills","snippet":"Dear PrimeSight, Thank you for your recent payment at GoodFri","time":"10:47 AM","priority":"low"},
+    {"from":"Doug Chasin","subject":"Kickoff this week?","snippet":"Hi Jonathan, Hope you a nice time in Italy. We were wondering","time":"8:27 AM","priority":"high"},
+    {"from":"Vistar Media","subject":"Vistar Scheduled Report: PS Daily","snippet":"Your scheduled report was successfully generated. Please see","time":"8:06 AM","priority":"low"}
   ],
   "kpi": {
-    "events": 9,
+    "events": 8,
     "eventsLabel": "this week",
     "tasksComplete": 5,
     "tasksTotal": 8,
-    "unread": 10,
-    "focusScore": 76
+    "unread": 1,
+    "focusScore": 98
   }
 }
