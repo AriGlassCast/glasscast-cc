@@ -1,69 +1,21 @@
 {
-  "updated": "2026-06-01T02:54:40-04:00",
+  "updated": "2026-06-01T02:59:59-04:00",
   "tickers": {
-    "DJI": {
-      "price": "51200",
-      "change": "+0.33"
-    },
-    "NDX": {
-      "price": "30420",
-      "change": "+0.29"
-    },
-    "SPY": {
-      "price": "756.48",
-      "change": "+0.25"
-    },
-    "QQQ": {
-      "price": "738.31",
-      "change": "+0.37"
-    },
-    "ACHV": {
-      "price": "4.82",
-      "change": "-0.94"
-    },
-    "EL": {
-      "price": "90.87",
-      "change": "-0.50"
-    },
-    "NVDA": {
-      "price": "211.14",
-      "change": "-1.45"
-    },
-    "AAPL": {
-      "price": "311.30",
-      "change": "-0.38"
-    },
-    "AMZN": {
-      "price": "270.64",
-      "change": "-1.23"
-    },
-    "TSLA": {
-      "price": "434.35",
-      "change": "+0.50"
-    },
-    "GOOGL": {
-      "price": "380.57",
-      "change": "+0.06"
-    },
-    "NFLX": {
-      "price": "86.01",
-      "change": "+0.18"
-    },
-    "GLD": {
-      "price": "417.12",
-      "change": "+1.05"
-    },
-    "XLF": {
-      "price": "51.42",
-      "change": "-0.83"
-    },
-    "SOXL": {
-      "price": "223.21",
-      "change": "-2.50"
-    },
-    "VOO": {
-      "price": "695.49",
-      "change": "+0.23"
-    }
+    "DJI": {"price": "51032", "change": "+0.72"},
+    "NDX": {"price": "30333", "change": "+0.36"},
+    "SPY": {"price": "756.48", "change": "+0.25"},
+    "QQQ": {"price": "738.31", "change": "+0.37"},
+    "ACHV": {"price": "4.82", "change": "-0.94"},
+    "EL": {"price": "90.87", "change": "-0.36"},
+    "NVDA": {"price": "211.14", "change": "-1.45"},
+    "AAPL": {"price": "312.06", "change": "-0.14"},
+    "AMZN": {"price": "270.64", "change": "-1.23"},
+    "TSLA": {"price": "435.79", "change": "-1.43"},
+    "GOOGL": {"price": "380.34", "change": "-2.51"},
+    "NFLX": {"price": "86.02", "change": "-0.39"},
+    "GLD": {"price": "417.12", "change": "+1.05"},
+    "XLF": {"price": "51.58", "change": "+0.60"},
+    "SOXL": {"price": "224.34", "change": "-0.13"},
+    "VOO": {"price": "695.49", "change": "+0.23"}
   }
 }
