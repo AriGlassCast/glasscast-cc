@@ -1,0 +1,29 @@
+{
+  "updated": "2026-06-12T20:34:26-04:00",
+  "calendar": [
+    {"start":"2026-06-15T09:00","end":"2026-06-15T09:30","title":"Daily Stand up","meta":"Meet · Doug","dur":"30m","cal":"glasscast"},
+    {"start":"2026-06-15T17:00","end":"2026-06-15T17:20","title":"Hebrew Lesson","meta":"Zoom · Carina, Nylah","dur":"20m","cal":"personal"},
+    {"start":"2026-06-16T09:00","end":"2026-06-16T09:30","title":"Daily Stand up","meta":"Meet · Doug","dur":"30m","cal":"glasscast"},
+    {"start":"2026-06-16T14:30","end":"2026-06-16T15:00","title":"accounting - bookkeeping","meta":"Teams · Don, Doug, Adam","dur":"30m","cal":"glasscast"},
+    {"start":"2026-06-17T09:00","end":"2026-06-17T09:30","title":"Daily Stand up","meta":"Meet · Doug","dur":"30m","cal":"glasscast"},
+    {"start":"2026-06-17T18:00","end":"2026-06-17T18:45","title":"Nylah guitar lesson","meta":"Meet · Sam, Carina, Nylah","dur":"45m","cal":"personal"},
+    {"start":"2026-06-18T09:00","end":"2026-06-18T09:30","title":"Daily Stand up","meta":"Meet · Doug","dur":"30m","cal":"glasscast"},
+    {"start":"2026-06-18T12:30","end":"2026-06-18T13:00","title":"Primesight <> Screenverse bi-weekly","meta":"Meet · Jessica, Sean, Nasra, Doug","dur":"30m","cal":"glasscast"},
+    {"start":"2026-06-18T15:00","end":"2026-06-18T15:45","title":"Ai Office Hours PM","meta":"Meet · Doug, Adam, Don, Michael","dur":"45m","cal":"glasscast"},
+    {"start":"2026-06-18T16:30","end":"2026-06-18T18:00","title":"Nylah Volleyball Practice","meta":"Prodigy · Carina","dur":"1h30","cal":"personal"}
+  ],
+  "mail": [
+    {"from":"Doug Bideaux","subject":"Item shared with you: \"Victors Cleaners video showcase.mp4\"","snippet":"Doug Bideaux has shared the following item: Victors Cleaner","time":"5:01 PM","priority":"high"},
+    {"from":"Michael Rudich","subject":"New EMG Campaign: 988 Program - NYCDOHMH - Primesight Confirmation","snippet":"Here are the details for the Program I mentioned for 5 Prim","time":"4:37 PM","priority":"med"},
+    {"from":"Michael Rudich","subject":"FW: Summer Meals - NYCPS (NYC Public Schools) - Primesight Confirmation","snippet":"We finally received the language creative from NY Public Sc","time":"3:46 PM","priority":"med"},
+    {"from":"Doug Bideaux","subject":"Re: Issue with remaining Primesight SIMs","snippet":"No it's fine, keep them deactivated.","time":"1:50 PM","priority":"high"}
+  ],
+  "kpi": {
+    "events": 12,
+    "eventsLabel": "this week",
+    "tasksComplete": 5,
+    "tasksTotal": 8,
+    "unread": 3,
+    "focusScore": 94
+  }
+}
