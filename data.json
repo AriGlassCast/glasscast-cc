@@ -1,0 +1,29 @@
+{
+  "updated": "2026-07-01T09:05:00-04:00",
+  "calendar": [
+    {"start":"2026-07-01T09:00","end":"2026-07-01T09:30","title":"Daily Stand up","meta":"Meet · Doug","dur":"30m","cal":"glasscast"},
+    {"start":"2026-07-01T11:00","end":"2026-07-01T12:00","title":"LinkedIn Lead Generation: The System One Founder Uses to Book 28 Calls","meta":"Zoom · Laura","dur":"1h","cal":"glasscast"},
+    {"start":"2026-07-01T18:00","end":"2026-07-01T18:45","title":"Nylah guitar lesson","meta":"Meet · Carina, Nylah, Sam","dur":"45m","cal":"personal"},
+    {"start":"2026-07-02T09:00","end":"2026-07-02T09:30","title":"Daily Stand up","meta":"Meet · Doug","dur":"30m","cal":"glasscast"},
+    {"start":"2026-07-02T12:30","end":"2026-07-02T13:00","title":"Primesight <> Screenverse bi-weekly","meta":"Meet · Jessica, Sean, Doug","dur":"30m","cal":"glasscast"},
+    {"start":"2026-07-02T14:00","end":"2026-07-02T14:30","title":"GlassCast x Chris","meta":"Meet · Doug, Chris","dur":"30m","cal":"glasscast"},
+    {"start":"2026-07-02T15:00","end":"2026-07-02T15:45","title":"Primesight Weekly check-in","meta":"Meet · Doug, Don, Adam","dur":"45m","cal":"glasscast"},
+    {"start":"2026-07-02T16:30","end":"2026-07-02T18:00","title":"Nylah Volleyball Practice","meta":"Prodigy · Carina","dur":"1h30","cal":"personal"},
+    {"start":"2026-07-03T09:00","end":"2026-07-03T09:30","title":"Daily Stand up","meta":"Meet · Doug","dur":"30m","cal":"glasscast"},
+    {"start":"2026-07-06T09:00","end":"2026-07-06T09:30","title":"Daily Stand up","meta":"Meet · Doug","dur":"30m","cal":"glasscast"}
+  ],
+  "mail": [
+    {"from":"Doug Bideaux","subject":"John D Invoice","snippet":"Hi Andrew, Another John D invoice for you. Fully approved, $4","time":"2:00 PM","priority":"high"},
+    {"from":"Don Winter","subject":"roll out schedule","snippet":"50 in DC this week. Great 3 weeks 24 Chicago to clarify - ETA","time":"2:50 PM","priority":"med"},
+    {"from":"Adam Pierce","subject":"Venue Contracts","snippet":"Hey Ari When you have a chance can you please send Michael Ru","time":"12:06 PM","priority":"med"},
+    {"from":"Vistar Media","subject":"Vistar Scheduled Report: \"PS Daily\"","snippet":"Your scheduled report was successfully generated. Please see","time":"8:03 AM","priority":"low"}
+  ],
+  "kpi": {
+    "events": 13,
+    "eventsLabel": "this week",
+    "tasksComplete": 5,
+    "tasksTotal": 8,
+    "unread": 45,
+    "focusScore": 20
+  }
+}
