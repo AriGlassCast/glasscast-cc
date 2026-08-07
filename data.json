@@ -1,0 +1,28 @@
+{
+  "updated": "2026-08-07T12:06:34-04:00",
+  "calendar": [
+    {"start":"2026-08-07T13:00","end":"2026-08-07T13:45","title":"Primesight Weekly check-in","meta":"Meet · Doug, Don, Adam, Michael","dur":"45m","cal":"glasscast"},
+    {"start":"2026-08-10T09:00","end":"2026-08-10T09:30","title":"Daily Stand up","meta":"Meet · Doug","dur":"30m","cal":"glasscast"},
+    {"start":"2026-08-10T11:00","end":"2026-08-10T11:30","title":"Ari Chasin and ALM - permitting chat","meta":"Teams · Charles, Ken, Jonah, Kevin","dur":"30m","cal":"glasscast"},
+    {"start":"2026-08-10T17:00","end":"2026-08-10T17:20","title":"Hebrew Lesson","meta":"Zoom · Carina, Nylah","dur":"20m","cal":"personal"},
+    {"start":"2026-08-11T09:00","end":"2026-08-11T09:30","title":"Daily Stand up","meta":"Meet · Doug","dur":"30m","cal":"glasscast"},
+    {"start":"2026-08-12T09:00","end":"2026-08-12T09:30","title":"Daily Stand up","meta":"Meet · Doug","dur":"30m","cal":"glasscast"},
+    {"start":"2026-08-13T09:00","end":"2026-08-13T09:30","title":"Daily Stand up","meta":"Meet · Doug","dur":"30m","cal":"glasscast"},
+    {"start":"2026-08-13T12:30","end":"2026-08-13T13:00","title":"Primesight <> Screenverse bi-weekly","meta":"Meet · Jessica, Sean, Nasra, Doug","dur":"30m","cal":"glasscast"},
+    {"start":"2026-08-14T09:00","end":"2026-08-14T09:30","title":"Daily Stand up","meta":"Meet · Doug","dur":"30m","cal":"glasscast"}
+  ],
+  "mail": [
+    {"from":"Doug Bideaux","subject":"Updated invitation: Primesight Weekly check-in","snippet":"Primesight Weekly check-in Join with Google Meet – You have","time":"10:01 AM","priority":"high"},
+    {"from":"Don Winter","subject":"RE: Primesight Weekly check-in","snippet":"Can we move meeting up to 1 pm. If not, ok.","time":"9:10 AM","priority":"med"},
+    {"from":"Tina Turner","subject":"Re: DC Inventory","snippet":"Tmrw AM please-we want to move on it to get creative done.","time":"5:22 PM","priority":"high"},
+    {"from":"Meridian Reports","subject":"PrimeSight Revenue — Thu, Aug 6 — $258 net","snippet":"PrimeSight · Daily Revenue Thursday, August 6, 2026 $258.05","time":"6:10 AM","priority":"high"}
+  ],
+  "kpi": {
+    "events": 9,
+    "eventsLabel": "this week",
+    "tasksComplete": 5,
+    "tasksTotal": 8,
+    "unread": 5,
+    "focusScore": 86
+  }
+}
