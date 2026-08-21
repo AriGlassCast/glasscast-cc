@@ -1,0 +1,28 @@
+{
+  "updated": "2026-08-21T18:05:00-04:00",
+  "calendar": [
+    {"start":"2026-08-24T09:00","end":"2026-08-24T09:30","title":"Daily Stand up","meta":"Meet · Doug","dur":"30m","cal":"glasscast"},
+    {"start":"2026-08-24T17:00","end":"2026-08-24T17:20","title":"Hebrew Lesson","meta":"Zoom · Carina, Nylah","dur":"20m","cal":"personal"},
+    {"start":"2026-08-25T09:00","end":"2026-08-25T09:30","title":"Daily Stand up","meta":"Meet · Doug","dur":"30m","cal":"glasscast"},
+    {"start":"2026-08-26T09:00","end":"2026-08-26T09:30","title":"Daily Stand up","meta":"Meet · Doug","dur":"30m","cal":"glasscast"},
+    {"start":"2026-08-27T09:00","end":"2026-08-27T09:30","title":"Daily Stand up","meta":"Meet · Doug","dur":"30m","cal":"glasscast"},
+    {"start":"2026-08-27T12:30","end":"2026-08-27T13:00","title":"Primesight <> Screenverse bi-weekly","meta":"Meet · Jessica, Nasra, Doug, Michael","dur":"30m","cal":"glasscast"},
+    {"start":"2026-08-28T02:30","end":"2026-08-28T09:30","title":"10:00am Catamaran Tour (10-4:30pm)","meta":"Naxos Catamaran Sailing Cruises · Carina","dur":"7h","cal":"personal"},
+    {"start":"2026-08-28T09:00","end":"2026-08-28T09:30","title":"Daily Stand up","meta":"Meet · Doug","dur":"30m","cal":"glasscast"},
+    {"start":"2026-08-28T15:00","end":"2026-08-28T15:45","title":"Primesight Weekly check-in","meta":"Meet · Doug, Don, Adam, Michael","dur":"45m","cal":"glasscast"}
+  ],
+  "mail": [
+    {"from":"Steven Jordan","subject":"Re: Content updates","snippet":"Some addresses are not correct according to google. Just neede","time":"5:43 PM","priority":"med"},
+    {"from":"F. Yao","subject":"Short and sweet","snippet":"Hi, Ari. Best to get 30-day terms as a buffer in case shipping","time":"2:21 PM","priority":"med"},
+    {"from":"DocuSign","subject":"Completed: CyberCentra US Updated MSA + ACH Document","snippet":"Your document has been completed. All parties have completed.","time":"12:56 PM","priority":"low"},
+    {"from":"Google Drive","subject":"Spreadsheet shared: Corner Deployment Venues — GlassCast org","snippet":"Doug Bideaux has invited you to edit the following spreadsheet","time":"12:11 PM","priority":"med"}
+  ],
+  "kpi": {
+    "events": 9,
+    "eventsLabel": "this week",
+    "tasksComplete": 5,
+    "tasksTotal": 8,
+    "unread": 3,
+    "focusScore": 94
+  }
+}
