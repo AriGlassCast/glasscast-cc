@@ -1,0 +1,29 @@
+{
+  "updated": "2026-08-24T17:05:00-04:00",
+  "calendar": [
+    {"start":"2026-08-24T17:00","end":"2026-08-24T17:20","title":"Hebrew Lesson","meta":"Zoom · Carina","dur":"20m","cal":"personal"},
+    {"start":"2026-08-25T09:00","end":"2026-08-25T09:30","title":"Daily Stand up","meta":"Meet · Doug","dur":"30m","cal":"glasscast"},
+    {"start":"2026-08-26T09:00","end":"2026-08-26T09:30","title":"Daily Stand up","meta":"Meet · Doug","dur":"30m","cal":"glasscast"},
+    {"start":"2026-08-26T10:30","end":"2026-08-26T13:00","title":"To Elliniko — Dinner Reservation","meta":"Naxos · Carina","dur":"2h30","cal":"personal"},
+    {"start":"2026-08-26T14:00","end":"2026-08-26T14:30","title":"Primesight <> Screenverse bi-weekly","meta":"Meet · Jessica, Doug, Nasra","dur":"30m","cal":"glasscast"},
+    {"start":"2026-08-27T09:00","end":"2026-08-27T09:30","title":"Daily Stand up","meta":"Meet · Doug","dur":"30m","cal":"glasscast"},
+    {"start":"2026-08-28T02:30","end":"2026-08-28T09:30","title":"Catamaran Tour","meta":"Naxos Catamaran Sailing Cruises · Carina","dur":"7h","cal":"personal"},
+    {"start":"2026-08-28T09:00","end":"2026-08-28T09:30","title":"Daily Stand up","meta":"Meet · Doug","dur":"30m","cal":"glasscast"},
+    {"start":"2026-08-28T15:00","end":"2026-08-28T15:45","title":"Primesight Weekly check-in","meta":"Meet · Doug, Don, Adam","dur":"45m","cal":"glasscast"},
+    {"start":"2026-08-31T09:00","end":"2026-08-31T09:30","title":"Daily Stand up","meta":"Meet · Doug","dur":"30m","cal":"glasscast"}
+  ],
+  "mail": [
+    {"from":"Jessica Kim","subject":"Updated invitation: Primesight <> Screenverse bi-weekly","snippet":"Primesight <> Screenverse bi-weekly Join with Google Meet – Pl","time":"2:56 PM","priority":"med"},
+    {"from":"U-Haul Tickets","subject":"Your U-Haul Rental","snippet":"U-Haul Customer number: UTV11074714 Invoice balance: $37.74 De","time":"2:55 PM","priority":"low"},
+    {"from":"Doug Bideaux","subject":"Re: Vistar Scheduled Report: EMG Stack Primesight DC","snippet":"Michael, can we jump on a 10 minute zoom this afternoon so I c","time":"2:10 PM","priority":"high"},
+    {"from":"Meridian Reporting","subject":"PrimeSight Weekly — Aug 17–Aug 23 — $2,840 net (+98.4% WoW)","snippet":"PrimeSight · Weekly Recap Week of Aug 17 – Aug 23, 2026 $2840.","time":"9:10 AM","priority":"high"}
+  ],
+  "kpi": {
+    "events": 10,
+    "eventsLabel": "this week",
+    "tasksComplete": 5,
+    "tasksTotal": 8,
+    "unread": 5,
+    "focusScore": 86
+  }
+}
