@@ -1,0 +1,69 @@
+{
+  "updated": "2026-10-09T13:50:39-04:00",
+  "tickers": {
+    "DJI": {
+      "price": "51573",
+      "change": "+0.80"
+    },
+    "NDX": {
+      "price": "30861",
+      "change": "+0.44"
+    },
+    "SPY": {
+      "price": "778.20",
+      "change": "+0.55"
+    },
+    "QQQ": {
+      "price": "750.74",
+      "change": "+0.42"
+    },
+    "GLD": {
+      "price": "384.49",
+      "change": "+1.55"
+    },
+    "XLF": {
+      "price": "54.70",
+      "change": "+0.86"
+    },
+    "SOXL": {
+      "price": "139.49",
+      "change": "-2.13"
+    },
+    "VOO": {
+      "price": "715.29",
+      "change": "+0.56"
+    },
+    "AAPL": {
+      "price": "334.97",
+      "change": "-1.60"
+    },
+    "NVDA": {
+      "price": "229.58",
+      "change": "-0.39"
+    },
+    "TSLA": {
+      "price": "382.86",
+      "change": "+2.10"
+    },
+    "AMZN": {
+      "price": "260.91",
+      "change": "+2.70"
+    },
+    "GOOGL": {
+      "price": "352.59",
+      "change": "+1.23"
+    },
+    "NFLX": {
+      "price": "70.42",
+      "change": "-1.61"
+    },
+    "ACHV": {
+      "price": "7.36",
+      "change": "+2.29"
+    },
+    "EL": {
+      "price": "97.90",
+      "change": "+3.80"
+    }
+  }
+}
