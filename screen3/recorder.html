@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Glasscast Flyover Recorder</title>
+<link rel="stylesheet" href="https://unpkg.com/maplibre-gl@3.6.2/dist/maplibre-gl.css">
+<script src="https://unpkg.com/maplibre-gl@3.6.2/dist/maplibre-gl.js"></script>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:#06060a;overflow:hidden;font-family:monospace}
+#map{width:1062px;height:662px;position:absolute;top:0;left:0}
+#map .maplibregl-canvas{outline:none}
+#hud{position:fixed;bottom:0;left:0;right:0;background:rgba(0,0,0,.9);color:#f4b85c;padding:16px 24px;z-index:9999;font-size:16px;display:flex;align-items:center;gap:20px}
+#hud button{padding:12px 32px;background:#e8922a;color:#000;font-size:18px;font-weight:700;border:none;border-radius:8px;cursor:pointer;font-family:monospace}
+#hud button:disabled{background:#5a4836;cursor:default}
+#status{flex:1}
+#progress{width:100%;height:4px;background:#1a1510;border-radius:2px;margin-top:8px}
+#progressBar{height:100%;background:#e8922a;border-radius:2px;width:0%;transition:width 1s linear}
+</style>
+</head>
+<body>
+<div id="map"></div>
+<div id="hud">
+  <button id="startBtn" onclick="startRecording()">RECORD FLYOVER</button>
+  <div id="status">
+    <div id="statusText">Ready. 1062×662 canvas (matches live page). Click to record. Video auto-downloads as WebM.</div>
+    <div id="progress"><div id="progressBar"></div></div>
+  </div>
+</div>
+
+<script>
+function easeOut(t){return t*(2-t);}
+function easeIn(t){return t*t;}
+function srand(s){return function(){s=(s*16807+0)%2147483647;return(s-1)/2147483646;};}
+var rng=srand(42);
+
+var cities=[
+  {name:'New York',center:[-73.990,40.740],pan:[-73.955,40.770],zm:11.5,dur:20,travelZoom:6.5,
+   z:[{b:[-74.010,40.705,-73.970,40.760],n:25},{b:[-73.970,40.780,-73.940,40.800],n:8},
+      {b:[-73.995,40.680,-73.955,40.700],n:12},{b:[-73.920,40.735,-73.880,40.760],n:8},
+      {b:[-73.910,40.825,-73.870,40.850],n:5}]},
+  {name:'Washington DC',center:[-77.036,38.907],pan:[-77.060,38.918],zm:11,dur:18,travelZoom:6.5,
+   z:[{b:[-77.050,38.895,-77.020,38.915],n:18},{b:[-77.080,38.905,-77.050,38.930],n:10},
+      {b:[-77.010,38.880,-76.985,38.900],n:10},{b:[-77.100,38.870,-77.070,38.895],n:8}]},
+  {name:'Atlanta',center:[-84.388,33.749],pan:[-84.380,33.790],zm:11,dur:14,travelZoom:6.5,
+   z:[{b:[-84.405,33.740,-84.375,33.765],n:18},{b:[-84.395,33.775,-84.370,33.795],n:12},
+      {b:[-84.380,33.835,-84.355,33.855],n:8},{b:[-84.310,33.765,-84.285,33.785],n:6}]},
+  {name:'Miami',center:[-80.200,25.770],pan:[-80.165,25.800],zm:11,dur:16,travelZoom:6,
+   z:[{b:[-80.215,25.765,-80.185,25.790],n:18},{b:[-80.200,25.745,-80.185,25.765],n:10},
+      {b:[-80.145,25.780,-80.125,25.800],n:6},{b:[-80.275,25.720,-80.250,25.745],n:6}]},
+  {name:'Chicago',center:[-87.630,41.878],pan:[-87.625,41.920],zm:11.5,dur:17,travelZoom:6.5,
+   z:[{b:[-87.650,41.870,-87.615,41.900],n:20},{b:[-87.645,41.900,-87.625,41.920],n:10},
+      {b:[-87.650,41.920,-87.630,41.940],n:8},{b:[-87.685,41.900,-87.660,41.920],n:6}]},
+  {name:'Denver',center:[-104.990,39.745],pan:[-104.955,39.758],zm:11,dur:14,travelZoom:6.5,
+   z:[{b:[-105.010,39.735,-104.980,39.760],n:18},{b:[-104.965,39.710,-104.940,39.735],n:8},
+      {b:[-105.025,39.760,-105.000,39.780],n:8}]},
+  {name:'Los Angeles',center:[-118.250,34.050],pan:[-118.310,34.065],zm:11,dur:17,travelZoom:5.5,
+   z:[{b:[-118.270,34.030,-118.235,34.065],n:18},{b:[-118.350,34.090,-118.315,34.115],n:10},
+      {b:[-118.505,34.005,-118.475,34.030],n:6},{b:[-118.455,34.050,-118.425,34.075],n:6},
+      {b:[-118.165,34.135,-118.135,34.160],n:6}]}
+];
+
+var totalDur=0;
+cities.forEach(function(c){totalDur+=c.dur;});
+
+var dotGeo={type:'FeatureCollection',features:[]};
+cities.forEach(function(c,ci){
+  c.dots=[];
+  c.z.forEach(function(zone){
+    for(var i=0;i<zone.n;i++){
+      var lng=zone.b[0]+rng()*(zone.b[2]-zone.b[0]);
+      var lat=zone.b[1]+rng()*(zone.b[3]-zone.b[1]);
+      c.dots.push([lng,lat]);
+      dotGeo.features.push({type:'Feature',geometry:{type:'Point',coordinates:[lng,lat]},properties:{city:ci}});
+    }
+  });
+});
+
+var flyMap=new maplibregl.Map({
+  container:'map',
+  style:{version:8,
+    sources:{'carto':{type:'raster',tiles:['https://basemaps.cartocdn.com/dark_all/{z}/{x}/{y}@2x.png'],tileSize:256,maxzoom:19}},
+    layers:[{id:'base',type:'raster',source:'carto'}]
+  },
+  center:[-98,39],zoom:4,pitch:0,bearing:0,
+  attributionControl:false,renderWorldCopies:false,
+  maxPitch:65,
+  preserveDrawingBuffer:true
+});
+flyMap.dragPan.disable();flyMap.scrollZoom.disable();flyMap.boxZoom.disable();
+flyMap.dragRotate.disable();flyMap.keyboard.disable();flyMap.doubleClickZoom.disable();
+flyMap.touchZoomRotate.disable();
+
+var mapReady=false;
+function initDots(){
+  if(flyMap.getSource('dots'))return;
+  flyMap.addSource('dots',{type:'geojson',data:dotGeo});
+  flyMap.addLayer({id:'dots-glow',type:'circle',source:'dots',paint:{
+    'circle-radius':['interpolate',['linear'],['zoom'],4,1,10,4,13,10,15,14],
+    'circle-color':'#e8922a','circle-opacity':0.15,'circle-blur':1}});
+  flyMap.addLayer({id:'dots-core',type:'circle',source:'dots',paint:{
+    'circle-radius':['interpolate',['linear'],['zoom'],4,0.5,10,2,13,4,15,6],
+    'circle-color':'#f4b85c','circle-opacity':0.85}});
+  mapReady=true;
+  document.getElementById('statusText').textContent='Map ready. Click RECORD FLYOVER.';
+}
+flyMap.on('load',function(){
+  initDots();
+  flyMap.resize();
+  flyMap.setCenter([-98,39]);
+  flyMap.setZoom(4);
+});
+setTimeout(function(){
+  if(flyMap.isStyleLoaded())initDots();
+  flyMap.resize();
+},3000);
+
+function startRecording(){
+  if(!mapReady){
+    document.getElementById('statusText').textContent='Map not ready yet. Wait a moment...';
+    return;
+  }
+  document.getElementById('startBtn').disabled=true;
+  document.getElementById('startBtn').textContent='RECORDING...';
+  document.getElementById('statusText').textContent='Positioning at New York...';
+
+  flyMap.easeTo({center:cities[0].center,zoom:cities[0].zm,pitch:45,bearing:0,duration:2000,easing:easeOut});
+
+  setTimeout(function(){
+    var canvas=flyMap.getCanvas();
+    var stream=canvas.captureStream(60);
+    var chunks=[];
+
+    var mimeType='video/webm;codecs=vp9';
+    if(!MediaRecorder.isTypeSupported(mimeType)) mimeType='video/webm;codecs=vp8';
+    if(!MediaRecorder.isTypeSupported(mimeType)) mimeType='video/webm';
+
+    var mediaRecorder=new MediaRecorder(stream,{
+      mimeType:mimeType,
+      videoBitsPerSecond:16000000
+    });
+
+    mediaRecorder.ondataavailable=function(e){
+      if(e.data&&e.data.size>0)chunks.push(e.data);
+    };
+
+    mediaRecorder.onstop=function(){
+      var blob=new Blob(chunks,{type:'video/webm'});
+      var url=URL.createObjectURL(blob);
+      var a=document.createElement('a');
+      a.href=url;
+      a.download='flyover-1062x662.webm';
+      a.click();
+      var mb=Math.round(blob.size/1024/1024*10)/10;
+      document.getElementById('statusText').textContent='Done! '+mb+' MB downloaded. Convert: ffmpeg -i flyover-1062x662.webm -c:v libx264 -crf 20 -preset slow -pix_fmt yuv420p flyover.mp4';
+      document.getElementById('startBtn').textContent='DOWNLOAD AGAIN';
+      document.getElementById('startBtn').disabled=false;
+      document.getElementById('startBtn').onclick=function(){
+        var a2=document.createElement('a');a2.href=url;a2.download='flyover-1062x662.webm';a2.click();
+      };
+    };
+
+    mediaRecorder.start(1000);
+
+    /* Run exact same flyover choreography */
+    function fly(i){
+      var c=cities[i];
+      var ni=(i+1)%cities.length;
+      var nc=cities[ni];
+      var panDur=c.dur-10.5;
+
+      flyMap.easeTo({center:c.center,zoom:c.zm,pitch:45,bearing:0,duration:5000,easing:easeOut});
+      setTimeout(function(){
+        flyMap.easeTo({center:c.pan,zoom:c.zm+0.3,pitch:45,bearing:0,duration:panDur*1000,easing:function(t){return t;}});
+      },6500);
+      setTimeout(function(){
+        var tx=c.center[0]+0.3*(nc.center[0]-c.center[0]);
+        var ty=c.center[1]+0.3*(nc.center[1]-c.center[1]);
+        flyMap.easeTo({center:[tx,ty],zoom:c.travelZoom,pitch:10,bearing:0,duration:4000,easing:easeIn});
+      },(c.dur-4)*1000);
+      if(i<cities.length-1){
+        setTimeout(function(){fly(i+1);},c.dur*1000);
+      }
+    }
+    fly(0);
+
+    var elapsed=0;
+    var progressTimer=setInterval(function(){
+      elapsed++;
+      var t=0,ci=0;
+      for(var j=0;j<cities.length;j++){if(elapsed<t+cities[j].dur){ci=j;break;}t+=cities[j].dur;}
+      var pct=Math.min(100,Math.round(elapsed/totalDur*100));
+      document.getElementById('progressBar').style.width=pct+'%';
+      document.getElementById('statusText').textContent='Recording: '+elapsed+'s / '+totalDur+'s ('+pct+'%) — '+cities[ci].name;
+      if(elapsed>=totalDur+2){
+        clearInterval(progressTimer);
+        mediaRecorder.stop();
+        document.getElementById('statusText').textContent='Encoding...';
+        document.getElementById('progressBar').style.width='100%';
+      }
+    },1000);
+  },4000);
+}
+</script>
+</body>
+</html>

@@ -1,0 +1,27 @@
+{
+  "updated": "2026-10-22T12:59:13-04:00",
+  "calendar": [
+    {"start":"2026-10-22T16:30","end":"2026-10-22T17:00","title":"JV Terms","meta":"Meet · Doug, Chris, Shan","dur":"30m","cal":"glasscast"},
+    {"start":"2026-10-23T09:00","end":"2026-10-23T09:30","title":"Daily Stand up","meta":"Meet · Doug","dur":"30m","cal":"glasscast"},
+    {"start":"2026-10-26T09:00","end":"2026-10-26T09:30","title":"Daily Stand up","meta":"Meet · Doug","dur":"30m","cal":"glasscast"},
+    {"start":"2026-10-26T17:00","end":"2026-10-26T17:20","title":"Hebrew Lesson","meta":"Zoom · Carina, Nylah","dur":"20m","cal":"personal"},
+    {"start":"2026-10-27T09:00","end":"2026-10-27T09:30","title":"Daily Stand up","meta":"Meet · Doug","dur":"30m","cal":"glasscast"},
+    {"start":"2026-10-27T10:30","end":"2026-10-27T11:00","title":"Corner / Glasscast Update","meta":"Meet · Doug, Chris, Shan","dur":"30m","cal":"glasscast"},
+    {"start":"2026-10-28T09:00","end":"2026-10-28T09:30","title":"Daily Stand up","meta":"Meet · Doug","dur":"30m","cal":"glasscast"},
+    {"start":"2026-10-29T09:00","end":"2026-10-29T09:30","title":"Daily Stand up","meta":"Meet · Doug","dur":"30m","cal":"glasscast"}
+  ],
+  "mail": [
+    {"from":"Doug Bideaux","subject":"Re: SAFE and ?IRA","snippet":"Self directed IRAs allow this from my understanding. We should","time":"12:49 PM","priority":"high"},
+    {"from":"John","subject":"Invoice update","snippet":"","time":"11:53 AM","priority":"med"},
+    {"from":"Doug Bideaux","subject":"Re: Document shared with you: \"GlassCast Corner Partnership Terms\"","snippet":"you're an editor, try again.","time":"11:35 AM","priority":"high"},
+    {"from":"Eric Schneider","subject":"RE: FW: Notice of transaction submission - Eric S wire","snippet":"No problem, thanks. Damn lawyers!","time":"11:12 AM","priority":"med"}
+  ],
+  "kpi": {
+      "events": 8,
+      "eventsLabel": "this week",
+      "tasksComplete": 5,
+      "tasksTotal": 8,
+      "unread": 50,
+      "focusScore": 20
+  }
+}
