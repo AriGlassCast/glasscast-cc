@@ -1,27 +1,115 @@
 {
-  "updated": "2026-10-22T12:59:13-04:00",
+  "updated": "2026-10-30T15:06:00-04:00",
   "calendar": [
-    {"start":"2026-10-22T16:30","end":"2026-10-22T17:00","title":"JV Terms","meta":"Meet · Doug, Chris, Shan","dur":"30m","cal":"glasscast"},
-    {"start":"2026-10-23T09:00","end":"2026-10-23T09:30","title":"Daily Stand up","meta":"Meet · Doug","dur":"30m","cal":"glasscast"},
-    {"start":"2026-10-26T09:00","end":"2026-10-26T09:30","title":"Daily Stand up","meta":"Meet · Doug","dur":"30m","cal":"glasscast"},
-    {"start":"2026-10-26T17:00","end":"2026-10-26T17:20","title":"Hebrew Lesson","meta":"Zoom · Carina, Nylah","dur":"20m","cal":"personal"},
-    {"start":"2026-10-27T09:00","end":"2026-10-27T09:30","title":"Daily Stand up","meta":"Meet · Doug","dur":"30m","cal":"glasscast"},
-    {"start":"2026-10-27T10:30","end":"2026-10-27T11:00","title":"Corner / Glasscast Update","meta":"Meet · Doug, Chris, Shan","dur":"30m","cal":"glasscast"},
-    {"start":"2026-10-28T09:00","end":"2026-10-28T09:30","title":"Daily Stand up","meta":"Meet · Doug","dur":"30m","cal":"glasscast"},
-    {"start":"2026-10-29T09:00","end":"2026-10-29T09:30","title":"Daily Stand up","meta":"Meet · Doug","dur":"30m","cal":"glasscast"}
+    {
+      "start": "2026-10-30T15:00",
+      "end": "2026-10-30T16:00",
+      "title": "Primesight wrap up",
+      "meta": "Meet · Doug, Michael, Don, Adam",
+      "dur": "1h",
+      "cal": "glasscast"
+    },
+    {
+      "start": "2026-11-02T09:00",
+      "end": "2026-11-02T09:30",
+      "title": "Daily Stand up",
+      "meta": "Meet · Doug",
+      "dur": "30m",
+      "cal": "glasscast"
+    },
+    {
+      "start": "2026-11-02T17:00",
+      "end": "2026-11-02T17:20",
+      "title": "Hebrew Lesson",
+      "meta": "Zoom · Carina, Nylah",
+      "dur": "20m",
+      "cal": "personal"
+    },
+    {
+      "start": "2026-11-03T09:00",
+      "end": "2026-11-03T09:30",
+      "title": "Daily Stand up",
+      "meta": "Meet · Doug",
+      "dur": "30m",
+      "cal": "glasscast"
+    },
+    {
+      "start": "2026-11-03T10:30",
+      "end": "2026-11-03T11:00",
+      "title": "Corner / Glasscast Update",
+      "meta": "Meet · Doug, Chris, Shan",
+      "dur": "30m",
+      "cal": "glasscast"
+    },
+    {
+      "start": "2026-11-03T16:30",
+      "end": "2026-11-03T17:30",
+      "title": "Nylah Orthodontist",
+      "meta": "Carina",
+      "dur": "1h",
+      "cal": "personal"
+    },
+    {
+      "start": "2026-11-04T09:00",
+      "end": "2026-11-04T09:30",
+      "title": "Daily Stand up",
+      "meta": "Meet · Doug",
+      "dur": "30m",
+      "cal": "glasscast"
+    },
+    {
+      "start": "2026-11-05T09:00",
+      "end": "2026-11-05T09:30",
+      "title": "Daily Stand up",
+      "meta": "Meet · Doug",
+      "dur": "30m",
+      "cal": "glasscast"
+    },
+    {
+      "start": "2026-11-06T09:00",
+      "end": "2026-11-06T09:30",
+      "title": "Daily Stand up",
+      "meta": "Meet · Doug",
+      "dur": "30m",
+      "cal": "glasscast"
+    }
   ],
   "mail": [
-    {"from":"Doug Bideaux","subject":"Re: SAFE and ?IRA","snippet":"Self directed IRAs allow this from my understanding. We should","time":"12:49 PM","priority":"high"},
-    {"from":"John","subject":"Invoice update","snippet":"","time":"11:53 AM","priority":"med"},
-    {"from":"Doug Bideaux","subject":"Re: Document shared with you: \"GlassCast Corner Partnership Terms\"","snippet":"you're an editor, try again.","time":"11:35 AM","priority":"high"},
-    {"from":"Eric Schneider","subject":"RE: FW: Notice of transaction submission - Eric S wire","snippet":"No problem, thanks. Damn lawyers!","time":"11:12 AM","priority":"med"}
+    {
+      "from": "Fulbert Yao",
+      "subject": "RE: CyberCentra LLC sent you a new invoice",
+      "snippet": "Hi, Doug. Appreciate the quick turnaround. Have a fun weekend",
+      "time": "11:00 AM",
+      "priority": "med"
+    },
+    {
+      "from": "Eric Schneider",
+      "subject": "RE: Complete with Docusign: GlassCast Media Inc. Advisor Agreement",
+      "snippet": "Usman Please send me the fully executed RSPA for my advisor",
+      "time": "8:58 AM",
+      "priority": "high"
+    },
+    {
+      "from": "Doug Bideaux",
+      "subject": "CornerOS | Meridian — Hardware payback · Oct 29, 2026",
+      "snippet": "Reported net revenue rose to $597.83 on Oct 29, up 36.0% from",
+      "time": "8:10 AM",
+      "priority": "high"
+    },
+    {
+      "from": "Vistar Media",
+      "subject": "Vistar Scheduled Report: \"GlassCast Previous Day\"",
+      "snippet": "Your scheduled report was successfully generated. Please see",
+      "time": "8:02 AM",
+      "priority": "low"
+    }
   ],
   "kpi": {
-      "events": 8,
-      "eventsLabel": "this week",
-      "tasksComplete": 5,
-      "tasksTotal": 8,
-      "unread": 50,
-      "focusScore": 20
+    "events": 9,
+    "eventsLabel": "this week",
+    "tasksComplete": 5,
+    "tasksTotal": 8,
+    "unread": 50,
+    "focusScore": 20
   }
 }
