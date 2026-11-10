@@ -1,22 +1,23 @@
 {
-  "updated": "2026-11-10T15:07:11-05:00",
+  "updated": "2026-11-10T16:07:30-05:00",
   "calendar": [
     {"start":"2026-11-11T09:00","end":"2026-11-11T09:30","title":"Daily Stand up","meta":"Meet · Doug","dur":"30m","cal":"glasscast"},
+    {"start":"2026-11-11T13:33","end":"2026-11-11T14:33","title":"New call from a potential customer","meta":"Joannas","dur":"1h","cal":"glasscast"},
     {"start":"2026-11-12T09:00","end":"2026-11-12T09:30","title":"Daily Stand up","meta":"Meet · Doug","dur":"30m","cal":"glasscast"},
     {"start":"2026-11-13T09:00","end":"2026-11-13T09:30","title":"Daily Stand up","meta":"Meet · Doug","dur":"30m","cal":"glasscast"},
     {"start":"2026-11-16T09:00","end":"2026-11-16T09:30","title":"Daily Stand up","meta":"Meet · Doug","dur":"30m","cal":"glasscast"},
     {"start":"2026-11-16T17:00","end":"2026-11-16T17:20","title":"Hebrew Lesson","meta":"Zoom · Carina, Nylah","dur":"20m","cal":"personal"},
     {"start":"2026-11-17T09:00","end":"2026-11-17T09:30","title":"Daily Stand up","meta":"Meet · Doug","dur":"30m","cal":"glasscast"},
-    {"start":"2026-11-17T10:30","end":"2026-11-17T11:00","title":"Corner / Glasscast Update","meta":"Meet · Chris, Shan, Doug","dur":"30m","cal":"glasscast"}
+    {"start":"2026-11-17T10:30","end":"2026-11-17T11:00","title":"Corner / Glasscast Update","meta":"Meet · Doug, Chris, Shan","dur":"30m","cal":"glasscast"}
   ],
   "mail": [
-    {"from":"Doug Bideaux","subject":"$895.31 today | CornerOS Meridian - Noon update","snippet":"Corner Media | Meridian Nov 10, 2026 · Noon update (Eastern)","time":"12:00 PM","priority":"high"},
-    {"from":"Fulbert Yao","subject":"Usage for Glasscast and Firefly","snippet":"Pls. find attached the current usage reports for Glasscast and Firefly","time":"11:23 AM","priority":"med"},
-    {"from":"Fulbert Yao","subject":"Usage for PrimeSight","snippet":"Pls. find attached the current usage report for PrimeSight as of Nov 9","time":"11:23 AM","priority":"med"},
-    {"from":"Richard Plaskow","subject":"LCD summary design specification and quotation","snippet":"Following the design and engineering work completed with the factory...","time":"10:09 AM","priority":"med"}
+    {"from":"Doug Bideaux","subject":"$1,071.77 today | CornerOS Meridian - 4 p.m. update","snippet":"Corner Media | Meridian Nov 10, 2026 · 4 pm update (Eastern)","time":"4:00 PM","priority":"high"},
+    {"from":"Jessica Porterfield","subject":"Primesight Weekly Partnership Report - Week of 11/2/26","snippet":"Hi Doug & Ari, I hope your week is off to a great start!","time":"3:51 PM","priority":"med"},
+    {"from":"Doug Bideaux","subject":"Re: Inventory Collection & Next Steps","snippet":"Hi guys, Any word from LG? Also, here are the Fedex tracking...","time":"11:58 AM","priority":"high"},
+    {"from":"Fulbert Yao","subject":"Usage for Glasscast and Firefly","snippet":"Hi, Doug. Pls. find attached the current usage reports for...","time":"11:23 AM","priority":"med"}
   ],
   "kpi": {
-      "events": 7,
+      "events": 8,
       "eventsLabel": "this week",
       "tasksComplete": 5,
       "tasksTotal": 8,
