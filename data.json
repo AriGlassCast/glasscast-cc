@@ -1,8 +1,7 @@
 {
-  "updated": "2026-11-10T10:36:18-05:00",
+  "updated": "2026-11-10T12:21:30-05:00",
   "calendar": [
-    {"start":"2026-11-10T10:30","end":"2026-11-10T11:00","title":"Corner / Glasscast Update","meta":"Meet · Doug, Chris, Shan","dur":"30m","cal":"glasscast"},
-    {"start":"2026-11-10T14:00","end":"2026-11-10T14:40","title":"Pacific & GlassCast - ZOOM","meta":"Zoom · Doug, Ted, Matt","dur":"40m","cal":"glasscast"},
+    {"start":"2026-11-10T14:00","end":"2026-11-10T14:40","title":"Pacific & GlassCast - ZOOM","meta":"Zoom · Doug, Ted, Matthew","dur":"40m","cal":"glasscast"},
     {"start":"2026-11-11T09:00","end":"2026-11-11T09:30","title":"Daily Stand up","meta":"Meet · Doug","dur":"30m","cal":"glasscast"},
     {"start":"2026-11-12T09:00","end":"2026-11-12T09:30","title":"Daily Stand up","meta":"Meet · Doug","dur":"30m","cal":"glasscast"},
     {"start":"2026-11-13T09:00","end":"2026-11-13T09:30","title":"Daily Stand up","meta":"Meet · Doug","dur":"30m","cal":"glasscast"},
@@ -12,13 +11,13 @@
     {"start":"2026-11-17T10:30","end":"2026-11-17T11:00","title":"Corner / Glasscast Update","meta":"Meet · Doug, Chris, Shan","dur":"30m","cal":"glasscast"}
   ],
   "mail": [
-    {"from":"Richard Plaskow","subject":"LCD summary design specification and quotation","snippet":"Hi Doug, Following the design and engineering work completed","time":"10:09 AM","priority":"med"},
-    {"from":"Ted Shachory","subject":"Re: Invitation: Pacific & GlassCast - ZOOM","snippet":"Good morning received and confirmed thank you","time":"10:02 AM","priority":"med"},
-    {"from":"CornerOS / Meridian","subject":"$1,258.97 previous day | CornerOS Meridian","snippet":"UnitedHealth Group drove most of the increase to $1258.97 in","time":"8:10 AM","priority":"high"},
-    {"from":"Vistar Media Notifier","subject":"Vistar Scheduled Report: NYC Corner Venues","snippet":"Your scheduled report was successfully generated. Please see","time":"8:02 AM","priority":"low"}
+    {"from":"CornerOS Meridian","subject":"$895.31 today | CornerOS Meridian - Noon update","snippet":"Corner Media | Meridian Nov 10, 2026 · Noon update (Eastern)","time":"12:00 PM","priority":"high"},
+    {"from":"Fulbert Yao","subject":"Usage for Glasscast and Firefly","snippet":"Hi, Doug. Pls. find attached the current usage reports for...","time":"11:23 AM","priority":"med"},
+    {"from":"Fulbert Yao","subject":"Usage for PrimeSight","snippet":"Hi, Doug. Pls. find attached the current usage report for...","time":"11:23 AM","priority":"med"},
+    {"from":"Richard Plaskow","subject":"LCD summary design specification and quotation","snippet":"Hi Doug, Following the design and engineering work completed...","time":"10:09 AM","priority":"med"}
   ],
   "kpi": {
-      "events": 9,
+      "events": 8,
       "eventsLabel": "this week",
       "tasksComplete": 5,
       "tasksTotal": 8,
