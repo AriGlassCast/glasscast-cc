@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-11T13:08:30-05:00",
+  "updated": "2026-11-11T14:07:00-05:00",
   "calendar": [
     {"start":"2026-11-12T09:00","end":"2026-11-12T09:30","title":"Daily Stand up","meta":"Meet · Doug","dur":"30m","cal":"glasscast"},
     {"start":"2026-11-13T09:00","end":"2026-11-13T09:30","title":"Daily Stand up","meta":"Meet · Doug","dur":"30m","cal":"glasscast"},
@@ -10,10 +10,10 @@
     {"start":"2026-11-18T09:00","end":"2026-11-18T09:30","title":"Daily Stand up","meta":"Meet · Doug","dur":"30m","cal":"glasscast"}
   ],
   "mail": [
-    {"from":"Doug Bideaux","subject":"$71.70 provisional | Pilot anomaly recovery","snippet":"0 new · 0 worsened · 1 recovered signals as of 12:46 PM EST","time":"12:46 PM","priority":"high"},
-    {"from":"Doug Bideaux","subject":"$71.70 provisional | Pilot anomaly alert - 7 affected scopes","snippet":"1 new · 0 worsened · 10 recovered signals as of 12:41 PM EST","time":"12:41 PM","priority":"high"},
-    {"from":"Doug Bideaux","subject":"$820.85 today | CornerOS Meridian - Noon update","snippet":"Corner Media | Meridian Nov 11, 2026 · Noon update (Eastern)","time":"12:00 PM","priority":"high"},
-    {"from":"Chris Waterman","subject":"Re: Vistar ticket: latest findings on the request drop","snippet":"Thanks James, this is really helpful. Can you please take a look","time":"10:49 AM","priority":"med"}
+    {"from":"Doug","subject":"$80.38 provisional | Pilot anomaly alert - 23 scopes","snippet":"As of Nov 11, 1:51 PM EST · 2 new · 0 worsened · 27 recovered","time":"1:51 PM","priority":"high"},
+    {"from":"Doug","subject":"$71.70 provisional | Pilot anomaly recovery","snippet":"As of Nov 11, 1:41 PM EST · 0 new · 0 worsened · 1 recovered","time":"1:41 PM","priority":"high"},
+    {"from":"Louis Parsons","subject":"A new advertising opportunity for GlassCast","snippet":"Hi Ari, I wanted to introduce Skyewaze and share an opportunity","time":"12:29 PM","priority":"med"},
+    {"from":"Doug","subject":"$820.85 today | CornerOS Meridian - Noon update","snippet":"Vistar Billing Time PILOT $820.85 · WHOLE NETWORK $10077.35","time":"12:00 PM","priority":"high"}
   ],
   "kpi": {
       "events": 7,
