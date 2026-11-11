@@ -1,19 +1,19 @@
 {
-  "updated": "2026-11-11T14:07:00-05:00",
+  "updated": "2026-11-11T15:07:40-05:00",
   "calendar": [
     {"start":"2026-11-12T09:00","end":"2026-11-12T09:30","title":"Daily Stand up","meta":"Meet · Doug","dur":"30m","cal":"glasscast"},
     {"start":"2026-11-13T09:00","end":"2026-11-13T09:30","title":"Daily Stand up","meta":"Meet · Doug","dur":"30m","cal":"glasscast"},
     {"start":"2026-11-16T09:00","end":"2026-11-16T09:30","title":"Daily Stand up","meta":"Meet · Doug","dur":"30m","cal":"glasscast"},
     {"start":"2026-11-16T17:00","end":"2026-11-16T17:20","title":"Hebrew Lesson","meta":"Zoom · Carina, Nylah","dur":"20m","cal":"personal"},
     {"start":"2026-11-17T09:00","end":"2026-11-17T09:30","title":"Daily Stand up","meta":"Meet · Doug","dur":"30m","cal":"glasscast"},
-    {"start":"2026-11-17T10:30","end":"2026-11-17T11:00","title":"Corner / Glasscast Update","meta":"Meet · Doug, Chris, Shan","dur":"30m","cal":"glasscast"},
+    {"start":"2026-11-17T10:30","end":"2026-11-17T11:00","title":"Corner / Glasscast Update","meta":"Meet · Chris, Shan, Doug","dur":"30m","cal":"glasscast"},
     {"start":"2026-11-18T09:00","end":"2026-11-18T09:30","title":"Daily Stand up","meta":"Meet · Doug","dur":"30m","cal":"glasscast"}
   ],
   "mail": [
+    {"from":"StorQuest - Bedford Hills","subject":"Overcharge","snippet":"Good afternoon Ari, A message was sent in your behalf about the","time":"2:33 PM","priority":"med"},
     {"from":"Doug","subject":"$80.38 provisional | Pilot anomaly alert - 23 scopes","snippet":"As of Nov 11, 1:51 PM EST · 2 new · 0 worsened · 27 recovered","time":"1:51 PM","priority":"high"},
-    {"from":"Doug","subject":"$71.70 provisional | Pilot anomaly recovery","snippet":"As of Nov 11, 1:41 PM EST · 0 new · 0 worsened · 1 recovered","time":"1:41 PM","priority":"high"},
     {"from":"Louis Parsons","subject":"A new advertising opportunity for GlassCast","snippet":"Hi Ari, I wanted to introduce Skyewaze and share an opportunity","time":"12:29 PM","priority":"med"},
-    {"from":"Doug","subject":"$820.85 today | CornerOS Meridian - Noon update","snippet":"Vistar Billing Time PILOT $820.85 · WHOLE NETWORK $10077.35","time":"12:00 PM","priority":"high"}
+    {"from":"Doug","subject":"$820.85 today | CornerOS Meridian - Noon update","snippet":"Today's reported revenue: PILOT $820.85, whole network $10077.35","time":"12:00 PM","priority":"high"}
   ],
   "kpi": {
       "events": 7,
