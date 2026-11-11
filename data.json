@@ -1,19 +1,19 @@
 {
-  "updated": "2026-11-11T11:07:40-05:00",
+  "updated": "2026-11-11T12:07:30-05:00",
   "calendar": [
     {"start":"2026-11-12T09:00","end":"2026-11-12T09:30","title":"Daily Stand up","meta":"Meet · Doug","dur":"30m","cal":"glasscast"},
     {"start":"2026-11-13T09:00","end":"2026-11-13T09:30","title":"Daily Stand up","meta":"Meet · Doug","dur":"30m","cal":"glasscast"},
     {"start":"2026-11-16T09:00","end":"2026-11-16T09:30","title":"Daily Stand up","meta":"Meet · Doug","dur":"30m","cal":"glasscast"},
     {"start":"2026-11-16T17:00","end":"2026-11-16T17:20","title":"Hebrew Lesson","meta":"Zoom · Carina, Nylah","dur":"20m","cal":"personal"},
     {"start":"2026-11-17T09:00","end":"2026-11-17T09:30","title":"Daily Stand up","meta":"Meet · Doug","dur":"30m","cal":"glasscast"},
-    {"start":"2026-11-17T10:30","end":"2026-11-17T11:00","title":"Corner / Glasscast Update","meta":"Meet · Chris, Shan, Doug","dur":"30m","cal":"glasscast"},
+    {"start":"2026-11-17T10:30","end":"2026-11-17T11:00","title":"Corner / Glasscast Update","meta":"Meet · Doug, Chris, Shan","dur":"30m","cal":"glasscast"},
     {"start":"2026-11-18T09:00","end":"2026-11-18T09:30","title":"Daily Stand up","meta":"Meet · Doug","dur":"30m","cal":"glasscast"}
   ],
   "mail": [
-    {"from":"Doug Bideaux","subject":"$167.05 provisional | Pilot anomaly alert - 1 affected scope","snippet":"As of Nov 11, 10:56 AM EST · 1 new · 0 worsened · 0 recovered","time":"10:56 AM","priority":"high"},
-    {"from":"Chris Waterman","subject":"Re: Vistar ticket: latest findings on the request drop","snippet":"Thanks James, this is really helpful. Can you please take a look","time":"10:49 AM","priority":"med"},
-    {"from":"Doug Bideaux","subject":"CMGC pilot health - recovery confirmed","snippet":"1 pilot screen · 0 need action · 0 open incidents · 1 recovered","time":"8:20 AM","priority":"high"},
-    {"from":"CornerOS / Meridian","subject":"$1,465.90 previous day | CornerOS Meridian - Revenue trend","snippet":"Meta drove most of the increase to $1465.90 in reported net revenue","time":"8:10 AM","priority":"high"}
+    {"from":"Doug Bideaux","subject":"$820.85 today | CornerOS Meridian - Noon update","snippet":"Corner Media | Meridian Nov 11, 2026 · Noon update (Eastern)","time":"12:00 PM","priority":"high"},
+    {"from":"Doug Bideaux","subject":"$99.07 provisional | Pilot anomaly alert - 23 affected scopes","snippet":"$99.07 provisional | Pilot anomaly alert - 23 affected scopes","time":"11:31 AM","priority":"high"},
+    {"from":"Doug Bideaux","subject":"$167.05 provisional | Pilot anomaly alert - 1 affected scope","snippet":"$167.05 provisional | Pilot anomaly alert - 1 affected scope","time":"10:56 AM","priority":"high"},
+    {"from":"Chris Waterman","subject":"Re: Vistar ticket: latest findings on the request drop","snippet":"Thanks James, this is really helpful. Can you please take a look","time":"10:49 AM","priority":"med"}
   ],
   "kpi": {
       "events": 7,
