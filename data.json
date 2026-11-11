@@ -1,23 +1,22 @@
 {
-  "updated": "2026-11-11T09:08:30-05:00",
+  "updated": "2026-11-11T10:08:30-05:00",
   "calendar": [
-    {"start":"2026-11-11T09:00","end":"2026-11-11T09:30","title":"Daily Stand up","meta":"Meet · Doug","dur":"30m","cal":"glasscast"},
     {"start":"2026-11-12T09:00","end":"2026-11-12T09:30","title":"Daily Stand up","meta":"Meet · Doug","dur":"30m","cal":"glasscast"},
     {"start":"2026-11-13T09:00","end":"2026-11-13T09:30","title":"Daily Stand up","meta":"Meet · Doug","dur":"30m","cal":"glasscast"},
     {"start":"2026-11-16T09:00","end":"2026-11-16T09:30","title":"Daily Stand up","meta":"Meet · Doug","dur":"30m","cal":"glasscast"},
     {"start":"2026-11-16T17:00","end":"2026-11-16T17:20","title":"Hebrew Lesson","meta":"Zoom · Carina, Nylah","dur":"20m","cal":"personal"},
     {"start":"2026-11-17T09:00","end":"2026-11-17T09:30","title":"Daily Stand up","meta":"Meet · Doug","dur":"30m","cal":"glasscast"},
-    {"start":"2026-11-17T10:30","end":"2026-11-17T11:00","title":"Corner / Glasscast Update","meta":"Meet · Doug, Chris, Chris, Shan","dur":"30m","cal":"glasscast"},
+    {"start":"2026-11-17T10:30","end":"2026-11-17T11:00","title":"Corner / Glasscast Update","meta":"Meet · Chris, Doug, Shan","dur":"30m","cal":"glasscast"},
     {"start":"2026-11-18T09:00","end":"2026-11-18T09:30","title":"Daily Stand up","meta":"Meet · Doug","dur":"30m","cal":"glasscast"}
   ],
   "mail": [
-    {"from":"Ari Chasin","subject":"Corner pilot, Tue 11/10","snippet":"GLASSCAST D1 day 74 Corner pilot daily Tuesday, November 10","time":"8:44 AM","priority":"high"},
-    {"from":"Doug","subject":"CMGC pilot health - recovery confirmed","snippet":"CMGC pilot health - recovery confirmed As of Nov 11, 8:20 AM","time":"8:20 AM","priority":"high"},
-    {"from":"CornerOS / Meridian","subject":"$1,465.90 previous day | CornerOS Meridian - Revenue trend","snippet":"Meta drove most of the increase to $1465.90 in reported net","time":"8:10 AM","priority":"high"},
-    {"from":"Perion","subject":"Report \"GlassCast Previous Day\" is ready","snippet":"Report Ready A report is ready to be downloaded: GlassCast","time":"8:07 AM","priority":"low"}
+    {"from":"Doug Bideaux","subject":"$174.19 provisional | Pilot anomaly alert - 8 scopes","snippet":"As of Nov 11, 9:46 AM EST · 12 new · 0 worsened · 0 recovered","time":"9:46 AM","priority":"high"},
+    {"from":"Doug Bideaux","subject":"Vistar ticket: latest findings on the request drop","snippet":"Adding more details on the current ad serving issue at hand.","time":"9:22 AM","priority":"high"},
+    {"from":"Doug Bideaux","subject":"$150.82 provisional | Pilot anomaly alert - 26 scopes","snippet":"As of Nov 11, 9:14 AM EST · 81 new · 0 worsened · 0 recovered","time":"9:14 AM","priority":"high"},
+    {"from":"Doug Bideaux","subject":"CMGC pilot health - recovery confirmed","snippet":"1 pilot screen · 0 need action · 0 open incidents · 1 recovered","time":"8:20 AM","priority":"high"}
   ],
   "kpi": {
-      "events": 8,
+      "events": 7,
       "eventsLabel": "this week",
       "tasksComplete": 5,
       "tasksTotal": 8,
