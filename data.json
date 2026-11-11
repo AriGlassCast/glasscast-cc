@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-11T16:08:05-05:00",
+  "updated": "2026-11-11T17:07:30-05:00",
   "calendar": [
     {"start":"2026-11-12T09:00","end":"2026-11-12T09:30","title":"Daily Stand up","meta":"Meet · Doug","dur":"30m","cal":"glasscast"},
     {"start":"2026-11-13T09:00","end":"2026-11-13T09:30","title":"Daily Stand up","meta":"Meet · Doug","dur":"30m","cal":"glasscast"},
@@ -11,9 +11,9 @@
   ],
   "mail": [
     {"from":"Doug","subject":"$970.93 today | CornerOS Meridian - 4 p.m. update","snippet":"Corner Media | Meridian Nov 11, 2026 · 4 pm update (Eastern)","time":"4:00 PM","priority":"high"},
-    {"from":"StorQuest - Bedford Hills","subject":"Overcharge","snippet":"Good afternoon Ari, A message was sent in your behalf about...","time":"2:33 PM","priority":"med"},
-    {"from":"Doug","subject":"$80.38 provisional | Pilot anomaly alert - 23 scopes","snippet":"As of Nov 11, 1:51 PM EST · 2 new · 0 worsened · 27 recovered","time":"1:51 PM","priority":"high"},
-    {"from":"Louis Parsons","subject":"A new advertising opportunity for GlassCast","snippet":"Hi Ari, I wanted to introduce Skyewaze and share an opportunity...","time":"12:29 PM","priority":"med"}
+    {"from":"StorQuest - Bedford Hills","subject":"Overcharge","snippet":"Good afternoon Ari, A message was sent in your behalf about","time":"2:33 PM","priority":"med"},
+    {"from":"Doug","subject":"$80.38 provisional | Pilot anomaly alert - 23 scopes","snippet":"$80.38 provisional | Pilot anomaly alert - 23 affected scopes","time":"1:51 PM","priority":"high"},
+    {"from":"Doug","subject":"$820.85 today | CornerOS Meridian - Noon update","snippet":"Corner Media | Meridian Nov 11, 2026 · Noon update (Eastern)","time":"12:00 PM","priority":"high"}
   ],
   "kpi": {
       "events": 7,
