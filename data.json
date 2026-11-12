@@ -1,19 +1,19 @@
 {
-  "updated": "2026-11-12T16:08:30-05:00",
+  "updated": "2026-11-12T17:07:30-05:00",
   "calendar": [
     {"start":"2026-11-13T09:00","end":"2026-11-13T09:30","title":"Daily Stand up","meta":"Meet · Doug","dur":"30m","cal":"glasscast"},
     {"start":"2026-11-16T09:00","end":"2026-11-16T09:30","title":"Daily Stand up","meta":"Meet · Doug","dur":"30m","cal":"glasscast"},
     {"start":"2026-11-16T17:00","end":"2026-11-16T17:20","title":"Hebrew Lesson","meta":"Zoom · Carina, Nylah","dur":"20m","cal":"personal"},
     {"start":"2026-11-17T09:00","end":"2026-11-17T09:30","title":"Daily Stand up","meta":"Meet · Doug","dur":"30m","cal":"glasscast"},
-    {"start":"2026-11-17T10:30","end":"2026-11-17T11:00","title":"Corner / Glasscast Update","meta":"Meet · Chris, Shan, Doug","dur":"30m","cal":"glasscast"},
+    {"start":"2026-11-17T10:30","end":"2026-11-17T11:00","title":"Corner / Glasscast Update","meta":"Meet · Doug, Chris, Shan","dur":"30m","cal":"glasscast"},
     {"start":"2026-11-18T09:00","end":"2026-11-18T09:30","title":"Daily Stand up","meta":"Meet · Doug","dur":"30m","cal":"glasscast"},
     {"start":"2026-11-19T09:00","end":"2026-11-19T09:30","title":"Daily Stand up","meta":"Meet · Doug","dur":"30m","cal":"glasscast"}
   ],
   "mail": [
-    {"from":"Doug Bideaux","subject":"$1,111.71 today | CornerOS Meridian - 4 p.m. update","snippet":"Corner Media | Meridian Nov 12, 2026 · 4 pm update (Eastern)","time":"4:00 PM","priority":"high"},
-    {"from":"Doug Bideaux","subject":"Re: $1,361.06 previous day | CornerOS Meridian","snippet":"Chris, Yes, we're seeing the same thing. The early data looks","time":"3:05 PM","priority":"high"},
-    {"from":"Travelers Rest","subject":"Keeping your payments safe","snippet":"Hi, With the rise of internet and email scams, we want to make","time":"2:26 PM","priority":"med"},
-    {"from":"Doug Bideaux","subject":"CMGC pilot health - incident opened","snippet":"CMGC pilot health - incident opened As of Nov 12, 12:50 PM EST","time":"12:50 PM","priority":"high"}
+    {"from":"Doug","subject":"CMGC pilot health - recovery confirmed","snippet":"CMGC pilot health - recovery confirmed As of Nov 12, 4:15 PM","time":"4:15 PM","priority":"high"},
+    {"from":"Doug","subject":"$1,111.71 today | CornerOS Meridian - 4 p.m. update","snippet":"Corner Media | Meridian Nov 12, 2026 - 4 pm update (Eastern)","time":"4:00 PM","priority":"high"},
+    {"from":"Travelers Rest","subject":"Keeping your payments safe","snippet":"Hi, With the rise of internet and email scams, we want to...","time":"2:26 PM","priority":"med"},
+    {"from":"Doug","subject":"CMGC pilot health - incident opened","snippet":"CMGC pilot health - incident opened As of Nov 12, 12:50 PM","time":"12:50 PM","priority":"high"}
   ],
   "kpi": {
       "events": 7,
