@@ -1,19 +1,19 @@
 {
-  "updated": "2026-11-12T12:06:18-05:00",
+  "updated": "2026-11-12T13:07:30-05:00",
   "calendar": [
     {"start":"2026-11-13T09:00","end":"2026-11-13T09:30","title":"Daily Stand up","meta":"Meet · Doug","dur":"30m","cal":"glasscast"},
     {"start":"2026-11-16T09:00","end":"2026-11-16T09:30","title":"Daily Stand up","meta":"Meet · Doug","dur":"30m","cal":"glasscast"},
     {"start":"2026-11-16T17:00","end":"2026-11-16T17:20","title":"Hebrew Lesson","meta":"Zoom · Carina, Nylah","dur":"20m","cal":"personal"},
     {"start":"2026-11-17T09:00","end":"2026-11-17T09:30","title":"Daily Stand up","meta":"Meet · Doug","dur":"30m","cal":"glasscast"},
-    {"start":"2026-11-17T10:30","end":"2026-11-17T11:00","title":"Corner / Glasscast Update","meta":"Meet · Doug, Chris, Shan","dur":"30m","cal":"glasscast"},
+    {"start":"2026-11-17T10:30","end":"2026-11-17T11:00","title":"Corner / Glasscast Update","meta":"Meet · Chris, Shan, Doug","dur":"30m","cal":"glasscast"},
     {"start":"2026-11-18T09:00","end":"2026-11-18T09:30","title":"Daily Stand up","meta":"Meet · Doug","dur":"30m","cal":"glasscast"},
     {"start":"2026-11-19T09:00","end":"2026-11-19T09:30","title":"Daily Stand up","meta":"Meet · Doug","dur":"30m","cal":"glasscast"}
   ],
   "mail": [
-    {"from":"Doug Bideaux","subject":"$870.63 today | CornerOS Meridian - Noon update","snippet":"Corner Media | Meridian Nov 12, 2026 · Noon update (Eastern)","time":"12:00 PM","priority":"high"},
+    {"from":"Doug Bideaux","subject":"CMGC pilot health - incident opened","snippet":"1 pilot screen · 1 need action · 1 open incident · 0 recovered","time":"12:50 PM","priority":"high"},
+    {"from":"Doug Bideaux","subject":"$870.63 today | CornerOS Meridian - Noon update","snippet":"PILOT $870.63 reported so far · WHOLE NETWORK $9500.68","time":"12:00 PM","priority":"high"},
     {"from":"Chris Waterman","subject":"Re: $1,361.06 previous day | CornerOS Meridian","snippet":"Thanks Doug, this is really helpful. I've shared this with Vistar","time":"9:10 AM","priority":"med"},
-    {"from":"Ari Chasin","subject":"Corner pilot, Wed 11/11: capex paid back","snippet":"GLASSCAST D1 day 75 Corner pilot daily Wednesday, November 11","time":"8:38 AM","priority":"high"},
-    {"from":"Doug Bideaux","subject":"CMGC pilot health - recovery confirmed","snippet":"CMGC pilot health - recovery confirmed As of Nov 12, 7:15 AM EST","time":"7:15 AM","priority":"high"}
+    {"from":"Ari Chasin","subject":"Corner pilot, Wed 11/11: capex paid back","snippet":"D1 day 75 · 73 of 75 days above the North Star · capex paid back","time":"8:38 AM","priority":"high"}
   ],
   "kpi": {
       "events": 7,
