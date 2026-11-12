@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-12T11:08:10-05:00",
+  "updated": "2026-11-12T12:06:18-05:00",
   "calendar": [
     {"start":"2026-11-13T09:00","end":"2026-11-13T09:30","title":"Daily Stand up","meta":"Meet · Doug","dur":"30m","cal":"glasscast"},
     {"start":"2026-11-16T09:00","end":"2026-11-16T09:30","title":"Daily Stand up","meta":"Meet · Doug","dur":"30m","cal":"glasscast"},
@@ -10,7 +10,7 @@
     {"start":"2026-11-19T09:00","end":"2026-11-19T09:30","title":"Daily Stand up","meta":"Meet · Doug","dur":"30m","cal":"glasscast"}
   ],
   "mail": [
-    {"from":"Zain Austin","subject":"question about GlassCast","snippet":"Hey Ari, just wanted to check if you're taking on new clients","time":"11:03 AM","priority":"med"},
+    {"from":"Doug Bideaux","subject":"$870.63 today | CornerOS Meridian - Noon update","snippet":"Corner Media | Meridian Nov 12, 2026 · Noon update (Eastern)","time":"12:00 PM","priority":"high"},
     {"from":"Chris Waterman","subject":"Re: $1,361.06 previous day | CornerOS Meridian","snippet":"Thanks Doug, this is really helpful. I've shared this with Vistar","time":"9:10 AM","priority":"med"},
     {"from":"Ari Chasin","subject":"Corner pilot, Wed 11/11: capex paid back","snippet":"GLASSCAST D1 day 75 Corner pilot daily Wednesday, November 11","time":"8:38 AM","priority":"high"},
     {"from":"Doug Bideaux","subject":"CMGC pilot health - recovery confirmed","snippet":"CMGC pilot health - recovery confirmed As of Nov 12, 7:15 AM EST","time":"7:15 AM","priority":"high"}
