@@ -1,19 +1,19 @@
 {
-  "updated": "2026-11-13T14:08:00-05:00",
+  "updated": "2026-11-13T15:07:00-05:00",
   "calendar": [
     {"start":"2026-11-16T09:00","end":"2026-11-16T09:30","title":"Daily Stand up","meta":"Meet · Doug","dur":"30m","cal":"glasscast"},
     {"start":"2026-11-16T17:00","end":"2026-11-16T17:20","title":"Hebrew Lesson","meta":"Zoom · Carina, Nylah","dur":"20m","cal":"personal"},
     {"start":"2026-11-17T09:00","end":"2026-11-17T09:30","title":"Daily Stand up","meta":"Meet · Doug","dur":"30m","cal":"glasscast"},
-    {"start":"2026-11-17T10:30","end":"2026-11-17T11:00","title":"Corner / Glasscast Update","meta":"Meet · Doug, Chris, Shan","dur":"30m","cal":"glasscast"},
+    {"start":"2026-11-17T10:30","end":"2026-11-17T11:00","title":"Corner / Glasscast Update","meta":"Meet · Doug, Chris, Chris, Shan","dur":"30m","cal":"glasscast"},
     {"start":"2026-11-18T09:00","end":"2026-11-18T09:30","title":"Daily Stand up","meta":"Meet · Doug","dur":"30m","cal":"glasscast"},
     {"start":"2026-11-19T09:00","end":"2026-11-19T09:30","title":"Daily Stand up","meta":"Meet · Doug","dur":"30m","cal":"glasscast"},
     {"start":"2026-11-20T09:00","end":"2026-11-20T09:30","title":"Daily Stand up","meta":"Meet · Doug","dur":"30m","cal":"glasscast"}
   ],
   "mail": [
-    {"from":"Jeri Colligan","subject":"REVISED LIST + ART: NYC DOH Health Insurance","snippet":"Hi Doug, Happy Friday! Please use the attached revised list","time":"1:50 PM","priority":"med"},
+    {"from":"Jeri Colligan","subject":"REVISED LIST + ART: NYC DOH Health Insurance - 11.16-12.13","snippet":"Hi Doug, Happy Friday! Please use the attached revised list","time":"1:50 PM","priority":"med"},
+    {"from":"Mike James Ballas","subject":"Acquisition of Glasscast","snippet":"Hey Ari, Are you the right person to talk to about exploring","time":"12:24 PM","priority":"med"},
     {"from":"Doug Bideaux","subject":"Re: $1,173.51 today | CornerOS Meridian - Noon update","snippet":"CORNER MEDIA / MERIDIAN Pilot noon analysis DMA averages","time":"12:05 PM","priority":"high"},
-    {"from":"CornerOS / Meridian","subject":"$1,589.16 previous day | CornerOS Meridian - Hardware payback","snippet":"Reported net revenue rose to $1589.16 on Nov 12, up 16.8%","time":"8:10 AM","priority":"high"},
-    {"from":"Yitzy Shapiro","subject":"Re: Samsung OMB55 order","snippet":"Guys, I have another 20 units left. Any interest?","time":"7:34 AM","priority":"med"}
+    {"from":"CornerOS / Meridian","subject":"$1,589.16 previous day | CornerOS Meridian - Hardware payback","snippet":"Reported net revenue rose to $1589.16 on Nov 12, up 16.8%","time":"8:10 AM","priority":"high"}
   ],
   "kpi": {
       "events": 7,
