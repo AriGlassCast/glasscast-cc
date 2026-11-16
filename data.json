@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-16T10:08:00-05:00",
+  "updated": "2026-11-16T11:08:30-05:00",
   "calendar": [
     {"start":"2026-11-16T17:00","end":"2026-11-16T17:20","title":"Hebrew Lesson","meta":"Zoom · Carina, Nylah","dur":"20m","cal":"personal"},
     {"start":"2026-11-17T09:00","end":"2026-11-17T09:30","title":"Daily Stand up","meta":"Meet · Doug","dur":"30m","cal":"glasscast"},
@@ -10,10 +10,10 @@
     {"start":"2026-11-23T09:00","end":"2026-11-23T09:30","title":"Daily Stand up","meta":"Meet · Doug","dur":"30m","cal":"glasscast"}
   ],
   "mail": [
+    {"from":"Fulbert Yao","subject":"Usage for Glasscast and Firefly","snippet":"Hi, Doug. Pls. find attached the current usage reports for...","time":"10:49 AM","priority":"med"},
+    {"from":"Fulbert Yao","subject":"Usage for PrimeSight","snippet":"Hi, Doug. Pls. find attached the current usage report for...","time":"10:49 AM","priority":"med"},
     {"from":"Ari Chasin","subject":"Corner pilot, Sun 11/15","snippet":"GLASSCAST D1 day 79 Corner pilot daily Sunday, November 15","time":"8:45 AM","priority":"high"},
-    {"from":"Ari Chasin","subject":"Corner daily 11/15: run could not start","snippet":"The scheduled Corner run at 8:21 AM ET on 11/16 could not","time":"8:22 AM","priority":"high"},
-    {"from":"Perion","subject":"Report \"GlassCast Previous Day\" is ready","snippet":"Report Ready A report is ready to be downloaded: GlassCast","time":"8:06 AM","priority":"low"},
-    {"from":"Doug","subject":"CMGC pilot health - recovery confirmed","snippet":"CMGC pilot health - recovery confirmed As of Nov 16, 7:00 AM","time":"7:00 AM","priority":"high"}
+    {"from":"Ari Chasin","subject":"Corner daily 11/15: run could not start","snippet":"The scheduled Corner run at 8:21 AM ET on 11/16 could not...","time":"8:22 AM","priority":"high"}
   ],
   "kpi": {
       "events": 7,
