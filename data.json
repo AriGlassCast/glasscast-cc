@@ -1,22 +1,23 @@
 {
-  "updated": "2026-11-16T16:08:00-05:00",
+  "updated": "2026-11-16T17:08:00-05:00",
   "calendar": [
     {"start":"2026-11-16T17:00","end":"2026-11-16T17:20","title":"Hebrew Lesson","meta":"Zoom · Carina, Nylah","dur":"20m","cal":"personal"},
     {"start":"2026-11-17T09:00","end":"2026-11-17T09:30","title":"Daily Stand up","meta":"Meet · Doug","dur":"30m","cal":"glasscast"},
-    {"start":"2026-11-17T10:30","end":"2026-11-17T11:00","title":"Corner / Glasscast Update","meta":"Meet · Doug, Chris, Shan","dur":"30m","cal":"glasscast"},
+    {"start":"2026-11-17T10:30","end":"2026-11-17T11:00","title":"Corner / Glasscast Update","meta":"Meet · Doug, Chris, Chris, Shan","dur":"30m","cal":"glasscast"},
     {"start":"2026-11-18T09:00","end":"2026-11-18T09:30","title":"Daily Stand up","meta":"Meet · Doug","dur":"30m","cal":"glasscast"},
     {"start":"2026-11-19T09:00","end":"2026-11-19T09:30","title":"Daily Stand up","meta":"Meet · Doug","dur":"30m","cal":"glasscast"},
     {"start":"2026-11-20T09:00","end":"2026-11-20T09:30","title":"Daily Stand up","meta":"Meet · Doug","dur":"30m","cal":"glasscast"},
-    {"start":"2026-11-23T09:00","end":"2026-11-23T09:30","title":"Daily Stand up","meta":"Meet · Doug","dur":"30m","cal":"glasscast"}
+    {"start":"2026-11-23T09:00","end":"2026-11-23T09:30","title":"Daily Stand up","meta":"Meet · Doug","dur":"30m","cal":"glasscast"},
+    {"start":"2026-11-23T17:00","end":"2026-11-23T17:20","title":"Hebrew Lesson","meta":"Zoom · Carina, Nylah","dur":"20m","cal":"personal"}
   ],
   "mail": [
     {"from":"Doug Bideaux","subject":"$1,470.24 today | CornerOS Meridian - 4 p.m. update","snippet":"Corner Media | Meridian Nov 16, 2026 · 4 pm update (Eastern)","time":"4:00 PM","priority":"high"},
     {"from":"Doug Bideaux","subject":"CMGC pilot health - recovery confirmed","snippet":"CMGC pilot health - recovery confirmed As of Nov 16, 2:20 PM EST","time":"2:20 PM","priority":"high"},
     {"from":"Doug Bideaux","subject":"$1,178.76 today | CornerOS Meridian - Noon update","snippet":"CORNER MEDIA / MERIDIAN Pilot noon analysis Monday, November 16","time":"12:02 PM","priority":"high"},
-    {"from":"Fulbert Yao","subject":"Usage for Glasscast and Firefly","snippet":"Hi, Doug. Pls. find attached the current usage reports for...","time":"10:49 AM","priority":"med"}
+    {"from":"Fulbert Yao","subject":"Usage for Glasscast and Firefly","snippet":"Hi, Doug. Pls. find attached the current usage reports for Glasscast","time":"10:49 AM","priority":"med"}
   ],
   "kpi": {
-      "events": 7,
+      "events": 8,
       "eventsLabel": "this week",
       "tasksComplete": 5,
       "tasksTotal": 8,
