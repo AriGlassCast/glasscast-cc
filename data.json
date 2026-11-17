@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-16T18:07:36-05:00",
+  "updated": "2026-11-17T09:08:30-05:00",
   "calendar": [
     {"start":"2026-11-17T09:00","end":"2026-11-17T09:30","title":"Daily Stand up","meta":"Meet · Doug","dur":"30m","cal":"glasscast"},
     {"start":"2026-11-17T10:30","end":"2026-11-17T11:00","title":"Corner / Glasscast Update","meta":"Meet · Doug, Chris, Shan","dur":"30m","cal":"glasscast"},
@@ -7,16 +7,17 @@
     {"start":"2026-11-19T09:00","end":"2026-11-19T09:30","title":"Daily Stand up","meta":"Meet · Doug","dur":"30m","cal":"glasscast"},
     {"start":"2026-11-20T09:00","end":"2026-11-20T09:30","title":"Daily Stand up","meta":"Meet · Doug","dur":"30m","cal":"glasscast"},
     {"start":"2026-11-23T09:00","end":"2026-11-23T09:30","title":"Daily Stand up","meta":"Meet · Doug","dur":"30m","cal":"glasscast"},
-    {"start":"2026-11-23T17:00","end":"2026-11-23T17:20","title":"Hebrew Lesson","meta":"Zoom · Carina, Nylah","dur":"20m","cal":"personal"}
+    {"start":"2026-11-23T17:00","end":"2026-11-23T17:20","title":"Hebrew Lesson","meta":"Zoom · Carina, Nylah","dur":"20m","cal":"personal"},
+    {"start":"2026-11-24T09:00","end":"2026-11-24T09:30","title":"Daily Stand up","meta":"Meet · Doug","dur":"30m","cal":"glasscast"}
   ],
   "mail": [
-    {"from":"Doug Bideaux","subject":"Re: ScreenVerse Oct End of Month Report and Nov to Date","snippet":"I just forwarded you the latest Doug Bideaux Co-Founder & COO","time":"5:31 PM","priority":"high"},
-    {"from":"Doug Bideaux","subject":"$1,470.24 today | CornerOS Meridian - 4 p.m. update","snippet":"Corner Media | Meridian Nov 16, 2026 · 4 pm update (Eastern)","time":"4:00 PM","priority":"high"},
-    {"from":"Doug Bideaux","subject":"CMGC pilot health - recovery confirmed","snippet":"CMGC pilot health - recovery confirmed As of Nov 16, 2:20 PM EST","time":"2:20 PM","priority":"high"},
-    {"from":"Fulbert Yao","subject":"Usage for Glasscast and Firefly","snippet":"Hi, Doug. Pls. find attached the current usage reports for...","time":"10:49 AM","priority":"med"}
+    {"from":"Ari Chasin","subject":"Corner pilot, Mon 11/16","snippet":"GLASSCAST D1 day 80 Corner pilot daily Monday, November 16","time":"8:59 AM","priority":"high"},
+    {"from":"Doug Bideaux","subject":"Re: Matter of D2P and GlassCast","snippet":"Hi Ben, Yes, those are the two commercial outcomes we're...","time":"8:30 AM","priority":"high"},
+    {"from":"Ari Chasin","subject":"Corner daily 11/17: run did not complete","snippet":"The scheduled Corner run fired at 8:21 AM ET on 11/17 but...","time":"8:22 AM","priority":"high"},
+    {"from":"CornerOS / Meridian","subject":"$2,061.66 previous day | CornerOS Meridian","snippet":"Reported net revenue fell to $2061.66 on Nov 16, down 4.9%...","time":"8:12 AM","priority":"high"}
   ],
   "kpi": {
-      "events": 7,
+      "events": 8,
       "eventsLabel": "this week",
       "tasksComplete": 5,
       "tasksTotal": 8,
