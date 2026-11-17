@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-17T16:08:00-05:00",
+  "updated": "2026-11-17T17:07:40-05:00",
   "calendar": [
     {"start":"2026-11-17T17:00","end":"2026-11-17T17:25","title":"Dr. Onel will call Carina at 5pm. I will try to conference you in.","meta":"Rainey","dur":"25m","cal":"personal"},
     {"start":"2026-11-18T09:00","end":"2026-11-18T09:30","title":"Daily Stand up","meta":"Meet · Doug","dur":"30m","cal":"glasscast"},
@@ -8,11 +8,11 @@
     {"start":"2026-11-23T09:00","end":"2026-11-23T09:30","title":"Daily Stand up","meta":"Meet · Doug","dur":"30m","cal":"glasscast"},
     {"start":"2026-11-23T17:00","end":"2026-11-23T17:20","title":"Hebrew Lesson","meta":"Zoom · Carina, Nylah","dur":"20m","cal":"personal"},
     {"start":"2026-11-24T09:00","end":"2026-11-24T09:30","title":"Daily Stand up","meta":"Meet · Doug","dur":"30m","cal":"glasscast"},
-    {"start":"2026-11-24T10:30","end":"2026-11-24T11:00","title":"Corner / Glasscast Update","meta":"Meet · Doug, Chris, Shan","dur":"30m","cal":"glasscast"}
+    {"start":"2026-11-24T10:30","end":"2026-11-24T11:00","title":"Corner / Glasscast Update","meta":"Meet · Doug, Chris, Chris, Shan","dur":"30m","cal":"glasscast"}
   ],
   "mail": [
-    {"from":"CornerOS / Meridian","subject":"$1,929.38 today | CornerOS Meridian - 4 p.m. update","snippet":"Corner Media | Meridian Nov 17, 2026 · 4 pm update (Eastern)","time":"4:00 PM","priority":"high"},
-    {"from":"Doug Bideaux","subject":"$1,509.59 today | CornerOS Meridian - Noon update","snippet":"CORNER MEDIA / MERIDIAN Pilot noon analysis Tuesday, November 17","time":"12:02 PM","priority":"high"},
+    {"from":"DoubleVerify","subject":"Important Note Regarding a Phishing Email","snippet":"What You Should Know About a Phishing Email That May Have...","time":"4:45 PM","priority":"low"},
+    {"from":"Doug Bideaux","subject":"$1,929.38 today | CornerOS Meridian - 4 p.m. update","snippet":"Corner Media | Meridian Nov 17, 2026 · 4 pm update (Eastern)...","time":"4:00 PM","priority":"high"},
     {"from":"Doug Bideaux","subject":"Re: Matter of D2P and GlassCast","snippet":"Hi Ben, Yes, those are the two commercial outcomes we're...","time":"8:30 AM","priority":"med"},
     {"from":"CornerOS / Meridian","subject":"$2,061.66 previous day | CornerOS Meridian - Network average","snippet":"Reported net revenue fell to $2061.66 on Nov 16, down 4.9%...","time":"8:12 AM","priority":"high"}
   ],
