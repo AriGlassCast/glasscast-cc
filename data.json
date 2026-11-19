@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-19T17:07:51-05:00",
+  "updated": "2026-11-19T18:08:40-05:00",
   "calendar": [
     {"start":"2026-11-20T09:00","end":"2026-11-20T09:30","title":"Daily Stand up","meta":"Meet · Doug","dur":"30m","cal":"glasscast"},
     {"start":"2026-11-23T09:00","end":"2026-11-23T09:30","title":"Daily Stand up","meta":"Meet · Doug","dur":"30m","cal":"glasscast"},
@@ -12,8 +12,8 @@
   ],
   "mail": [
     {"from":"Ari Chasin","subject":"Corner pilot, Wed 11/18: D1 paid back","snippet":"GLASSCAST D1 day 82 Corner pilot daily Wednesday, November 18","time":"8:34 AM","priority":"high"},
-    {"from":"Doug Bideaux","subject":"Fwd: Praevar proforma invoices","snippet":"Forwarded message from Doug Bideaux (Nov 5): Praevar invoices","time":"8:00 AM","priority":"high"},
-    {"from":"Vistar Media Notifier","subject":"Vistar Scheduled Report: \"GlassCast Previous Day\"","snippet":"Your scheduled report was successfully generated. Please see","time":"7:01 AM","priority":"low"},
+    {"from":"Doug Bideaux","subject":"Fwd: Praevar proforma invoices","snippet":"Doug Bideaux Co-Founder & COO, GlassCast - Forwarded message","time":"8:00 AM","priority":"high"},
+    {"from":"Vistar Media Notifier","subject":"Vistar Scheduled Report: \"GlassCast Previous Day\"","snippet":"Your scheduled report was successfully generated. Please see the","time":"7:01 AM","priority":"low"},
     {"from":"Ari Chasin","subject":"Corner pilot, Tue 11/17 (short version, example)","snippet":"GLASSCAST D1 day 81 Corner pilot daily Tuesday, November 17","time":"12:29 PM","priority":"high"}
   ],
   "kpi": {
