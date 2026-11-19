@@ -1,20 +1,20 @@
 {
-  "updated": "2026-11-19T13:08:00-05:00",
+  "updated": "2026-11-19T14:08:30-05:00",
   "calendar": [
     {"start":"2026-11-20T09:00","end":"2026-11-20T09:30","title":"Daily Stand up","meta":"Meet · Doug","dur":"30m","cal":"glasscast"},
     {"start":"2026-11-23T09:00","end":"2026-11-23T09:30","title":"Daily Stand up","meta":"Meet · Doug","dur":"30m","cal":"glasscast"},
     {"start":"2026-11-23T16:00","end":"2026-11-23T16:25","title":"Nyah Ortho Appointment @ 4;20pm to replace rubberbands","meta":"Carina","dur":"25m","cal":"personal"},
     {"start":"2026-11-23T17:00","end":"2026-11-23T17:20","title":"Hebrew Lesson","meta":"Zoom · Carina, Nylah","dur":"20m","cal":"personal"},
     {"start":"2026-11-24T09:00","end":"2026-11-24T09:30","title":"Daily Stand up","meta":"Meet · Doug","dur":"30m","cal":"glasscast"},
-    {"start":"2026-11-24T10:30","end":"2026-11-24T11:00","title":"Corner / Glasscast Update","meta":"Meet · Doug, Chris, Chris, Shan","dur":"30m","cal":"glasscast"},
+    {"start":"2026-11-24T10:30","end":"2026-11-24T11:00","title":"Corner / Glasscast Update","meta":"Meet · Doug, Chris, Shan","dur":"30m","cal":"glasscast"},
     {"start":"2026-11-25T09:00","end":"2026-11-25T09:30","title":"Daily Stand up","meta":"Meet · Doug","dur":"30m","cal":"glasscast"},
     {"start":"2026-11-26T09:00","end":"2026-11-26T09:30","title":"Daily Stand up","meta":"Meet · Doug","dur":"30m","cal":"glasscast"}
   ],
   "mail": [
     {"from":"Doug Bideaux","subject":"$1,494.41 today | CornerOS Meridian - Noon update","snippet":"CORNER MEDIA / MERIDIAN Pilot noon analysis Thursday, November 19","time":"12:05 PM","priority":"high"},
-    {"from":"Brendan Goodall","subject":"Ari, one question","snippet":"Ari, just checking you saw my last note. If any of your Brooklyn","time":"11:16 AM","priority":"med"},
-    {"from":"Doug Bideaux","subject":"Re: Fwd: Your CornerOS login | Meridian","snippet":"Hi Ari, I reset your Meridian login and verified that the new","time":"8:39 AM","priority":"high"},
-    {"from":"Doug Bideaux","subject":"$2,601.96 previous day | CornerOS Meridian - Nov 18, 2026","snippet":"Corner Media | Meridian $2601.96 previous day Billing Time pilot","time":"7:53 AM","priority":"high"}
+    {"from":"Brendan Goodall","subject":"Ari, one question","snippet":"Ari, just checking you saw my last note. If any of your Brooklyn...","time":"11:16 AM","priority":"med"},
+    {"from":"Doug Bideaux","subject":"Re: Fwd: Your CornerOS login | Meridian","snippet":"Hi Ari, I reset your Meridian login and verified that the new...","time":"8:39 AM","priority":"high"},
+    {"from":"Ari Chasin","subject":"Corner pilot, Wed 11/18: D1 paid back","snippet":"GLASSCAST D1 day 82 Corner pilot daily Wednesday, November 18...","time":"8:34 AM","priority":"high"}
   ],
   "kpi": {
       "events": 8,
