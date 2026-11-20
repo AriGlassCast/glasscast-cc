@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-20T17:08:40-05:00",
+  "updated": "2026-11-20T18:08:00-05:00",
   "calendar": [
     {"start":"2026-11-23T09:00","end":"2026-11-23T09:30","title":"Daily Stand up","meta":"Meet · Doug","dur":"30m","cal":"glasscast"},
     {"start":"2026-11-23T16:00","end":"2026-11-23T16:25","title":"Nyah Ortho Appointment @ 4;20pm to replace rubberbands","meta":"Carina","dur":"25m","cal":"personal"},
@@ -11,10 +11,10 @@
     {"start":"2026-11-27T09:00","end":"2026-11-27T09:30","title":"Daily Stand up","meta":"Meet · Doug","dur":"30m","cal":"glasscast"}
   ],
   "mail": [
-    {"from":"Elizabeth Curanaj","subject":"Yankwitt LLP Legal Services Agreement","snippet":"Good afternoon, Mr. Chasin, Thank you for considering Yankwitt...","time":"11:58 AM","priority":"med"},
-    {"from":"Doug Bideaux","subject":"PrimeSight reimbursed EMG $70,456.60 in two May checks","snippet":"Ari, PrimeSight reimbursed EMG $70456.60 through the two May...","time":"10:32 AM","priority":"high"},
-    {"from":"Ari Chasin","subject":"Corner pilot, Thu 11/19","snippet":"GLASSCAST D1 day 83 Corner pilot daily Thursday, November 19...","time":"9:17 AM","priority":"high"},
-    {"from":"CornerOS / Meridian","subject":"$2,502.98 previous day | CornerOS Meridian - Hardware payback","snippet":"Reported net revenue fell to $2502.98 on Nov 19, down 3.8%...","time":"8:12 AM","priority":"high"}
+    {"from":"Elizabeth Curanaj","subject":"Yankwitt LLP Legal Services Agreement","snippet":"Good afternoon, Mr. Chasin, Thank you for considering Yankwitt","time":"11:58 AM","priority":"med"},
+    {"from":"Doug Bideaux","subject":"PrimeSight reimbursed EMG $70,456.60 in two May checks","snippet":"Ari, PrimeSight reimbursed EMG $70456.60 through the two May","time":"10:32 AM","priority":"high"},
+    {"from":"Ari Chasin","subject":"Corner pilot, Thu 11/19","snippet":"GLASSCAST D1 day 83 Corner pilot daily Thursday, November 19","time":"9:17 AM","priority":"high"},
+    {"from":"CornerOS / Meridian","subject":"$2,502.98 previous day | CornerOS Meridian - Hardware payback","snippet":"Reported net revenue fell to $2502.98 on Nov 19, down 3.8% from","time":"8:12 AM","priority":"high"}
   ],
   "kpi": {
       "events": 8,
