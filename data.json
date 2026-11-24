@@ -1,22 +1,23 @@
 {
-  "updated": "2026-11-23T18:08:00-05:00",
+  "updated": "2026-11-24T09:08:30-05:00",
   "calendar": [
     {"start":"2026-11-24T09:00","end":"2026-11-24T09:30","title":"Daily Stand up","meta":"Meet · Doug","dur":"30m","cal":"glasscast"},
-    {"start":"2026-11-24T13:30","end":"2026-11-24T14:00","title":"Corner / Glasscast Update","meta":"Meet · Chris, Doug, Shan","dur":"30m","cal":"glasscast"},
+    {"start":"2026-11-24T13:30","end":"2026-11-24T14:00","title":"Corner / Glasscast Update","meta":"Meet · Doug, Chris, Chris, Shan","dur":"30m","cal":"glasscast"},
     {"start":"2026-11-25T09:00","end":"2026-11-25T09:30","title":"Daily Stand up","meta":"Meet · Doug","dur":"30m","cal":"glasscast"},
     {"start":"2026-11-26T09:00","end":"2026-11-26T09:30","title":"Daily Stand up","meta":"Meet · Doug","dur":"30m","cal":"glasscast"},
     {"start":"2026-11-27T09:00","end":"2026-11-27T09:30","title":"Daily Stand up","meta":"Meet · Doug","dur":"30m","cal":"glasscast"},
     {"start":"2026-11-30T09:00","end":"2026-11-30T09:30","title":"Daily Stand up","meta":"Meet · Doug","dur":"30m","cal":"glasscast"},
-    {"start":"2026-11-30T17:00","end":"2026-11-30T17:20","title":"Hebrew Lesson","meta":"Zoom · Carina, Nylah","dur":"20m","cal":"personal"}
+    {"start":"2026-11-30T17:00","end":"2026-11-30T17:20","title":"Hebrew Lesson","meta":"Zoom · Carina, Nylah","dur":"20m","cal":"personal"},
+    {"start":"2026-12-01T09:00","end":"2026-12-01T09:30","title":"Daily Stand up","meta":"Meet · Doug","dur":"30m","cal":"glasscast"}
   ],
   "mail": [
-    {"from":"Ari Chasin","subject":"Corner pilot, Sun 11/22","snippet":"GLASSCAST D1 day 86 Corner pilot daily Sunday, November 22","time":"8:12 AM","priority":"high"},
-    {"from":"CornerOS / Meridian","subject":"$988.57 previous day | CornerOS Meridian - Weekly recap","snippet":"Reported net revenue rose to $988.57 on Nov 22, up 1.6% from Nov 21","time":"7:02 AM","priority":"high"},
-    {"from":"Ari Chasin","subject":"Corner pilot, Sat 11/21","snippet":"GLASSCAST D1 day 85 Corner pilot daily Saturday, November 21","time":"10:03 AM","priority":"high"},
-    {"from":"Ari Chasin","subject":"Corner pilot, Fri 11/20: D2 paid back","snippet":"GLASSCAST D1 day 84 Corner pilot daily Friday, November 20","time":"9:31 AM","priority":"high"}
+    {"from":"Ari Chasin","subject":"Corner daily 11/23: not run, attachment tool missing","snippet":"The Corner daily for Monday 11/23 did not run this morning.","time":"8:22 AM","priority":"high"},
+    {"from":"CornerOS / Meridian","subject":"$1,019.96 previous day | CornerOS Meridian","snippet":"Reported net revenue rose to $1019.96 on Nov 23, up 3.2%...","time":"7:04 AM","priority":"high"},
+    {"from":"Vistar Media Notifier","subject":"Vistar Scheduled Report: GlassCast Previous Day","snippet":"Your scheduled report was successfully generated. Please...","time":"7:01 AM","priority":"low"},
+    {"from":"Ari Chasin","subject":"Corner pilot, Sun 11/22","snippet":"GLASSCAST D1 day 86 Corner pilot daily Sunday, November 22...","time":"8:12 AM","priority":"high"}
   ],
   "kpi": {
-      "events": 7,
+      "events": 8,
       "eventsLabel": "this week",
       "tasksComplete": 5,
       "tasksTotal": 8,
