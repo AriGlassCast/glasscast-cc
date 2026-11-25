@@ -1,19 +1,19 @@
 {
-  "updated": "2026-11-25T16:09:00-05:00",
+  "updated": "2026-11-25T17:08:00-05:00",
   "calendar": [
     {"start":"2026-11-26T09:00","end":"2026-11-26T09:30","title":"Daily Stand up","meta":"Meet · Doug","dur":"30m","cal":"glasscast"},
     {"start":"2026-11-27T09:00","end":"2026-11-27T09:30","title":"Daily Stand up","meta":"Meet · Doug","dur":"30m","cal":"glasscast"},
     {"start":"2026-11-30T09:00","end":"2026-11-30T09:30","title":"Daily Stand up","meta":"Meet · Doug","dur":"30m","cal":"glasscast"},
     {"start":"2026-11-30T17:00","end":"2026-11-30T17:20","title":"Hebrew Lesson","meta":"Zoom · Carina, Nylah","dur":"20m","cal":"personal"},
     {"start":"2026-12-01T09:00","end":"2026-12-01T09:30","title":"Daily Stand up","meta":"Meet · Doug","dur":"30m","cal":"glasscast"},
-    {"start":"2026-12-01T10:30","end":"2026-12-01T11:00","title":"Corner / Glasscast Update","meta":"Meet · Doug, Chris, Chris, Shan","dur":"30m","cal":"glasscast"},
+    {"start":"2026-12-01T10:30","end":"2026-12-01T11:00","title":"Corner / Glasscast Update","meta":"Meet · Doug, Chris, Shan","dur":"30m","cal":"glasscast"},
     {"start":"2026-12-02T09:00","end":"2026-12-02T09:30","title":"Daily Stand up","meta":"Meet · Doug","dur":"30m","cal":"glasscast"}
   ],
   "mail": [
     {"from":"Ari Chasin","subject":"Corner pilot, Tue 11/24","snippet":"GLASSCAST D1 day 88 Corner pilot daily Tuesday, November 24","time":"9:58 AM","priority":"high"},
     {"from":"Vistar Media Notifier","subject":"Vistar Scheduled Report: NYC Corner Venues","snippet":"Your scheduled report was successfully generated. Please see","time":"8:02 AM","priority":"low"},
-    {"from":"Vistar Media Notifier","subject":"Vistar Scheduled Report: GlassCast Previous Day","snippet":"Your scheduled report was successfully generated. Please see","time":"7:01 AM","priority":"low"},
-    {"from":"Ari Chasin","subject":"Corner pilot, Mon 11/23","snippet":"GLASSCAST D1 day 87 Corner pilot daily Monday, November 23","time":"9:01 AM","priority":"high"}
+    {"from":"Vistar Media Notifier","subject":"Vistar Scheduled Report: EMG Stack Primesight DC","snippet":"Your scheduled report was successfully generated. Please see","time":"7:02 AM","priority":"low"},
+    {"from":"Vistar Media Notifier","subject":"Vistar Scheduled Report: GlassCast Previous Day","snippet":"Your scheduled report was successfully generated. Please see","time":"7:01 AM","priority":"low"}
   ],
   "kpi": {
       "events": 7,
