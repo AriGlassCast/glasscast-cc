@@ -1,19 +1,19 @@
 {
-  "updated": "2026-11-26T10:08:00-05:00",
+  "updated": "2026-11-26T11:38:30-05:00",
   "calendar": [
     {"start":"2026-11-27T09:00","end":"2026-11-27T09:30","title":"Daily Stand up","meta":"Meet · Doug","dur":"30m","cal":"glasscast"},
     {"start":"2026-11-30T09:00","end":"2026-11-30T09:30","title":"Daily Stand up","meta":"Meet · Doug","dur":"30m","cal":"glasscast"},
     {"start":"2026-11-30T17:00","end":"2026-11-30T17:20","title":"Hebrew Lesson","meta":"Zoom · Carina, Nylah","dur":"20m","cal":"personal"},
     {"start":"2026-12-01T09:00","end":"2026-12-01T09:30","title":"Daily Stand up","meta":"Meet · Doug","dur":"30m","cal":"glasscast"},
-    {"start":"2026-12-01T10:30","end":"2026-12-01T11:00","title":"Corner / Glasscast Update","meta":"Meet · Doug, Chris, Shan","dur":"30m","cal":"glasscast"},
+    {"start":"2026-12-01T10:30","end":"2026-12-01T11:00","title":"Corner / Glasscast Update","meta":"Meet · Doug, Chris, Chris, Shan","dur":"30m","cal":"glasscast"},
     {"start":"2026-12-02T09:00","end":"2026-12-02T09:30","title":"Daily Stand up","meta":"Meet · Doug","dur":"30m","cal":"glasscast"},
     {"start":"2026-12-03T09:00","end":"2026-12-03T09:30","title":"Daily Stand up","meta":"Meet · Doug","dur":"30m","cal":"glasscast"}
   ],
   "mail": [
-    {"from":"Ari Chasin","subject":"Corner daily 11/26: not run, attachment download tool missing","snippet":"The Corner daily did not run this morning. Nothing was sent...","time":"8:22 AM","priority":"high"},
-    {"from":"Ari Chasin","subject":"Corner pilot, Wed 11/25","snippet":"GLASSCAST D1 day 89 Corner pilot daily Wednesday, November 25...","time":"8:10 AM","priority":"high"},
-    {"from":"CornerOS / Meridian","subject":"$1,986.19 previous day | CornerOS Meridian - Deployment insights","snippet":"Meta drove most of the increase to $1986.19 in reported net...","time":"7:02 AM","priority":"high"},
-    {"from":"Ari Chasin","subject":"Corner pilot, Tue 11/24","snippet":"GLASSCAST D1 day 88 Corner pilot daily Tuesday, November 24...","time":"9:58 AM","priority":"high"}
+    {"from":"Ari Chasin","subject":"Corner daily 11/26: not run, attachment tool missing","snippet":"The Corner daily did not run this morning. Nothing was sent,","time":"8:22 AM","priority":"high"},
+    {"from":"Ari Chasin","subject":"Corner pilot, Wed 11/25","snippet":"GLASSCAST D1 day 89 Corner pilot daily Wednesday, November 25","time":"8:10 AM","priority":"high"},
+    {"from":"CornerOS / Meridian","subject":"$1,986.19 previous day | CornerOS Meridian","snippet":"Meta drove most of the increase to $1986.19 in reported net","time":"7:02 AM","priority":"high"},
+    {"from":"Richard Plaskow","subject":"Re: LCD summary design specification and quotation","snippet":"Yes. This is just a ai quick drawing. We are sticking to the","time":"8:56 AM","priority":"med"}
   ],
   "kpi": {
       "events": 7,
