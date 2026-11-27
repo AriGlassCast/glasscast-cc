@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-27T17:09:00-05:00",
+  "updated": "2026-11-27T18:08:00-05:00",
   "calendar": [
     {"start":"2026-11-30T09:00","end":"2026-11-30T09:30","title":"Daily Stand up","meta":"Meet · Doug","dur":"30m","cal":"glasscast"},
     {"start":"2026-11-30T17:00","end":"2026-11-30T17:20","title":"Hebrew Lesson","meta":"Zoom · Carina, Nylah","dur":"20m","cal":"personal"},
@@ -10,10 +10,10 @@
     {"start":"2026-12-04T09:00","end":"2026-12-04T09:30","title":"Daily Stand up","meta":"Meet · Doug","dur":"30m","cal":"glasscast"}
   ],
   "mail": [
-    {"from":"Doug Bideaux","subject":"$1,295.28 today | CornerOS Meridian - Noon update","snippet":"Pilot noon analysis - November 27, 2026 Friday. Issued shortly","time":"12:01 PM","priority":"high"},
-    {"from":"CornerOS / Meridian","subject":"$1,986.19 previous day | CornerOS Meridian","snippet":"Meta drove most of the increase to $1986.19 in reported net","time":"7:02 AM","priority":"high"},
-    {"from":"Richard Plaskow","subject":"Re: LCD summary design specification and quotation","snippet":"Yes. This is just a ai quick drawing. We are sticking to the","time":"8:56 AM","priority":"med"},
-    {"from":"Vistar Media Notifier","subject":"Vistar Scheduled Report: GlassCast Previous Day","snippet":"Your scheduled report was successfully generated. Please see","time":"7:01 AM","priority":"low"}
+    {"from":"Doug Bideaux","subject":"$1,722.22 today | CornerOS Meridian - 4 p.m. update","snippet":"Corner Media | Meridian Nov 27, 2026 · 4 pm update (Eastern)","time":"4:00 PM","priority":"high"},
+    {"from":"Doug Bideaux","subject":"$1,295.28 today | CornerOS Meridian - Noon update","snippet":"Pilot noon analysis - November 27, 2026 Friday · Issued shortly","time":"12:01 PM","priority":"high"},
+    {"from":"Ari Chasin","subject":"Corner pilot, Thu 11/26 (new format: advertisers chart)","snippet":"GLASSCAST D1 day 90 Corner pilot daily Thursday, November 26","time":"9:12 AM","priority":"high"},
+    {"from":"Richard Plaskow","subject":"LCD development samples - Proposal and invoice","snippet":"Hi Doug, We are pleased to attach our latest design proposal","time":"5:51 AM","priority":"med"}
   ],
   "kpi": {
       "events": 7,
